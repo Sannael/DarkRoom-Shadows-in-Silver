@@ -1,0 +1,54 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "b96b42d2-5c4a-43a4-8a67-bedd3cf88697",
+            "actions": [
+                {
+                    "name": "Right Click",
+                    "type": "Button",
+                    "id": "67fa437f-aa78-4645-b43d-7bc51e2f643a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Pos",
+                    "type": "Value",
+                    "id": "344a436f-86b0-4013-8a32-cd68b57c0f98",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "be036344-78da-4dd6-b2ba-51e46c1200ab",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0078c72a-4681-41d8-b40d-12e922fca80a",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
