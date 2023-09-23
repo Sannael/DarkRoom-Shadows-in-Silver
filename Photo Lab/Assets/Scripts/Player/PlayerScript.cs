@@ -9,7 +9,7 @@ using UnityEngine.InputSystem.Controls;
 public class PlayerScript : MonoBehaviour
 {
     public NavMeshAgent player;
-    public InputActionReference rightClick, mousePos;
+    public InputActionReference leftClick, mousePos;
     private GameObject playerDestination;
 
     private void Start() 
@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour
     {
         player.SetDestination(playerDestination.transform.position);
         //Debug.Log(Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>())); 
-        if(rightClick.action.IsPressed())
+        if(leftClick.action.IsPressed())
         {
             Move();
         }

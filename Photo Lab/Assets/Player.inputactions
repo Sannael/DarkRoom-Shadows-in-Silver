@@ -6,7 +6,7 @@
             "id": "b96b42d2-5c4a-43a4-8a67-bedd3cf88697",
             "actions": [
                 {
-                    "name": "Right Click",
+                    "name": "Left Click",
                     "type": "Button",
                     "id": "67fa437f-aa78-4645-b43d-7bc51e2f643a",
                     "expectedControlType": "Button",
@@ -32,7 +32,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Right Click",
+                    "action": "Left Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ce68ac8-b292-4411-9fd9-4546c3498f7f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -40,6 +51,17 @@
                     "name": "",
                     "id": "0078c72a-4681-41d8-b40d-12e922fca80a",
                     "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ca4a75c-bdde-49d8-a8b7-278f68837723",
+                    "path": "<Touchscreen>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
