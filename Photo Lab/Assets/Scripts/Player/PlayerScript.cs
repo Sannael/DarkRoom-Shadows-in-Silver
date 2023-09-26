@@ -9,8 +9,8 @@ using UnityEngine.InputSystem.Controls;
 public class PlayerScript : MonoBehaviour
 {
     public NavMeshAgent player;
-    private GameObject point;
-    public InputActionReference click, mousePos;
+    public InputActionReference leftClick, mousePos;
+    private GameObject playerDestination;
 
     private void Start() 
     {
@@ -18,22 +18,23 @@ public class PlayerScript : MonoBehaviour
         player.updateRotation = false;
         player.updateUpAxis = false;
 
-        point = GameObject.Find("Point");
+        playerDestination = GameObject.Find("Player Destination");
+        playerDestination.transform.position = this.transform.position; //só por garantia
     }
 
     private void Update() 
     {
-        player.SetDestination(point.transform.position);
+        player.SetDestination(playerDestination.transform.position);
         //Debug.Log(Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>())); 
-        if(click.action.IsPressed())
+        if(leftClick.action.IsPressed())
         {
-            Click();
+            Move();
         }
     }
 
-    public void Click()
+    public void Move()
     {   
         UnityEngine.Vector2 a = Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>());
-        point.transform.position = a;
+        playerDestination.transform.position = a;
     }
 }
