@@ -12,7 +12,7 @@ public class PlayerScript : MonoBehaviour
     public InputActionReference leftClick, mousePos;
     private GameObject playerDestination;
 
-    private void Start() 
+    private void Start()
     {
         player = GetComponent<NavMeshAgent>();
         player.updateRotation = false;
@@ -25,7 +25,6 @@ public class PlayerScript : MonoBehaviour
     private void Update() 
     {
         player.SetDestination(playerDestination.transform.position);
-        //Debug.Log(Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>())); 
         if(leftClick.action.IsPressed())
         {
             Move();
