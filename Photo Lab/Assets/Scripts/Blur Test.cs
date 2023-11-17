@@ -32,7 +32,7 @@ public class BlurTest : MonoBehaviour
     public bool changeBodyColor;
     public Color32 bodyColor;
 
-    public Slider blurRadius, contrastRadius, saturationRadius, brightnessRadius;
+   //public Slider blurRadius, contrastRadius, saturationRadius, brightnessRadius;
     
 
     void Start()
@@ -43,10 +43,10 @@ public class BlurTest : MonoBehaviour
     void Update()
     {
 
-        blurRadiusValue = blurRadius.value;
+        /*blurRadiusValue = blurRadius.value;
         contrastValue = contrastRadius.value;
         saturationValue = saturationRadius.value;
-        brightnessValue = brightnessRadius.value;
+        brightnessValue = brightnessRadius.value;*/
 
 
         if (changeBlurRadius) 

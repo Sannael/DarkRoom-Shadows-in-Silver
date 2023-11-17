@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Photos
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Floor
   - Wall
   - Scratching
-  - 
-  - 
+  - Player Target
+  - Blur
   - 
   - 
   - 
@@ -38,11 +39,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 3341809499
+  - name: Game
+    uniqueID: 2448301811
     locked: 0
   - name: Floor
     uniqueID: 2520471559
@@ -52,4 +50,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 605228817
+    locked: 0
+  - name: UI
+    uniqueID: 3341809499
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
