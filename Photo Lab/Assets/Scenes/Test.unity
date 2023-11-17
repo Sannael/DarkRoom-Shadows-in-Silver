@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &34009050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -228,8 +228,8 @@ MonoBehaviour:
   mousePos: {fileID: 1821668304091416891, guid: 0ef3b257e8d65cf40baa0f4ebaf9e555, type: 3}
   canMove: 0
   actualLocation: 1
-  photoSprite: {fileID: 21300000, guid: 4088dd545c3418f479d43a0f676f4429, type: 3}
-  photoVertical: 1
+  photoSprite: {fileID: 21300000, guid: 0d996081c38fcb5469f4f2e2bf1cbc2d, type: 3}
+  photoVertical: 0
   photoStage: 0
 --- !u!195 &34009053
 NavMeshAgent:
@@ -462,7 +462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &59992836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
   photo: {fileID: 1607604951}
   photoVertical: 0
   blurUI: {fileID: 1588423410}
-  lightTableItmes: {fileID: 1891762147}
+  lightTableItens: {fileID: 1891762147}
 --- !u!114 &59992838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3673,7 +3673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &893347089
 Transform:
   m_ObjectHideFlags: 0
@@ -3922,7 +3922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1088296830
 Transform:
   m_ObjectHideFlags: 0
@@ -4057,7 +4057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092900967}
   - component: {fileID: 1092900966}
-  - component: {fileID: 1092900965}
+  - component: {fileID: 1092900968}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -4065,26 +4065,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1092900965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092900964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &1092900966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4115,6 +4095,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1092900968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092900964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &1123373351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4525,7 +4535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1203812735
 Transform:
   m_ObjectHideFlags: 0
@@ -4727,8 +4737,8 @@ Transform:
   m_GameObject: {fileID: 1228488106}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.776115, y: 3.2947907, z: 1.4318997}
-  m_LocalScale: {x: 1, y: 6.5631614, z: 1}
+  m_LocalPosition: {x: -15.5088, y: -2.71, z: 0}
+  m_LocalScale: {x: 2.8723207, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1129383377}
@@ -6260,7 +6270,7 @@ MonoBehaviour:
   saturation: 0
   brightness: 0
   grain: 0
-  BlurDownscaleFactor: 2
+  BlurDownscaleFactor: 0
   BlurFrequency: 2
   BlurFrameInterval: 1
   defaultToComputeShader: 1
@@ -6618,7 +6628,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 31.64, y: -3.37, z: 0}
-  m_LocalScale: {x: 1.8999999, y: 1.8999999, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1891762148}
@@ -7260,12 +7270,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1891762148}
   m_Layer: 0
-  m_Name: Light Table items
+  m_Name: Light Table itens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1891762148
 Transform:
   m_ObjectHideFlags: 0
@@ -8048,7 +8058,7 @@ Transform:
   m_GameObject: {fileID: 2020709806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.516376, y: 2.3028579, z: -1.8269594}
+  m_LocalPosition: {x: 16.516376, y: 2.3028579, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -21,24 +21,33 @@ public class LightTable : MonoBehaviour
     [Header("Blur Area")]
     public GameObject blurUI;
 
-    public GameObject lightTableItmes;
+    public GameObject lightTableItens;
 
     private PhotoInfos photoInfo;
 
     void Start()
     {
         canRedLight = false;
-        photoInfo = photo.GetComponent<PhotoInfos>();
+        
     }
     private void OnEnable()
     {
-        lightTableItmes.SetActive(true);
+        photoInfo = photo.GetComponent<PhotoInfos>();
+        lightTableItens.SetActive(true);
         photoVertical = photo.GetComponent<PhotoInfos>().photoVertical;
         CheckPhoto(); //tenho que puxar isso da foto
+        if (photoInfo.actualStage == 0)
+        {
+            blurUI.SetActive(true);
+        }
+        else
+        {
+            blurUI.SetActive(false);
+        }
     }
     private void OnDisable()
     {
-        lightTableItmes.SetActive(false);
+        lightTableItens.SetActive(false);
     }
 
     void Update()
@@ -98,19 +107,18 @@ public class LightTable : MonoBehaviour
 
     public void CheckPhoto()
     {
-
         Vector2 photoSize = new Vector2();
         Sprite photoSprite = photo.GetComponent<SpriteRenderer>().sprite;
 
-        photoSize[0] = photoSprite.rect.width * 2.025f; //calculo do tamanho do blur (ta multiplicado por 1,9 pq o tamanho da foto ta errado)
-        photoSize[1] = photoSprite.rect.height * 2.025f;
+        photoSize[0] = photoSprite.rect.width * 1.02f; //calculo do tamanho do blur (ta multiplicado por 1,9 pq o tamanho da foto ta errado)
+        photoSize[1] = photoSprite.rect.height * 1.02f;
         blurUI.GetComponent<Nova.UIBlock2D>().Size.XY = photoSize;
 
         if (photoVertical)
         {
             verticalPaper.SetActive(true);
             horizontalPaper.SetActive(false);
-            photo.transform.position = new Vector3(-2.85f, -4.6f, 0);
+            photo.transform.position = new Vector3(-2.85f, -4.7f, 0);
         }
         else
         {
@@ -126,7 +134,7 @@ public class LightTable : MonoBehaviour
         yield return new WaitForSeconds(0.05f); //Delay se n da merda, vai entender essa poha
         if (photoVertical)
         {
-            Vector2 pos = new Vector2(-307, -184);
+            Vector2 pos = new Vector2(-310, -201);
             blurUI.GetComponent<Nova.UIBlock2D>().Position.XY = pos;
         }
         else
