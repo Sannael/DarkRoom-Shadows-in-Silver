@@ -86,6 +86,7 @@ public class CheckDistance : MonoBehaviour
     public void OpenPnl(GameObject panel)
     {
         panel.SetActive(true);
+        GameObject.Find("Camera Follow").GetComponent<CameraFollow>().backToPos = false;
     }
     public void ClosePanel(GameObject panel)
     {

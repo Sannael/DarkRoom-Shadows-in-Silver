@@ -14,6 +14,10 @@ public class PlayerScript : MonoBehaviour
     public bool canMove;
     [Header("Player Location")]
     public HouseLocations.actualHouseLocation actualLocation; //Comodo da casa onde o player se encontra atualmente
+    [Header("Photo Info")]
+    public Sprite photoSprite;
+    public bool photoVertical;
+    public int photoStage;
 
     private void Start()
     {
