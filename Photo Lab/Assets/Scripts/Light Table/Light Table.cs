@@ -32,11 +32,13 @@ public class LightTable : MonoBehaviour
     }
     private void OnEnable()
     {
+        alreadyUseLight = false;
+        canRedLight = false;
         photoInfo = photo.GetComponent<PhotoInfos>();
         lightTableItens.SetActive(true);
         photoVertical = photo.GetComponent<PhotoInfos>().photoVertical;
         CheckPhoto(); //tenho que puxar isso da foto
-        if (photoInfo.actualStage == 0)
+        if (photoInfo.actualStage == 1)
         {
             blurUI.SetActive(true);
         }
@@ -60,12 +62,12 @@ public class LightTable : MonoBehaviour
         {
             redLightButton.interactable = true;
         }
-        if (photoInfo.actualStage == 0)
+        if (photoInfo.actualStage == 1 && photo.GetComponent<SpriteRenderer>().sprite != null)
         {
             fakeFocus.GetComponent<FocusRotate>().enabled = true;
 
             NovaSamples.Effects.BlurEffect blurEffectScript = blurUI.GetComponent<NovaSamples.Effects.BlurEffect>();
-            if(blurEffectScript.BlurRadius <= 2)
+            if(blurEffectScript.BlurRadius <= 2) //Margem de erro do Blur
             {
                 canRedLight = true; //ajeitar essa merda pra poder fazer sentido para o player
             }
@@ -108,29 +110,40 @@ public class LightTable : MonoBehaviour
     public void CheckPhoto()
     {
         Vector2 photoSize = new Vector2();
-        Sprite photoSprite = photo.GetComponent<SpriteRenderer>().sprite;
-
-        photoSize[0] = photoSprite.rect.width * 1.02f; //calculo do tamanho do blur (ta multiplicado por 1,9 pq o tamanho da foto ta errado)
-        photoSize[1] = photoSprite.rect.height * 1.02f;
-        blurUI.GetComponent<Nova.UIBlock2D>().Size.XY = photoSize;
-
-        if (photoVertical)
+        if(photo.GetComponent<SpriteRenderer>().sprite != null)
         {
-            verticalPaper.SetActive(true);
-            horizontalPaper.SetActive(false);
-            photo.transform.position = new Vector3(-2.85f, -4.7f, 0);
+            Sprite photoSprite = photo.GetComponent<SpriteRenderer>().sprite;
+
+            photoSize[0] = photoSprite.rect.width * 1.02f; //calculo do tamanho do blur (ta multiplicado por 1,9 pq o tamanho da foto ta errado)
+            photoSize[1] = photoSprite.rect.height * 1.02f;
+            blurUI.GetComponent<Nova.UIBlock2D>().Size.XY = photoSize;
+
+            if (photoVertical)
+            {
+                verticalPaper.SetActive(true);
+                horizontalPaper.SetActive(false);
+                photo.transform.position = new Vector3(-2.85f, -4.7f, 0);
+            }
+            else
+            {
+                horizontalPaper.SetActive(true);
+                verticalPaper.SetActive(false);
+                photo.transform.position = new Vector3(-2.79f, -2.8f, 0);
+            }
+            StartCoroutine(SetBlurLocation());
         }
         else
         {
-            horizontalPaper.SetActive(true);
             verticalPaper.SetActive(false);
-            photo.transform.position = new Vector3(-2.79f, -2.8f, 0);
+            horizontalPaper.SetActive(false);
+            blurUI.SetActive(false);
         }
-        StartCoroutine(SetBlurLocation());
+       
     }
 
     public IEnumerator SetBlurLocation()
     {
+        blurUI.SetActive(true);
         yield return new WaitForSeconds(0.05f); //Delay se n da merda, vai entender essa poha
         if (photoVertical)
         {

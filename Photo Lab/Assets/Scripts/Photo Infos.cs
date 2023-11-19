@@ -27,15 +27,15 @@ public class PhotoInfos : MonoBehaviour
     private void OnEnable()
     {
         //ps = GameObject.Find("Player").GetComponent<PlayerScript>();
-
         actualStage = ps.photoStage;
-        this.GetComponent<SpriteRenderer>().sprite = ps.photoSprite;
+        try { this.GetComponent<SpriteRenderer>().sprite = ps.photoSprite; }
+        catch { }
         photoVertical = ps.photoVertical;
     }
 
     private void OnDisable()
     {
-        ps.photoStage = actualStage;
+        
     }
     private void Update()
     {
@@ -43,6 +43,7 @@ public class PhotoInfos : MonoBehaviour
     public void NextStage()
     {
         actualStage++;
+        ps.photoStage = actualStage;
     }
 
 }

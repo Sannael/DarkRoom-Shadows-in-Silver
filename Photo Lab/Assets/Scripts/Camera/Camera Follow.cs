@@ -28,7 +28,19 @@ public class CameraFollow : MonoBehaviour
         }
         if (backToPos)
         {
-            transform.position = target.position;
+            if(target.position.y > maxY)
+            {
+                transform.position = new Vector3(0, 0, maxY);
+            }
+            else if(target.position.y <maxY)
+            {
+                transform.position = new Vector3(0, 0, minY);
+            }
+            else
+            {
+                transform.position = target.position;
+            }
+            backToPos = false;
         }
         
     }
