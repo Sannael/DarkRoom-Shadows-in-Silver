@@ -14,9 +14,12 @@ public class FocusRotate : MonoBehaviour
 
     private void Start()
     {
-        FocusStartRotation();
         myCam = Camera.main;
         col = GetComponent<Collider2D>();
+    }
+    private void OnEnable()
+    {
+        FocusStartRotation();
     }
 
     private void Update()
@@ -38,8 +41,6 @@ public class FocusRotate : MonoBehaviour
                 Vector3 vec3 = Input.mousePosition - screenPos;
                 float angle = Mathf.Atan2(vec3.y, vec3.x) * Mathf.Rad2Deg;
                 transform.eulerAngles = new Vector3(0, 0, angle + angleOffset);
-
-                //focusRect.rotation = transform.rotation;
             }
         }
         ChangeBlurValue();  
@@ -72,8 +73,7 @@ public class FocusRotate : MonoBehaviour
     public void SetFocusLocation()
     {
         this.transform.position = focusRect.anchoredPosition / 108; //calculo sem mt explicação mas funcional
-
-        
     }
+
 
 }

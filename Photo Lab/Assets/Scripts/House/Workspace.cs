@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CheckDistance : MonoBehaviour
 {
@@ -18,7 +19,8 @@ public class CheckDistance : MonoBehaviour
 
     [Header("Work Panel")]
     public GameObject workPanel;
-        
+
+    private Collider2D mouseCol;
     void Start()
     {
         if(player == null)
@@ -30,6 +32,35 @@ public class CheckDistance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        mouseCol = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+
+        if(player.GetComponent<PlayerScript>().canMove == true)
+        {
+            if (mouseCol != null)
+            {
+                if(mouseCol.gameObject.tag != ("Work Space"))
+                {
+                    CursorScript.cursorInstace.ChangeCursor("Idle");
+                }
+            }
+            if(GetComponent<Collider2D>().OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition)) && player.GetComponent<PlayerScript>().actualLocation == actualLocation)
+            {
+                if (canUse)
+                {
+                    CursorScript.cursorInstace.ChangeCursor("Select");
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        MouseClick();
+                    }
+                }
+                else
+                {
+                    CursorScript.cursorInstace.ChangeCursor("Idle");
+                }
+            }
+        }
+        
+            
         if (actualLocation == player.GetComponent<PlayerScript>().actualLocation) //Checa se o Player esta no mesmo comodo que o objeto
         {
             canUse = CheckPlayerDistance();
@@ -44,11 +75,7 @@ public class CheckDistance : MonoBehaviour
         else
         {
             this.GetComponent<SpriteRenderer>().color = Color.white;
-            CursorScript.cursorInstace.ChangeCursor("Idle");
         }
-            
-
-
     }
     [ContextMenu("Distance")]
     public bool CheckPlayerDistance()
@@ -67,20 +94,11 @@ public class CheckDistance : MonoBehaviour
 
          return disX < maxDistX && disY < maxDistY ? true : false;
     }
-
-
-    public void OnMouseOver()
+    public void MouseClick()
     {
-        if (canUse)
-        {
-            CursorScript.cursorInstace.ChangeCursor("Select");
-
-            if (player.GetComponent<PlayerScript>().leftClick.action.IsPressed())
-            {
-                player.GetComponent<PlayerScript>().canMove = false;
-                OpenPnl(workPanel);
-            }
-        } 
+        player.GetComponent<PlayerScript>().canMove = false;
+        OpenPnl(workPanel);
+        CursorScript.cursorInstace.ChangeCursor("Idle");
     }
 
     public void OpenPnl(GameObject panel)

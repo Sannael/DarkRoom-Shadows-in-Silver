@@ -8,24 +8,40 @@ public class ButtonsPanelClose : MonoBehaviour
     public int lastStage;// Ultimo estado que o painel pode realizar (Seguir numeros do  photo infos script)
     public Button btnClose;
     private GameObject panel;
-    private PhotoInfos photoInfo;
+    private bool speaking;
+    private Store storeScript;
+
 
     private void Start()
     {
         panel = this.gameObject;
-        try {photoInfo = GameObject.FindAnyObjectByType<PhotoInfos>(); }
-        catch { }
+        try { storeScript = panel.GetComponent<Store>(); }
+        catch { speaking = false; }
+
     }
     void Update()
     {
-        if(photoInfo.actualStage > lastStage)
+        if(storeScript != null)
         {
-            btnClose.interactable = true;
+            speaking = storeScript.speaking;
         }
-        else
+        PlayerScript ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        if (speaking)
         {
             btnClose.interactable = false;
         }
+        else
+        {
+            if (ps.photoStage > lastStage || ps.photoSprite == null)
+            {
+                btnClose.interactable = true;
+            }
+            else
+            {
+                btnClose.interactable = false;
+            }
+        }
+        
     }
 
     public void ClosePanel()
