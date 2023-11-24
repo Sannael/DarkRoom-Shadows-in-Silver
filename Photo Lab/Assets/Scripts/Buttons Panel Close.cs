@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonsPanelClose : MonoBehaviour
 {
+    public int firstStage;
     public int lastStage;// Ultimo estado que o painel pode realizar (Seguir numeros do  photo infos script)
     public Button btnClose;
     private GameObject panel;
@@ -32,7 +33,11 @@ public class ButtonsPanelClose : MonoBehaviour
         }
         else
         {
-            if (ps.photoStage > lastStage || ps.photoSprite == null)
+            if(ps.photoSprite == null)
+            {
+                btnClose.interactable = true;
+            }
+            else if (ps.photoStage > lastStage || ps.photoStage < firstStage)
             {
                 btnClose.interactable = true;
             }

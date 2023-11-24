@@ -9,6 +9,7 @@ public class PhotoInfos : MonoBehaviour
     public int actualStage;
     [SerializeField]
     private PlayerScript ps;
+
     /*Stages
     0	Ajustar o foco
     1	Luz vermelha
@@ -43,6 +44,11 @@ public class PhotoInfos : MonoBehaviour
     public void NextStage()
     {
         actualStage++;
+        if(actualStage == 3)
+        {
+            this.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, 50);
+            ps.photoColor = this.GetComponent<SpriteRenderer>().color;
+        }
         ps.photoStage = actualStage;
     }
 

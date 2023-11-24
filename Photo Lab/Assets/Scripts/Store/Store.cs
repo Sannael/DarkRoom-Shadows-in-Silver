@@ -152,6 +152,7 @@ public class Store : MonoBehaviour
     {
         if(prefabCostumerScript.costumerAction == 0)
         {
+            ps.photoColor = new Color32(255, 255, 255, 255);
             ps.photoSprite = costumerScript.photoSprite;
             ps.photoVertical = costumerScript.hotoVertical;
             ps.photoStage = 1;

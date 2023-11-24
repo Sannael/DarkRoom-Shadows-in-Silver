@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     public Sprite photoSprite;
     public bool photoVertical;
     public int photoStage;
+    public Color32 photoColor;
 
     private UnityEngine.Vector2 lookDirection; //Direção do mouse em relação a arma
     private float lookAngle; //Angulo do mouse em relação a arma
@@ -62,7 +63,6 @@ public class PlayerScript : MonoBehaviour
             float dist = UnityEngine.Vector3.Distance(transform.position, navMeshCorners[actualCorner]);
             if (dist < 1)
             {
-                Debug.Log("A");
                 actualCorner++;
             }
             else
