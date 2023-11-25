@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public int minY, maxY;
+    public float minY, maxY;
     public Transform target;
     [SerializeField]
     private bool canMove = false;

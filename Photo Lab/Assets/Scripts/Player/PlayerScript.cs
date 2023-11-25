@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
     public bool photoVertical;
     public int photoStage;
     public Color32 photoColor;
+    private Animator anim;
 
     private UnityEngine.Vector2 lookDirection; //Direção do mouse em relação a arma
     private float lookAngle; //Angulo do mouse em relação a arma
@@ -28,6 +29,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Start()
     {
+        anim = this.GetComponent<Animator>();
         canMove = true;
         player = GetComponent<NavMeshAgent>();
         player.updateRotation = false;
@@ -47,9 +49,14 @@ public class PlayerScript : MonoBehaviour
 
         if (!canMove)
         {
+            anim.SetBool("Walk", false);
             playerDestination.transform.position = transform.position;
         }
-
+        else if(UnityEngine.Vector3.Distance(transform.position, player.pathEndPosition) <1)
+        {
+             anim.SetBool("Walk", false);
+            
+        }
         SetRotate();
     }
 
@@ -77,6 +84,7 @@ public class PlayerScript : MonoBehaviour
 
     public void Move()
     {
+        anim.SetBool("Walk", true);
         playerDestination.GetComponent<NavMeshAgent>().enabled = false;
         UnityEngine.Vector2 a = Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>());
         playerDestination.transform.position = a;

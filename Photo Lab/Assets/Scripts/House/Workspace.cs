@@ -33,7 +33,6 @@ public class CheckDistance : MonoBehaviour
     void Update()
     {
         mouseCol = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-
         if(player.GetComponent<PlayerScript>().canMove == true)
         {
             if (mouseCol != null)
@@ -71,7 +70,7 @@ public class CheckDistance : MonoBehaviour
         }
 
         if (canUse)
-            this.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().color = new Color32(144, 144, 144, 255);
         else
         {
             this.GetComponent<SpriteRenderer>().color = Color.white;
