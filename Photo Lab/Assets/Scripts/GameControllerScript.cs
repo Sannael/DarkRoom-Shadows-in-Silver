@@ -8,11 +8,73 @@ public class GameControllerScript : MonoBehaviour
     public PlayerScript ps;
     public int photoFinal;
 
+
+    private GameObject[] workSpaces;
+    private ButtonsPanelClose[] workSpaceBtn;
+    public GameObject workSpaceStore;
+    public GameObject questPointer;
+    public bool seeQuestPointer;
+
+
+    private void Start()
+    {
+        seeQuestPointer = true;
+        TakeWorkspaces();
+    }
     private void Update()
     {
+        if (seeQuestPointer)
+        {
+            questPointer.SetActive(true);
+        }
+        else
+        {
+            questPointer.SetActive(false);
+        }
         if(ps.photoStage == photoFinal && storeScript.prefabCostumerScript.costumerAction ==1)
         {
             storeScript.prefabCostumerScript.costumerAction = 2;
         }
+        
+        if(ps.photoStage < photoFinal)
+        {
+            NextToUse();
+        }
+        else
+        {
+            questPointer.GetComponent<Window_QuestPointer>().ChangeTarget(workSpaceStore.transform.position);
+        }
+    }
+
+    private void TakeWorkspaces()
+    {
+        workSpaces = GameObject.FindGameObjectsWithTag("Work Space");
+        workSpaceBtn = new ButtonsPanelClose[workSpaces.Length];
+        int id = 0;
+        foreach (GameObject obj in workSpaces)
+        {
+            if(obj.name == "Balcao")
+            {
+                workSpaceStore = obj;
+            }
+            workSpaceBtn[id] = workSpaces[id].GetComponent<CheckDistance>().workPanel.gameObject.GetComponent<ButtonsPanelClose>();
+            id++;
+        }
+    }
+    
+    private void NextToUse()
+    {
+        int i = 0;
+        foreach(ButtonsPanelClose btn in workSpaceBtn)
+        {
+            if(ps.photoStage >= btn.firstStage && ps.photoStage <= btn.lastStage)
+            {
+                questPointer.GetComponent<Window_QuestPointer>().ChangeTarget(workSpaces[i].transform.position);
+            }
+            
+            i++;
+        }
     }
 }
+
+

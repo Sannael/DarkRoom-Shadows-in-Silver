@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonsPanelClose : MonoBehaviour
 {
+    public int firstStage;
     public int lastStage;// Ultimo estado que o painel pode realizar (Seguir numeros do  photo infos script)
     public Button btnClose;
     private GameObject panel;
@@ -32,7 +33,11 @@ public class ButtonsPanelClose : MonoBehaviour
         }
         else
         {
-            if (ps.photoStage > lastStage || ps.photoSprite == null)
+            if(ps.photoSprite == null)
+            {
+                btnClose.interactable = true;
+            }
+            else if (ps.photoStage > lastStage || ps.photoStage < firstStage)
             {
                 btnClose.interactable = true;
             }
@@ -46,6 +51,7 @@ public class ButtonsPanelClose : MonoBehaviour
 
     public void ClosePanel()
     {
+        GameObject.Find("Game Controller").GetComponent<GameControllerScript>().seeQuestPointer = true;
         panel.SetActive(false);
         GameObject.Find("Camera Follow").GetComponent<CameraFollow>().backToPos = true;
         GameObject.Find("Player").GetComponent<PlayerScript>().canMove = true;

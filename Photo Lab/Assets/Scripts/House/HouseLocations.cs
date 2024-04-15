@@ -6,15 +6,7 @@ public class HouseLocations : MonoBehaviour
 {
     public enum actualHouseLocation //Armazena todfos os comodos da casa
     {
-        Store, Hall, Kitchen, Corridor, Lab, Drying, Bedroom, Bathroom
+        Store, Hall, Kitchen, Corridor, Lab, Drying, Bedroom, Bathroom, Yard
     }
     public actualHouseLocation actualLocal;
-
-    /*public static HouseLocations houseLocationsInstance;
-
-    public void Awake()
-    {
-        houseLocationsInstance = this;        
-    }*/
-
 }
