@@ -51,6 +51,7 @@ public class ButtonsPanelClose : MonoBehaviour
 
     public void ClosePanel()
     {
+        GameObject.Find("Game Controller").GetComponent<GameControllerScript>().seeQuestPointer = true;
         panel.SetActive(false);
         GameObject.Find("Camera Follow").GetComponent<CameraFollow>().backToPos = true;
         GameObject.Find("Player").GetComponent<PlayerScript>().canMove = true;

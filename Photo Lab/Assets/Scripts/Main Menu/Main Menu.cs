@@ -10,4 +10,13 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }  
+    public void GoToCresdits()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

@@ -17,8 +17,13 @@ public class CheckDistance : MonoBehaviour
     public bool canUse;
     public float disX, disY;
 
+
     [Header("Work Panel")]
     public GameObject workPanel;
+
+    [Header("FruFru")]
+    public GameObject hover;
+    public GameObject objLight;
 
     private Collider2D mouseCol;
     void Start()
@@ -46,6 +51,7 @@ public class CheckDistance : MonoBehaviour
             {
                 if (canUse)
                 {
+                    hover.SetActive(true);
                     CursorScript.cursorInstace.ChangeCursor("Select");
                     if (Input.GetMouseButtonDown(0))
                     {
@@ -54,6 +60,7 @@ public class CheckDistance : MonoBehaviour
                 }
                 else
                 {
+                    hover.SetActive(false);
                     CursorScript.cursorInstace.ChangeCursor("Idle");
                 }
             }
@@ -69,11 +76,15 @@ public class CheckDistance : MonoBehaviour
             canUse = false;
         }
 
-        if (canUse)
-            this.GetComponent<SpriteRenderer>().color = new Color32(144, 144, 144, 255);
+        if (canUse) 
+        {
+            objLight.SetActive(true);
+            //this.GetComponent<SpriteRenderer>().color = new Color32(144, 144, 144, 255);   
+        }
         else
         {
-            this.GetComponent<SpriteRenderer>().color = Color.white;
+             objLight.SetActive(false);
+            //this.GetComponent<SpriteRenderer>().color = Color.white;
         }
     }
     [ContextMenu("Distance")]
@@ -95,6 +106,7 @@ public class CheckDistance : MonoBehaviour
     }
     public void MouseClick()
     {
+        GameObject.Find("Game Controller").GetComponent<GameControllerScript>().seeQuestPointer = false;
         player.GetComponent<PlayerScript>().canMove = false;
         OpenPnl(workPanel);
         CursorScript.cursorInstace.ChangeCursor("Idle");
@@ -113,7 +125,8 @@ public class CheckDistance : MonoBehaviour
 
     public void OnMouseExit()
     {
-       CursorScript.cursorInstace.ChangeCursor("Idle");
+        hover.SetActive(false);
+        CursorScript.cursorInstace.ChangeCursor("Idle");
     }
 
 

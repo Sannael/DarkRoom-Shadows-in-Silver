@@ -41,7 +41,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Update() 
     {
-        player.SetDestination(playerDestination.transform.position);
+        //player.SetDestination(playerDestination.transform.position);
         if(leftClick.action.IsPressed() && canMove)
         {
             Move();
@@ -52,7 +52,7 @@ public class PlayerScript : MonoBehaviour
             anim.SetBool("Walk", false);
             playerDestination.transform.position = transform.position;
         }
-        else if(UnityEngine.Vector3.Distance(transform.position, player.pathEndPosition) <1)
+        else if(UnityEngine.Vector3.Distance(transform.position, player.pathEndPosition) <0.8f)
         {
              anim.SetBool("Walk", false);
             
@@ -91,6 +91,7 @@ public class PlayerScript : MonoBehaviour
         playerDestination.GetComponent<NavMeshAgent>().enabled = true;
         actualCorner =1;
         navMeshCorners = player.path.corners;
+        player.SetDestination(playerDestination.transform.position);
         
     }
 

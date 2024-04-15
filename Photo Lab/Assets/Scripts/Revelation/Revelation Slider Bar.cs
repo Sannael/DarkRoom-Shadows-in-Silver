@@ -68,7 +68,7 @@ public class RevelationSliderBar : MonoBehaviour
             }
             else if (p == "Yellow")
             {
-                this.GetComponentInParent<RevelationScript>().ChangeOpacPhoto(150); //18);
+                this.GetComponentInParent<RevelationScript>().ChangeOpacPhoto(18);
             }
             else
             {
@@ -83,7 +83,7 @@ public class RevelationSliderBar : MonoBehaviour
             }
             else if (p == "Yellow")
             {
-                score += 10;  //++;
+                score ++;
             }
             else
             {
@@ -110,7 +110,7 @@ public class RevelationSliderBar : MonoBehaviour
         {
             if (pointerPos.y < 350)
             {
-                pointerPos.y += pointerSpeed;
+                pointerPos.y += (pointerSpeed * Time.deltaTime);
                 pointer.GetComponent<RectTransform>().anchoredPosition = pointerPos;
                 yield return new WaitForSeconds(pointerTime);
             }
@@ -123,7 +123,7 @@ public class RevelationSliderBar : MonoBehaviour
         {
             if (pointerPos.y > -350)
             {
-                pointerPos.y -= pointerSpeed;
+                pointerPos.y -= (pointerSpeed * Time.deltaTime);
                 pointer.GetComponent<RectTransform>().anchoredPosition = pointerPos;
                 yield return new WaitForSeconds(pointerTime);
             }

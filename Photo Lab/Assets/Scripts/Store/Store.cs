@@ -38,6 +38,7 @@ public class Store : MonoBehaviour
                 prefabCostumerScript = c.GetComponent<Costumer>();
                 if(prefabCostumerScript.costumerAction == 0 || prefabCostumerScript.costumerAction == 2)
                 {
+                     
                     costumer = Instantiate(c);
                     costumer.transform.SetParent(this.transform);
                     costumer.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
@@ -141,6 +142,10 @@ public class Store : MonoBehaviour
         }
         else
         {
+            if(costumerScript.costumerAction == 2)
+            {
+                ManagerScene.sceneManagerInstance.LoadScene(2);
+            }
             speaking = false;
             EnableDisableDialogueBox(false);
             actualDialogue = 0;
