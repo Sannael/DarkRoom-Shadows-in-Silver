@@ -18,21 +18,30 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 11453169471488
-    m_Localized: "\"\xA1Buenos d\xEDas! Traje una foto para ampliar. Se la quiero
-      regalar a mi madre\"."
-    m_Metadata:
-      m_Items: []
   - m_Id: 1
-    m_Localized: "\"Buenos d\xEDas, \xBFqu\xE9 talla ser\xEDa?\""
+    m_Localized: "Ana{} Buenos d\xEDas, \xBFqu\xE9 talla ser\xEDa?"
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Localized: "\"Bueno, creo que podr\xEDa ser un 10x15\"."
+    m_Localized: "Pedro{} Bueno, creo que podr\xEDa ser un 10x15."
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: "\"Est\xE1 bien, puedes volver m\xE1s tarde a buscarlo\"."
+    m_Localized: "Ana{} Est\xE1 bien, puedes volver m\xE1s tarde a recogerlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726367441850368
+    m_Localized: "Pedro{} \xA1Buenos d\xEDas! Traje una foto para ampliar. Quiero
+      regal\xE1rselo a mi madre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: "Pedro{} Muchas gracias, a mi madre le encantar\xE1, le encanta
+      esta vista, le recuerda su juventud."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: "Ana{} De nada. \xA1Vuelva siempre!"
     m_Metadata:
       m_Items: []
   references:

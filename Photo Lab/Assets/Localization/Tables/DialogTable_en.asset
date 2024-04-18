@@ -18,21 +18,30 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 11453169471488
-    m_Localized: '"Good morning! I brought a photo to enlarge. I want to give it
-      to my mother as a gift."'
-    m_Metadata:
-      m_Items: []
   - m_Id: 1
-    m_Localized: '"Good morning, what size would it be?"'
+    m_Localized: Anna{} Good morning, what size would it be?
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Localized: '"Well, I think it might be a 10x15."'
+    m_Localized: Pedro{} Well, I think it could be a 10x15.
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: '"Okay, you can come back later to get it."'
+    m_Localized: Anna{} Okay, you can come back later to pick it up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726367441850368
+    m_Localized: Pedro{} Good morning! I brought a photo to enlarge. I want to give
+      it as a gift to my mother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: Pedro{} Thank you very much, my mother will love it, she loves this
+      view, it reminds her of her youth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Anna{} You're welcome. Check back often!
     m_Metadata:
       m_Items: []
   references:

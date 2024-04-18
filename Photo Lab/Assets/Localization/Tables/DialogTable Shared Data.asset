@@ -15,20 +15,28 @@ MonoBehaviour:
   m_TableCollectionName: DialogTable
   m_TableCollectionNameGuidString: 7b2d79183861c3043beb6642c4cfd201
   m_Entries:
-  - m_Id: 11453169471488
-    m_Key: Teste1
+  - m_Id: 726367441850368
+    m_Key: Costumer0_0
     m_Metadata:
       m_Items: []
   - m_Id: 1
-    m_Key: Teste2
+    m_Key: Costumer0_1
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Key: Teste3
+    m_Key: Costumer0_2
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Key: Teste4
+    m_Key: Costumer0_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Key: Costumer0_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Key: Costumer0_5
     m_Metadata:
       m_Items: []
   m_Metadata:
