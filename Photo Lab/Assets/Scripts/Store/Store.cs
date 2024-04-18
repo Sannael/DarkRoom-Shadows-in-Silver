@@ -28,6 +28,7 @@ public class Store : MonoBehaviour
     private GameObject costumer;
     private int costumerFirstDialogue;
     private int costumerLastDialogue;
+    private int costumertotalDialogLines; //#G: Recebe o total de linhas de diálogo para gerar as keys da tabela de localização
     public bool speaking = false;
 
     private void OnEnable()
@@ -46,7 +47,7 @@ public class Store : MonoBehaviour
                     costumer.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
                     costumerScript = costumer.GetComponent<Costumer>();
                     evt = costumer.GetComponent<Costumer>().evt;
-
+                    costumertotalDialogLines = costumerScript.totalDialogLines; //#G: Puxa o total de linhas de diálogo para gerar as keys da tabela de localização
 
                     if (costumerScript.costumerAction < 2)
                     {
@@ -56,7 +57,7 @@ public class Store : MonoBehaviour
                     else
                     {
                         costumerFirstDialogue = costumerScript.lastDialogues;
-                        costumerLastDialogue = costumerScript.texts.Length;
+                        costumerLastDialogue = costumertotalDialogLines;
                     }
 
                 }
@@ -118,15 +119,15 @@ public class Store : MonoBehaviour
         {
             actualDialogue = costumerFirstDialogue + 1;
         }
-        if (actualDialogue < costumerScript.texts.Length && actualDialogue <= costumerLastDialogue)
+        
+        if (actualDialogue < costumertotalDialogLines && actualDialogue <= costumerLastDialogue)
         {
-
             string ActualLocKey = "Costumer" + actualCostumerID.ToString() + "_" + actualDialogue.ToString(); //#G: Gera a key para puxar o texto da tabela de localização baseada no id do cliente e no diálogo atual
             Debug.Log(ActualLocKey);
             speaking = true;
             dialogueBox.SetActive(true);
-            string[] alltext = costumerScript.texts[actualDialogue].Split("{} ");
-            //string[] alltext = LocalizationSettings.StringDatabase.GetLocalizedString("DialogTable", ActualLocKey).Split("{} "); //#G: Puxa o texto da tabela de localização
+            //string[] alltext = costumerScript.texts[actualDialogue].Split("{} ");
+            string[] alltext = LocalizationSettings.StringDatabase.GetLocalizedString("DialogTable", ActualLocKey).Split("{} "); //#G: Puxa o texto da tabela de localização
             string sName = alltext[0];
             string sText = alltext[1];
             Sprite sSprite = costumerScript.ReturnSpeakerSprite(sName);
@@ -148,8 +149,10 @@ public class Store : MonoBehaviour
         }
         else
         {
+            Debug.Log("else");
             if (costumerScript.costumerAction == 2)
             {
+                Debug.Log("costumerAction 2");
                 ManagerScene.sceneManagerInstance.LoadScene(2);
             }
             speaking = false;

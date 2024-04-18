@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1
-    m_Localized: Anna{} Bom dia, qual seria o tamanho?
+    m_Localized: Ana{} Bom dia, qual seria o tamanho?
     m_Metadata:
       m_Items: []
   - m_Id: 2
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: "Anna{} Est\xE1 bem, pode retornar mais tarde para buscar."
+    m_Localized: "Ana{} Est\xE1 bem, pode retornar mais tarde para buscar."
     m_Metadata:
       m_Items: []
   - m_Id: 726367441850368
@@ -41,7 +41,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5
-    m_Localized: Anna{} De nada. Volte sempre!
+    m_Localized: Ana{} De nada. Volte sempre!
     m_Metadata:
       m_Items: []
   references:
