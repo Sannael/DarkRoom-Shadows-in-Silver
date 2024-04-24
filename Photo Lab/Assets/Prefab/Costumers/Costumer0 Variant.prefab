@@ -234,6 +234,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: totalDialogLines
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -269,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].speakerName
-      value: Anna
+      value: Ana
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerName

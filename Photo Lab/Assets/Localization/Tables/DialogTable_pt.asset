@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogTable_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 7b2d79183861c3043beb6642c4cfd201, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: Ana{} Bom dia, qual seria o tamanho?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: Pedro{} Bem, acho que pode ser uma 10x15.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: "Ana{} Est\xE1 bem, pode retornar mais tarde para buscar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726367441850368
+    m_Localized: "Pedro{} Bom dia! Trouxe uma foto para ampliar. Quero dar de presente
+      para minha m\xE3e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: "Pedro{} Muito obrigado, minha m\xE3e vai amar, ela adora essa vista,
+      faz ela se lembrar de sua juventude."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Ana{} De nada. Volte sempre!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 7b2d79183861c3043beb6642c4cfd201, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: "Ana{} Buenos d\xEDas, \xBFqu\xE9 talla ser\xEDa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: "Pedro{} Bueno, creo que podr\xEDa ser un 10x15."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: "Ana{} Est\xE1 bien, puedes volver m\xE1s tarde a recogerlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726367441850368
+    m_Localized: "Pedro{} \xA1Buenos d\xEDas! Traje una foto para ampliar. Quiero
+      regal\xE1rselo a mi madre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: "Pedro{} Muchas gracias, a mi madre le encantar\xE1, le encanta
+      esta vista, le recuerda su juventud."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: "Ana{} De nada. \xA1Vuelva siempre!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

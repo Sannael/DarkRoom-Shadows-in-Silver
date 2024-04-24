@@ -17,9 +17,8 @@ public class Costumer : MonoBehaviour
     public Speakers[] speaker;
     public int costumerID;
     [Header("Dialogues")]
-    [TextArea(5,7)]
-    public string[] texts;
     public int lastDialogues;
+    public int totalDialogLines; //#G: Informação relevante para gerar as keys da tabela de localização (substitui a antiga lista de diálogos embutida no costumer)
 
     [Header("Photo Area")]
     public Sprite photoSprite;
