@@ -8760,7 +8760,8 @@ MonoBehaviour:
   - {fileID: 0}
   allCostumers:
   - {fileID: 4611121442138890078, guid: 607d9a1de6e56ea48907fdf420f96d9e, type: 3}
-  actualCostumerID: 0
+  - {fileID: 4611121442138890078, guid: c91b317363941494eb1162d0b4aa2d49, type: 3}
+  actualCostumerID: 1
   costumer: {fileID: 0}
   speaking: 0
 --- !u!114 &923285626

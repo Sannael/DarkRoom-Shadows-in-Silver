@@ -44,6 +44,648 @@ MonoBehaviour:
     m_Localized: Ana{} You're welcome. Check back often!
     m_Metadata:
       m_Items: []
+  - m_Id: 6
+    m_Localized: Laura{} Hi Ana, how are things?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: Ana{} They're doing well...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Laura{} It's great to see you managing to continue your father's
+      store. It's a shame he died so soon.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Ana{} Yes, I miss him, things would be easier if he was still here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: Ana{} But let's get to what brought you here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: Laura{} Of course, I brought a photo to enlarge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: Laura{} Nowadays everyone only cares about color portraits, but
+      I still prefer them in black and white,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: Laura{} I'm glad we have you here to reveal it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: Laura{} Do you believe that the photo shop in the neighboring city
+      is only revealing and enlarging colored rolls?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: Laura{} It will be here, I would like a 15x21 copy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: Ana{} You can leave it, I don't have any other photos in the queue,
+      so just stop by the store later today and it will be ready.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: Ana{} Here it is!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: Laura{} Thanks, I'll put it in a frame and leave it in the living
+      room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: Mauro{} Wow, I'm glad you haven't closed yet! I came running because
+      I wasn't sure what time the store closed. You should include opening hours
+      in the newspaper ad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: "Ana{} Did you come because of the ad in the newspaper? It\u2019s
+      finally giving some results\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: Mauro{} Well, actually I work at the newspaper. My name is Mauro,
+      I'm a journalist and photographer for Informes Populares. I really need your
+      help, the newspaper's enlarger broke, and I need to enlarge this photo for
+      tomorrow's cover story!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: Ana{} If it's so urgent we can't waste any more time, give me the
+      negative, let's see what I can do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: Mauro{} I'm back, Ana. I hope you got a good enlargement. I brought
+      Captain Guedes to take a look at the photo, as you may have seen, it is the
+      scene of a crime.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: "Ana{} Yes, I saw it\u2026 And yes, I got your copy, here it is."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: Mauro{} You see Guedes, I'm not going crazy! Look at the eyes shining
+      back there, there really was a creature there!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: Guedes{} Don't give me another one of those crazy things from your
+      newspaper. This shining can be a reflection of anything, there is no reason
+      to create a public fuss. Come on young lady, take this photo and erase the
+      reflection, I know you can do it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: Ana{} Do you really want me to retouch the photo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: "Mauro{} Well\u2026."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: Guedes{} (Interrupts) Yes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: Guedes{} We'll be waiting here, don't delay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: Ana{} Here it is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: Guedes{} Look at that! You're actually good at this, young lady.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: Guedes{} Take Mauro, you can publish this in your newspaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: Mauro{} But what about the bites that were found on the body?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: "Guedes{} This guy was drunk, let's say he went to mess with a stray
+      dog \u200B\u200Band was attacked."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: Vicente{} Hello lady, I needed a copy of this photo in 3x4 size.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: Ana{} Are you going to make a document?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: Ana{} You're new in town, aren't you? The registry office here will
+      not accept a photo from outside, they take it themselves.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Vicente{} The photo is not for taking a document! It's to put on
+      my badge, I'm the new engineer for the construction company that is carrying
+      out the expansion works in the city.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: Ana{} I read about it in the newspaper. But what will this expansion
+      entail?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: "Vicente{} The Mayor's project is to build a structure for an industrial
+      zone, there is already a line of companies interested in setting up factories
+      here. It will be a huge leap forward for the city\u2019s economic development."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: Vicente{} Well, if I leave it with you, can I pick it up today?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: Ana{} Yes, come back later and it will be ready.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: Ana{} Here is your photo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: "Ana{} You know, I saw that there are a lot of people who don't
+      like this idea of \u200B\u200Bdeforesting an area to create this industrial
+      zone..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: Vicente{} When they see the benefits that these works will bring,
+      they will certainly change their minds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Vicente{} Thank you very much for the photo, see you next time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: Guedes{} Good morning Miss Rizzo, I didn't have the opportunity
+      to comment the other day, but you are doing a great job taking care of the
+      store, your old father would be proud.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: Ana{} Did you know my father?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50
+    m_Localized: Guedes{} Yes, your father was very well known in the city, many
+      years ago our Mayor even invited him to run for councilman, but his father
+      didn't want to.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51
+    m_Localized: Ana{} Wow, he never told me about that. I can't imagine my father
+      getting involved in politics, even more so allying himself with this Mayor...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52
+    m_Localized: Guedes{} Well, some people don't know how to take advantage of the
+      opportunities that life gives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53
+    m_Localized: Ana{} Did you just come here to talk about my father or do you need
+      something?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54
+    m_Localized: Guedes{} I brought a photo to develop. This is confidential material,
+      I need you to assure me that you will maintain confidentiality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55
+    m_Localized: Ana{} I'm a professional Mr. Guedes, I have nothing to do with my
+      clients' photos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56
+    m_Localized: Guedes{} It's good to know. I'll be back in an hour to pick it up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57
+    m_Localized: Guedes{} Where is the photo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58
+    m_Localized: Ana{} It's here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59
+    m_Localized: Guedes{} Don't tell anyone about what you saw in this photo. This
+      includes the Journalist and even any other guard employee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60
+    m_Localized: Ana{} It's fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61
+    m_Localized: Mauro{} Ana, you need to reveal this photo. Is it urgent!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62
+    m_Localized: Ana{} Do you know what time it is? The store only opens tomorrow
+      morning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63
+    m_Localized: Mauro{} I know, I'm sorry to show up at this time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64
+    m_Localized: Mauro{} But I think this photo will reveal the mystery behind the
+      deaths that have been happening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65
+    m_Localized: Ana{} What do you mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66
+    m_Localized: Mauro{} The police have enforced a curfew and no one can be on the
+      street after 8pm, but today I managed to stay on the lookout and photograph
+      the moment of an attack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67
+    m_Localized: Ana{} So, did you see what it was?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68
+    m_Localized: Mauro{} It was very dark and everything happened very quickly, I
+      just pointed the camera and took the photo. But there's a good chance something
+      was in the photo, so I came running to bring it to you to reveal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69
+    m_Localized: Ana{} Okay, wait here and I'll be right back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70
+    m_Localized: Ana{} Here it is, you actually managed to photograph the creature.
+      Is this really an animal?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71
+    m_Localized: Ana{} It's a shame it was very dark, I couldn't see many details...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72
+    m_Localized: Mauro{} That's it! Look how gigantic this creature's mouth is, it's
+      not just any animal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73
+    m_Localized: Mauro{} I was already imagining that the photo would come out dark,
+      it all happened so quickly that I couldn't adjust the camera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74
+    m_Localized: Mauro{} But can't you lighten the photo a little to see if anything
+      else appears?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75
+    m_Localized: Ana{} I can try.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76
+    m_Localized: Ana{} Okay Mauro, I did the best I could.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77
+    m_Localized: Mauro{} Thanks Ana, this photo will be on the cover tomorrow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78
+    m_Localized: Guedes{} I knew I would find you here! But what is this? Give me
+      that photo, don't you dare publish it in your newspaper!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79
+    m_Localized: Mauro{} Give me this photo back!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80
+    m_Localized: Guedes{} Forget it, I'm going to seize your camera and your videos,
+      plus you're going to the police station with me for breaking curfew.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81
+    m_Localized: Mauro{} Let me go!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82
+    m_Localized: Guedes{} I think you'd better close the store Ana, according to
+      the Mayor's decree, no business can stay open after 7pm, otherwise I'll have
+      to take you too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83
+    m_Localized: Ana{} You don't need to ask twice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84
+    m_Localized: "Tain\xE1{} Hello Ana, good morning!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85
+    m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86
+    m_Localized: Taina{} Yes! It's been four years since I moved, time passes so
+      quickly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87
+    m_Localized: Ana{} Came to visit the family?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88
+    m_Localized: "Tain\xE1{} Actually, I came to pick you up to go away with me.
+      My mother wrote to me saying that she was scared of the deaths that have been
+      happening in the city, but not everyone wants to move."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89
+    m_Localized: "Tain\xE1{} That's why we took advantage of the fact that we're
+      all together to take this photo, I wanted you to reveal it to me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90
+    m_Localized: Ana{} You can leave it, it will be a pleasure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91
+    m_Localized: "Tain\xE1{} I went back to get the photo, is it ready yet?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92
+    m_Localized: Ana{} Yes, yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93
+    m_Localized: Ana{} I noticed that your grandfather is not in the photo, did something
+      happen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94
+    m_Localized: "Tain\xE1{} My grandfather doesn't like taking photos, he says that
+      portraits imprison the person's soul, it's an old family belief, no one before
+      my mother took a portrait. It's a shame I don't have a record of them, but
+      I respect my grandfather's beliefs, whether he likes it or not, they are a
+      link to our ancestors."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95
+    m_Localized: Ana{} Well, photos are not the only way to keep memories and you
+      can do like your grandfather and continue telling about him and those who came
+      before him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96
+    m_Localized: "Tain\xE1{} Thank you very much for the photo, Ana. Take care!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97
+    m_Localized: Guedes{} Hello young lady, you were friends with that journalist,
+      weren't you? I'm sorry, this wouldn't have happened if he had listened to the
+      police and respected the curfew.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98
+    m_Localized: Ana{} None of this would have happened if the city had been safe...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99
+    m_Localized: Guedes{} What are you insinuating? The police have done everything
+      in their power to keep the city safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100
+    m_Localized: Ana{} So why didn't they let Mauro publish the photo of the creature
+      in the newspaper? The population needs to know the truth about what is happening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101
+    m_Localized: Guedes{} This newspaper just wants to create sensationalism to sell
+      more, and have you ever thought about whether this monster story is starting
+      to spread? This year there is an election and our Mayor would have his reputation
+      tarnished. He gave me the mission of resolving this issue without creating
+      a fuss, and we will do it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102
+    m_Localized: Ana{} Now everything makes sense, this Mayor is more concerned with
+      carrying out works to get re-elected than with the lives of the population.
+      But you should warn him that if everyone in town dies, there won't be anyone
+      left to vote for him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103
+    m_Localized: Guedes{} I hope your stomach is as strong as your opinion. Here,
+      this is the photo of the last attack, I need it today to attach to the investigation
+      file.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104
+    m_Localized: Ana{} Here is your photo, the attack was this morning? I saw it
+      was on the front street, but I didn't hear anything.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105
+    m_Localized: Guedes{} Yes, it was, the attacks started to spread throughout the
+      city, so if you don't want to have the same luck as your friend, don't try
+      to act like a hero and don't leave the house at night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106
+    m_Localized: Mauro{} Hello, Ana, thank you very much for your help. Thanks to
+      you, everyone now knows that there really is a creature attacking the city.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107
+    m_Localized: Ana{} I only revealed one photo, you were the one who took the risk
+      to take it and you were still arrested for it. What did they do to you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108
+    m_Localized: Mauro{} Nothing, they just held me there for as long as they could
+      to prevent me from publishing something in the newspaper, little did they know
+      that the photo was already going to be written.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109
+    m_Localized: Ana{} Wait, so you weren't the one who left the note?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110
+    m_Localized: Mauro{} No, I asked to make a call to my lawyer, but in fact I called
+      the editor-in-chief of the newspaper and said that you had a copy of the photo,
+      she was the one who left the note and went to get it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111
+    m_Localized: Ana{} I understand, and how did the news affect the city?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112
+    m_Localized: Mauro{} It was a bomb! This was our best-selling issue of all time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113
+    m_Localized: Mauro{} Two TV teams have already come to record stories, neither
+      the police nor the Mayor wanted to give interviews, but they didn't let them
+      down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114
+    m_Localized: Mauro{} They spoke about the lack of investment in security and
+      the lack of transparency in City Hall's accounts, in addition to the precarious
+      action of the Police given the seriousness of the case.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115
+    m_Localized: Mauro{} The population is crazy! But I'll spare you details, you'll
+      see when I develop these photos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116
+    m_Localized: Ana{} Can you send these photos here, because now I'm curious!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117
+    m_Localized: Ana{} That house in the photo, who do I think it belongs to?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118
+    m_Localized: Mauro{} Exactly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119
+    m_Localized: "Tain\xE1{} Hello Ana, good morning!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120
+    m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121
+    m_Localized: Taina{} Yes! It's been four years since I moved, time passes so
+      quickly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122
+    m_Localized: Ana{} Came to visit the family?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123
+    m_Localized: "Tain\xE1{} Hello Ana, good morning!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124
+    m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125
+    m_Localized: Taina{} Yes! It's been four years since I moved, time passes so
+      quickly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126
+    m_Localized: Ana{} Came to visit the family?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127
+    m_Localized: "Tain\xE1{} Actually, I came to pick you up to go away with me.
+      My mother wrote to me saying she was scared of the deaths that have been happening
+      in the city."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128
+    m_Localized: "Tain\xE1{} My grandfather says it's a giant wild animal that has
+      a huge mouth that goes all the way down to its belly."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129
+    m_Localized: Ana{} And does your grandfather have any idea why this animal would
+      come to the city?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130
+    m_Localized: "Tain\xE1{} He says it's because of the works that are being done,
+      they are deforesting the forest, so he comes to take revenge on those who are
+      destroying the forest."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131
+    m_Localized: Ana{} I'm not one to believe in mysticism, but this time I'm going
+      to have to stand my ground, maybe your grandfather really is right.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132
+    m_Localized: Guedes{} Are you and your little journalist friend satisfied? They
+      ended the Mayor's career, and I think it's good that this doesn't affect mine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133
+    m_Localized: Ana{} Is this a threat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134
+    m_Localized: Guedes{} No, I just came to remind you that the Mayor was bringing
+      progress to this end of the world, and you ended it all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135
+    m_Localized: Ana{} Is this serious? There's a creature loose that killed a dozen
+      people in the city and the police captain comes to my store to cry for the
+      Mayor instead of being after her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136
+    m_Localized: Guedes{} Don't tell me how to do my job! But don't worry, this is
+      now in the hands of the army.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137
+    m_Localized: Guedes{} In fact, I don't even know what I came here to do, we won't
+      need your services anymore, our department is setting up its own laboratory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138
+    m_Localized: Ana{} Unfortunately I can't say the same, when the army leaves we
+      will still need you to guarantee public safety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139
+    m_Localized: Guedes{} Humph!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

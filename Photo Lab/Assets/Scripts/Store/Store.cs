@@ -113,6 +113,7 @@ public class Store : MonoBehaviour
         for (int i = 0; i < chars.Length; i++)
         {
             charactersName[i] = chars[i].name;
+            Debug.Log(charactersName[i].ToString());
         }
         speakerTextbox.text = "";
         if (actualDialogue < costumerFirstDialogue)
@@ -123,7 +124,7 @@ public class Store : MonoBehaviour
         if (actualDialogue < costumertotalDialogLines && actualDialogue <= costumerLastDialogue)
         {
             string ActualLocKey = "Costumer" + actualCostumerID.ToString() + "_" + actualDialogue.ToString(); //#G: Gera a key para puxar o texto da tabela de localização baseada no id do cliente e no diálogo atual
-            Debug.Log(ActualLocKey);
+            //Debug.Log(ActualLocKey);
             speaking = true;
             dialogueBox.SetActive(true);
             //string[] alltext = costumerScript.texts[actualDialogue].Split("{} ");
