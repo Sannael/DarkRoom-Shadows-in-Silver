@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8800811634879957848}
   - component: {fileID: 2665146417823822622}
   m_Layer: 5
-  m_Name: Pedro
+  m_Name: Mauro
   m_TagString: Store Char
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 34693097b6c2c924bb0f0e11e8d6f579, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac0a7d04aa77fe245acd716c9611d6da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -195,8 +195,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027418891776823407, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Name
-      value: Costumer0 Variant
+      value: Costumer0 Variant 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a8b863ff4602eb7409db43a1897ad13a, type: 3}
     - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -210,8 +214,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ba621b3568cc47a4db77e8a6508d0ea9, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: costumerID
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialog
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: photoStage
@@ -227,11 +235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialogue
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialogues
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: costumerAction
@@ -247,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: totalDialogLines
-      value: 6
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastCostumerAction
@@ -259,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: totalDialogueLines
-      value: 6
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: texts.Array.data[0]
@@ -297,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerName
-      value: Pedro
+      value: Mauro
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].speakerSprite
@@ -314,7 +322,7 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerPortrait
       value: 
-      objectReference: {fileID: 21300000, guid: cea2912c0811b1448987b0aeaef0801e, type: 3}
+      objectReference: {fileID: 21300000, guid: 595a4a1ab746c304a83754b535799bb8, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].fullBodySprites.Array.size
       value: 2
@@ -334,11 +342,11 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 34693097b6c2c924bb0f0e11e8d6f579, type: 3}
+      objectReference: {fileID: 21300000, guid: ac0a7d04aa77fe245acd716c9611d6da, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 2d72b9eb45ea8524ea93980b9b08f769, type: 3}
+      objectReference: {fileID: 21300000, guid: e953a468b0c09e647b7cdc9f49a85f68, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

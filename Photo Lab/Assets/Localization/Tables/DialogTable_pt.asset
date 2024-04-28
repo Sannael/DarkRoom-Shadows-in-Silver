@@ -102,598 +102,656 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 19
-    m_Localized: "Mauro{} Nossa, que bom que voc\xEAs ainda n\xE3o fecharam! Eu vim
-      correndo, porque n\xE3o tinha certeza que horas a loja fechava. Voc\xEA devia
-      incluir o hor\xE1rio de funcionamento no an\xFAncio do jornal!"
+    m_Localized: "Mauro{} Nossa, que bom que voc\xEAs ainda n\xE3o fecharam!"
     m_Metadata:
       m_Items: []
   - m_Id: 20
+    m_Localized: "Mauro{} Eu vim correndo, porque n\xE3o tinha certeza que horas
+      a loja fechava."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: "Mauro{} Voc\xEA devia incluir o hor\xE1rio de funcionamento no
+      an\xFAncio do jornal!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
     m_Localized: "Ana{} Voc\xEA veio pelo an\xFAncio no jornal? Finalmente est\xE1
       dando algum resultado\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 21
+  - m_Id: 23
     m_Localized: "Mauro{} Bem, na verdade eu trabalho no jornal. Me chamo Mauro,
-      sou jornalista e fot\xF3grafo do Informes Populares. Preciso muito da sua ajuda,
-      o ampliador do jornal quebrou, e preciso ampliar essa foto para a not\xEDcia
-      de capa de amanh\xE3!"
+      sou jornalista e fot\xF3grafo do Informes Populares."
     m_Metadata:
       m_Items: []
-  - m_Id: 22
+  - m_Id: 24
+    m_Localized: "Mauro{} Preciso muito da sua ajuda, o ampliador do jornal quebrou,
+      e preciso ampliar essa foto para a not\xEDcia de capa de amanh\xE3!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
     m_Localized: "Ana{} Se \xE9 t\xE3o urgente n\xE3o podemos perder mais tempo,
       me passe o negativo, vamos ver o que eu consigo fazer."
     m_Metadata:
       m_Items: []
-  - m_Id: 23
-    m_Localized: "Mauro{} Voltei, Ana. Espero que tenha conseguido uma boa amplia\xE7\xE3o.
-      Trouxe o Capit\xE3o Guedes para dar uma olhada na foto, como voc\xEA deve ter
-      visto, \xE9 a cena de um crime."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24
-    m_Localized: "Ana{} Eu vi sim\u2026 E sim, eu consegui sua c\xF3pia, aqui est\xE1."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25
-    m_Localized: "Mauro{} Est\xE1 vendo Guedes, eu n\xE3o estou ficando maluco! Veja
-      os olhos brilhando l\xE1 atr\xE1s, realmente tinha uma criatura ali!"
-    m_Metadata:
-      m_Items: []
   - m_Id: 26
-    m_Localized: "Guedes{} N\xE3o me venha com mais uma dessas maluquices do seu
-      jornal. Isso brilhando pode ser o reflexo de qualquer coisa, n\xE3o h\xE1 motivos
-      para criar um alarde p\xFAblico. Ande mocinha, pegue essa foto e apague o reflexo,
-      eu sei que voc\xEA consegue."
+    m_Localized: "Mauro{} Voltei, Ana. Espero que tenha conseguido uma boa amplia\xE7\xE3o."
     m_Metadata:
       m_Items: []
   - m_Id: 27
-    m_Localized: "Ana{} Voc\xEAs querem mesmo que eu retoque a foto?"
+    m_Localized: "Mauro{} Trouxe o Capit\xE3o Guedes para dar uma olhada na foto,
+      como voc\xEA deve ter visto, \xE9 a cena de um crime."
     m_Metadata:
       m_Items: []
   - m_Id: 28
-    m_Localized: "Mauro{} Bem\u2026."
+    m_Localized: "Ana{} Eu vi sim\u2026 E sim, eu consegui sua c\xF3pia, aqui est\xE1."
     m_Metadata:
       m_Items: []
   - m_Id: 29
-    m_Localized: Guedes{} (Interrompe) Sim!
+    m_Localized: "Mauro{} Est\xE1 vendo Guedes, eu n\xE3o estou ficando maluco!"
     m_Metadata:
       m_Items: []
   - m_Id: 30
-    m_Localized: "Guedes{} Ficaremos esperando aqui, n\xE3o demore."
+    m_Localized: "Mauro{} Veja os olhos brilhando l\xE1 atr\xE1s, realmente tinha
+      uma criatura ali!"
     m_Metadata:
       m_Items: []
   - m_Id: 31
-    m_Localized: "Ana{} Aqui est\xE1."
+    m_Localized: "Guedes{} N\xE3o me venha com mais uma dessas maluquices do seu
+      jornal."
     m_Metadata:
       m_Items: []
   - m_Id: 32
+    m_Localized: "Guedes{} Isso brilhando pode ser o reflexo de qualquer coisa, n\xE3o
+      h\xE1 motivos para criar um alarde p\xFAblico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: "Guedes{} Ande mocinha, pegue essa foto e apague o reflexo, eu sei
+      que voc\xEA consegue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: "Ana{} Voc\xEAs querem mesmo que eu retoque a foto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: "Mauro{} Bem\u2026."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: Guedes{} (Interrompe) Sim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: "Guedes{} Ficaremos esperando aqui, n\xE3o demore."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: "Ana{} Aqui est\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
     m_Localized: "Guedes{} Olha s\xF3 para isso! Voc\xEA at\xE9 que \xE9 boa nisso
       mocinha."
     m_Metadata:
       m_Items: []
-  - m_Id: 33
+  - m_Id: 40
     m_Localized: "Guedes{} Pegue Mauro, essa voc\xEA pode publicar no seu jornal."
     m_Metadata:
       m_Items: []
-  - m_Id: 34
+  - m_Id: 41
     m_Localized: Mauro{} Mas e quanto as mordidas que foram encontradas no corpo?
     m_Metadata:
       m_Items: []
-  - m_Id: 35
+  - m_Id: 42
     m_Localized: "Guedes{} Esse rapaz era um b\xEAbado, vamos dizer que ele foi mexer
       com um cachorro de rua e foi atacado."
     m_Metadata:
       m_Items: []
-  - m_Id: 36
+  - m_Id: 43
     m_Localized: "Vicente{} Ol\xE1 mo\xE7a, eu precisava de uma c\xF3pia dessa foto
       no tamanho 3x4."
     m_Metadata:
       m_Items: []
-  - m_Id: 37
+  - m_Id: 44
     m_Localized: "Ana{} Voc\xEA vai fazer um documento?"
     m_Metadata:
       m_Items: []
-  - m_Id: 38
+  - m_Id: 45
     m_Localized: "Ana{} Voc\xEA \xE9 novo na cidade, n\xE3o \xE9? O cart\xF3rio daqui
       n\xE3o vai aceitar uma foto de fora, eles mesmos que tiram."
     m_Metadata:
       m_Items: []
-  - m_Id: 39
+  - m_Id: 46
     m_Localized: "Vicente{} A foto n\xE3o \xE9 pra tirar documento n\xE3o! \xC9 pra
       colocar no meu crach\xE1, sou o novo engenheiro da empreiteira que est\xE1
       fazendo as obras de amplia\xE7\xE3o da cidade."
     m_Metadata:
       m_Items: []
-  - m_Id: 40
+  - m_Id: 47
     m_Localized: "Ana{} Eu li sobre isso no jornal. Mas afinal o que vai ter nessa
       tal amplia\xE7\xE3o?"
     m_Metadata:
       m_Items: []
-  - m_Id: 41
+  - m_Id: 48
     m_Localized: "Vicente{} O projeto do Prefeito \xE9 construir uma estrutura para
       uma zona industrial, j\xE1 tem uma fila de empresas interessadas em montar
-      f\xE1bricas aqui. Ser\xE1 um grande salto para o desenvolvimento econ\xF4mico
+      f\xE1bricas aqui."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: "Vicente{} Ser\xE1 um grande salto para o desenvolvimento econ\xF4mico
       da cidade."
     m_Metadata:
       m_Items: []
-  - m_Id: 42
+  - m_Id: 50
     m_Localized: "Vicente{} Bom, se eu deixar com voc\xEA posso pegar hoje mesmo?"
     m_Metadata:
       m_Items: []
-  - m_Id: 43
+  - m_Id: 51
     m_Localized: "Ana{} Sim, volte mais tarde e j\xE1 estar\xE1 pronto."
     m_Metadata:
       m_Items: []
-  - m_Id: 44
+  - m_Id: 52
     m_Localized: "Ana{} Aqui est\xE1 sua foto."
     m_Metadata:
       m_Items: []
-  - m_Id: 45
+  - m_Id: 53
     m_Localized: "Ana{} Sabe eu vi que tem muita gente que n\xE3o est\xE1 gostando
       nada dessa ideia de desmatar uma \xE1rea para fazer essa tal zona industrial\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 46
+  - m_Id: 54
     m_Localized: "Vicente{} Quando eles virem os benef\xEDcios que essas obras v\xE3o
       fazer com certeza v\xE3o mudar de ideia."
     m_Metadata:
       m_Items: []
-  - m_Id: 47
+  - m_Id: 55
     m_Localized: "Vicente{} Muito obrigado pela foto, at\xE9 a pr\xF3xima."
     m_Metadata:
       m_Items: []
-  - m_Id: 48
+  - m_Id: 56
     m_Localized: "Guedes{} Bom dia senhorita Rizzo, n\xE3o tive oportunidade de comentar
       no outro dia, mas est\xE1 fazendo um \xF3timo trabalho cuidando da loja, seu
       velho pai estaria orgulhoso."
     m_Metadata:
       m_Items: []
-  - m_Id: 49
+  - m_Id: 57
     m_Localized: "Ana{} Voc\xEA conhecia meu pai?"
     m_Metadata:
       m_Items: []
-  - m_Id: 50
+  - m_Id: 58
     m_Localized: "Guedes{} Sim, seu pai era muito conhecido na cidade, inclusive
       a muitos anos atr\xE1s nosso Prefeito chegou a convid\xE1-lo a se candidatar
       a vereador, mas seu pai n\xE3o quis."
     m_Metadata:
       m_Items: []
-  - m_Id: 51
+  - m_Id: 59
     m_Localized: "Ana{} Nossa, ele nunca me falou sobre isso. N\xE3o consigo imaginar
       meu pai se envolvendo na pol\xEDtica, ainda mais se aliando com esse Prefeito\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 52
+  - m_Id: 60
     m_Localized: "Guedes{} Bom, algumas pessoas n\xE3o sabem aproveitar as oportunidades
       que a vida d\xE1."
     m_Metadata:
       m_Items: []
-  - m_Id: 53
+  - m_Id: 61
     m_Localized: "Ana{} Voc\xEA veio aqui s\xF3 falar do meu pai ou precisa de alguma
       coisa?"
     m_Metadata:
       m_Items: []
-  - m_Id: 54
+  - m_Id: 62
     m_Localized: "Guedes{} Trouxe uma foto para revelar. Isso \xE9 material confidencial,
       preciso que voc\xEA me garanta que voc\xEA manter\xE1 sigilo."
     m_Metadata:
       m_Items: []
-  - m_Id: 55
+  - m_Id: 63
     m_Localized: "Ana{} Sou profissional Sr. Guedes, n\xE3o tenho nada a ver com
       as fotos dos meus clientes."
     m_Metadata:
       m_Items: []
-  - m_Id: 56
+  - m_Id: 64
     m_Localized: "Guedes{} \xC9 bom saber. Voltarei em uma hora para buscar."
     m_Metadata:
       m_Items: []
-  - m_Id: 57
+  - m_Id: 65
     m_Localized: "Guedes{} Onde est\xE1 a foto?"
     m_Metadata:
       m_Items: []
-  - m_Id: 58
+  - m_Id: 66
     m_Localized: "Ana{} Est\xE1 aqui"
     m_Metadata:
       m_Items: []
-  - m_Id: 59
+  - m_Id: 67
     m_Localized: "Guedes{} N\xE3o comente com ningu\xE9m sobre o que voc\xEA viu
       nessa foto. Isso inclui o Jornalista e at\xE9 mesmo qualquer outro funcion\xE1rio
       da guarda."
     m_Metadata:
       m_Items: []
-  - m_Id: 60
+  - m_Id: 68
     m_Localized: "Ana{} Est\xE1 bem."
     m_Metadata:
       m_Items: []
-  - m_Id: 61
+  - m_Id: 69
     m_Localized: "Mauro{} Ana, voc\xEA precisa revelar essa foto. \xC9 urgente!"
     m_Metadata:
       m_Items: []
-  - m_Id: 62
+  - m_Id: 70
     m_Localized: "Ana{} Voc\xEA tem no\xE7\xE3o de que horas s\xE3o? A loja s\xF3
       abre amanh\xE3 de manh\xE3."
     m_Metadata:
       m_Items: []
-  - m_Id: 63
+  - m_Id: 71
     m_Localized: Mauro{} Eu sei, me desculpe aparecer essa hora.
     m_Metadata:
       m_Items: []
-  - m_Id: 64
+  - m_Id: 72
     m_Localized: "Mauro{} Mas acho que essa foto vai revelar o mist\xE9rio por tr\xE1s
       das mortes que vem acontecendo."
     m_Metadata:
       m_Items: []
-  - m_Id: 65
+  - m_Id: 73
     m_Localized: Ana{} Como assim?
     m_Metadata:
       m_Items: []
-  - m_Id: 66
+  - m_Id: 74
     m_Localized: "Mauro{} A pol\xEDcia tem aplicado um toque de recolher e ningu\xE9m
       pode ficar na rua depois das 20h, mas hoje consegui ficar de tocaia e fotografei
       o momento de um ataque."
     m_Metadata:
       m_Items: []
-  - m_Id: 67
+  - m_Id: 75
     m_Localized: "Ana{} Ent\xE3o, voc\xEA viu o que era?"
     m_Metadata:
       m_Items: []
-  - m_Id: 68
+  - m_Id: 76
     m_Localized: "Mauro{} Estava muito escuro e foi tudo muito r\xE1pido, eu s\xF3
       apontei a c\xE2mera e bati a foto. Mas t\xEAm boas chances de ter sa\xEDdo
       algo na foto, por isso vim correndo trazer para voc\xEA revelar."
     m_Metadata:
       m_Items: []
-  - m_Id: 69
+  - m_Id: 77
     m_Localized: "Ana{} Est\xE1 bem, espere aqui que eu j\xE1 volto."
     m_Metadata:
       m_Items: []
-  - m_Id: 70
+  - m_Id: 78
     m_Localized: "Ana{} Aqui est\xE1, voc\xEA realmente conseguiu fotografar a criatura.
       Ser\xE1 que isso \xE9 um bicho mesmo?"
     m_Metadata:
       m_Items: []
-  - m_Id: 71
+  - m_Id: 79
     m_Localized: "Ana{} Pena que estava muito escuro, n\xE3o deu pra ver muitos detalhes\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 72
+  - m_Id: 80
     m_Localized: "Mauro{} \xC9 isso! Olha como \xE9 gigante a boca dessa criatura,
       isso n\xE3o \xE9 um animal qualquer."
     m_Metadata:
       m_Items: []
-  - m_Id: 73
+  - m_Id: 81
     m_Localized: "Mauro{} Eu j\xE1 estava imaginando que a foto ia sair escura, foi
       tudo t\xE3o r\xE1pido que eu n\xE3o consegui regular a c\xE2mera."
     m_Metadata:
       m_Items: []
-  - m_Id: 74
+  - m_Id: 82
     m_Localized: "Mauro{} Mas ser\xE1 que voc\xEA n\xE3o consegue clarear um pouco
       a foto para ver se aparece mais alguma coisa?"
     m_Metadata:
       m_Items: []
-  - m_Id: 75
+  - m_Id: 83
     m_Localized: Ana{} Posso tentar.
     m_Metadata:
       m_Items: []
-  - m_Id: 76
+  - m_Id: 84
     m_Localized: Ana{} Pronto Mauro, fiz o melhor que pude.
     m_Metadata:
       m_Items: []
-  - m_Id: 77
+  - m_Id: 85
     m_Localized: "Mauro{} Obrigado Ana, amanh\xE3 essa foto estar\xE1 na capa!"
     m_Metadata:
       m_Items: []
-  - m_Id: 78
+  - m_Id: 86
     m_Localized: "Guedes{} Sabia que ia te encontrar aqui! Mas o que \xE9 isso? Me
       d\xEA essa foto, n\xE3o ouse publicar isso no seu jornal!"
     m_Metadata:
       m_Items: []
-  - m_Id: 79
+  - m_Id: 87
     m_Localized: Mauro{} Me devolva essa foto!
     m_Metadata:
       m_Items: []
-  - m_Id: 80
+  - m_Id: 88
     m_Localized: "Guedes{} Pode esquecer, vou apreender sua c\xE2mera e seus rolos,
       al\xE9m disso voc\xEA vai comigo pra delegacia por infringir o toque de recolher."
     m_Metadata:
       m_Items: []
-  - m_Id: 81
+  - m_Id: 89
     m_Localized: Mauro{} Me solte!
     m_Metadata:
       m_Items: []
-  - m_Id: 82
+  - m_Id: 90
     m_Localized: "Guedes{} Acho melhor voc\xEA fechar a loja Ana, pelo decreto do
       Prefeito nenhum com\xE9rcio pode ficar aberto depois das 19h, se n\xE3o vou
       ter que levar voc\xEA tamb\xE9m."
     m_Metadata:
       m_Items: []
-  - m_Id: 83
+  - m_Id: 91
     m_Localized: "Ana{} N\xE3o precisa pedir duas vezes."
     m_Metadata:
       m_Items: []
-  - m_Id: 84
+  - m_Id: 92
     m_Localized: "Tain\xE1{} Ol\xE1 Ana, bom dia!"
     m_Metadata:
       m_Items: []
-  - m_Id: 85
+  - m_Id: 93
     m_Localized: "Ana{} Tain\xE1? Nossa, quanto tempo! Quase n\xE3o te reconheci!"
     m_Metadata:
       m_Items: []
-  - m_Id: 86
+  - m_Id: 94
     m_Localized: "Tain\xE1{} Sim! J\xE1 faz quatro anos que eu me mudei, o tempo
       passa muito r\xE1pido!"
     m_Metadata:
       m_Items: []
-  - m_Id: 87
+  - m_Id: 95
     m_Localized: "Ana{} Veio visitar a fam\xEDlia?"
     m_Metadata:
       m_Items: []
-  - m_Id: 88
-    m_Localized: "Tain\xE1{} Na verdade, vim busc\xE1-los para ir embora comigo.
-      Minha m\xE3e me escreveu dizendo que estava com medo das mortes que vem acontecendo
-      na cidade, mas nem todos querem se mudar."
+  - m_Id: 96
+    m_Localized: "Tain\xE1{} Na verdade, vim busc\xE1-los para ir embora comigo."
     m_Metadata:
       m_Items: []
-  - m_Id: 89
+  - m_Id: 97
+    m_Localized: "Tain\xE1{} Minha m\xE3e me escreveu dizendo que estava com medo
+      das mortes que vem acontecendo na cidade, mas nem todos querem se mudar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98
     m_Localized: "Tain\xE1{} Por isso aproveitamos que estamos todos juntos para
       tirar essa foto, queria que voc\xEA a revelasse para mim."
     m_Metadata:
       m_Items: []
-  - m_Id: 90
+  - m_Id: 99
     m_Localized: Ana{} Pode deixar, vai ser um prazer.
     m_Metadata:
       m_Items: []
-  - m_Id: 91
+  - m_Id: 100
     m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta
       ?"
     m_Metadata:
       m_Items: []
-  - m_Id: 92
+  - m_Id: 101
     m_Localized: "Ana{} Est\xE1 sim."
     m_Metadata:
       m_Items: []
-  - m_Id: 93
+  - m_Id: 102
     m_Localized: "Ana{} Percebi que seu av\xF4 n\xE3o est\xE1 na foto, aconteceu
       alguma coisa?"
     m_Metadata:
       m_Items: []
-  - m_Id: 94
+  - m_Id: 103
     m_Localized: "Tain\xE1{} Meu av\xF4 n\xE3o gosta de tirar fotos, ele diz que
-      o retrato aprisiona a alma da pessoa, \xE9 uma cren\xE7a antiga da fam\xEDlia,
-      ningu\xE9m antes da minha m\xE3e tirou um retrato. \xC9 uma pena n\xE3o ter
-      um registro deles, mas eu respeito as cren\xE7as do meu av\xF4, querendo ou
-      n\xE3o, s\xE3o uma liga\xE7\xE3o com nossos ancestrais."
+      o retrato aprisiona a alma da pessoa, "
     m_Metadata:
       m_Items: []
-  - m_Id: 95
+  - m_Id: 104
+    m_Localized: "Tain\xE1{} ningu\xE9m antes da minha m\xE3e tirou um retrato. \xC9
+      uma pena n\xE3o ter um registro deles,"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105
+    m_Localized: "Tain\xE1{} mas eu respeito as cren\xE7as do meu av\xF4, querendo
+      ou n\xE3o, s\xE3o uma liga\xE7\xE3o com nossos ancestrais."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106
     m_Localized: "Ana{} Bom fotos n\xE3o s\xE3o a \xFAnica forma de guardar recorda\xE7\xF5es
       e voc\xEA pode fazer como seu av\xF4 e continuar contando sobre ele e sobre
       os que vieram antes dele."
     m_Metadata:
       m_Items: []
-  - m_Id: 96
+  - m_Id: 107
     m_Localized: "Tain\xE1{} Muito obrigada pela foto, Ana. Se cuida!"
     m_Metadata:
       m_Items: []
-  - m_Id: 97
+  - m_Id: 108
     m_Localized: "Guedes{} Ol\xE1 mocinha, voc\xEA era amiga daquele jornalista,
-      n\xE3o \xE9? Sinto muito, isso n\xE3o teria acontecido se ele tivesse escutado
-      a pol\xEDcia e respeitado o toque de recolher."
+      n\xE3o \xE9?"
     m_Metadata:
       m_Items: []
-  - m_Id: 98
+  - m_Id: 109
+    m_Localized: "Guedes{} Sinto muito, isso n\xE3o teria acontecido se ele tivesse
+      escutado a pol\xEDcia e respeitado o toque de recolher."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110
     m_Localized: "Ana{} Nada disso teria acontecido se a cidade estivesse segura\u2026"
     m_Metadata:
       m_Items: []
-  - m_Id: 99
+  - m_Id: 111
     m_Localized: "Guedes{} O que voc\xEA est\xE1 insinuando? A pol\xEDcia tem feito
       tudo que est\xE1 ao alcance para manter a seguran\xE7a da cidade."
     m_Metadata:
       m_Items: []
-  - m_Id: 100
+  - m_Id: 112
     m_Localized: "Ana{} Ent\xE3o por que n\xE3o deixaram o Mauro publicar a foto
-      da criatura no jornal? A popula\xE7\xE3o precisa saber a verdade sobre o que
-      est\xE1 acontecendo."
+      da criatura no jornal?"
     m_Metadata:
       m_Items: []
-  - m_Id: 101
+  - m_Id: 113
+    m_Localized: "Ana{}  A popula\xE7\xE3o precisa saber a verdade sobre o que est\xE1
+      acontecendo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114
     m_Localized: "Guedes{} Esse jornal s\xF3 quer fazer sensacionalismo para vender
-      mais, al\xE9m disso j\xE1 pensou se essa hist\xF3ria de monstro come\xE7a a
-      correr por a\xED? Esse ano tem elei\xE7\xE3o e nosso Prefeito iria ficar com
-      a reputa\xE7\xE3o manchada. Ele me passou a miss\xE3o de resolver essa quest\xE3o
-      sem criar alarde, e n\xF3s vamos conseguir!"
+      mais. Al\xE9m disso, j\xE1 pensou se essa hist\xF3ria de monstro come\xE7a
+      a correr por a\xED?"
     m_Metadata:
       m_Items: []
-  - m_Id: 102
+  - m_Id: 115
+    m_Localized: "Guedes{} Esse ano tem elei\xE7\xE3o e nosso Prefeito iria ficar
+      com a reputa\xE7\xE3o manchada. Ele me passou a miss\xE3o de resolver essa
+      quest\xE3o sem criar alarde, e n\xF3s vamos conseguir!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116
     m_Localized: "Ana{} Agora tudo faz sentido, esse Prefeito est\xE1 mais preocupado
-      em fazer obras para se reeleger do que na vida da popula\xE7\xE3o. Mas voc\xEA
-      deveria avis\xE1-lo que se todo mundo da cidade morrer n\xE3o vai sobrar ningu\xE9m
-      pra votar nele."
+      em fazer obras para se reeleger do que na vida da popula\xE7\xE3o."
     m_Metadata:
       m_Items: []
-  - m_Id: 103
+  - m_Id: 117
+    m_Localized: "Ana{} Mas voc\xEA deveria avis\xE1-lo que se todo mundo da cidade
+      morrer n\xE3o vai sobrar ningu\xE9m pra votar nele."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118
     m_Localized: "Guedes{} Espero que seu est\xF4mago seja t\xE3o forte quanto sua
       opini\xE3o. Toma aqui, essa \xE9 a foto do \xFAltimo ataque, preciso dela ainda
       hoje para anexar na ficha do inqu\xE9rito."
     m_Metadata:
       m_Items: []
-  - m_Id: 104
+  - m_Id: 119
     m_Localized: "Ana{} Aqui est\xE1 a sua foto, o ataque foi esta madrugada? Eu
       vi que foi na rua da frente, mas n\xE3o ouvi nada."
     m_Metadata:
       m_Items: []
-  - m_Id: 105
+  - m_Id: 120
     m_Localized: "Guedes{} Foi sim, os ataques come\xE7aram a se espalhar pela cidade,
       ent\xE3o se n\xE3o quiser ter a mesma sorte do seu amigo, n\xE3o tente dar
       uma de heroi e n\xE3o saia de casa durante a noite."
     m_Metadata:
       m_Items: []
-  - m_Id: 106
+  - m_Id: 121
     m_Localized: "Mauro{} Ol\xE1, Ana, muito obrigado pela ajuda. Gra\xE7as a voc\xEA
       agora todos sabem que realmente tem uma criatura atacando a cidade."
     m_Metadata:
       m_Items: []
-  - m_Id: 107
+  - m_Id: 122
     m_Localized: "Ana{} Eu s\xF3 revelei uma foto, quem se arriscou para tirar foi
       voc\xEA e ainda foi preso por isso. O que eles fizeram com voc\xEA?"
     m_Metadata:
       m_Items: []
-  - m_Id: 108
+  - m_Id: 123
     m_Localized: "Mauro{} Nada, s\xF3 me seguraram l\xE1 pelo maior tempo que conseguiram
       para evitar que eu publicasse algo no jornal, mal sabiam eles que a foto j\xE1
       estava indo para reda\xE7\xE3o."
     m_Metadata:
       m_Items: []
-  - m_Id: 109
+  - m_Id: 124
     m_Localized: "Ana{} Pera, ent\xE3o n\xE3o foi voc\xEA que deixou o bilhete?"
     m_Metadata:
       m_Items: []
-  - m_Id: 110
+  - m_Id: 125
     m_Localized: "Mauro{} N\xE3o, eu pedi para fazer uma liga\xE7\xE3o para meu advogado,
-      mas na verdade liguei para a editora chefe do jornal e falei que voc\xEA tinha
-      uma c\xF3pia da foto, foi ela que deixou o bilhete e foi busc\xE1-la."
+      mas na verdade liguei para a editora chefe do jornal,"
     m_Metadata:
       m_Items: []
-  - m_Id: 111
+  - m_Id: 126
+    m_Localized: "Mauro{} falei que voc\xEA tinha uma c\xF3pia da foto, foi ela que
+      deixou o bilhete e foi busc\xE1-la."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127
     m_Localized: "Ana{} Entendi, e como a not\xEDcia repercutiu na cidade?"
     m_Metadata:
       m_Items: []
-  - m_Id: 112
+  - m_Id: 128
     m_Localized: "Mauro{} Foi uma bomba! Essa foi a nossa edi\xE7\xE3o mais vendida
       de todos os tempos! "
     m_Metadata:
       m_Items: []
-  - m_Id: 113
+  - m_Id: 129
     m_Localized: "Mauro{} Duas equipes da TV j\xE1 vieram gravar mat\xE9rias, nem
       a pol\xEDcia nem o Prefeito quiseram dar entrevistas, mas eles n\xE3o passaram
       pano para eles n\xE3o."
     m_Metadata:
       m_Items: []
-  - m_Id: 114
+  - m_Id: 130
     m_Localized: "Mauro{} Falaram da falta de investimentos em seguran\xE7a e da
       pouca transpar\xEAncia nas contas da Prefeitura, al\xE9m da a\xE7\xE3o prec\xE1ria
       da Pol\xEDcia diante da gravidade do caso. "
     m_Metadata:
       m_Items: []
-  - m_Id: 115
+  - m_Id: 131
     m_Localized: "Mauro{} A popula\xE7\xE3o est\xE1 uma fera! Mas vou poupar detalhes,
       voc\xEA vai ver quando revelar essas fotos."
     m_Metadata:
       m_Items: []
-  - m_Id: 116
+  - m_Id: 132
     m_Localized: "Ana{} Pode passar essas fotos para c\xE1, porque agora eu fiquei
       curiosa!"
     m_Metadata:
       m_Items: []
-  - m_Id: 117
+  - m_Id: 133
     m_Localized: "Ana{} Essa casa na foto, \xE9 de quem eu acho que \xE9?"
     m_Metadata:
       m_Items: []
-  - m_Id: 118
+  - m_Id: 134
     m_Localized: Mauro{} Exatamente!
     m_Metadata:
       m_Items: []
-  - m_Id: 119
+  - m_Id: 135
     m_Localized: "Tain\xE1{} Ol\xE1 Ana, bom dia!"
     m_Metadata:
       m_Items: []
-  - m_Id: 120
+  - m_Id: 136
     m_Localized: "Ana{} Tain\xE1? Nossa, quanto tempo! Quase n\xE3o te reconheci!"
     m_Metadata:
       m_Items: []
-  - m_Id: 121
+  - m_Id: 137
     m_Localized: "Tain\xE1{} Sim! J\xE1 faz quatro anos que eu me mudei, o tempo
       passa muito r\xE1pido!"
     m_Metadata:
       m_Items: []
-  - m_Id: 122
+  - m_Id: 138
     m_Localized: "Ana{} Veio visitar a fam\xEDlia?"
     m_Metadata:
       m_Items: []
-  - m_Id: 123
-    m_Localized: "Tain\xE1{} Ol\xE1 Ana, bom dia!"
+  - m_Id: 139
+    m_Localized: "Tain\xE1{} Na verdade, vim busc\xE1-los para ir embora comigo."
     m_Metadata:
       m_Items: []
-  - m_Id: 124
-    m_Localized: "Ana{} Tain\xE1? Nossa, quanto tempo! Quase n\xE3o te reconheci!"
+  - m_Id: 140
+    m_Localized: "Tain\xE1{} Minha m\xE3e me escreveu dizendo que estava com medo
+      das mortes que vem acontecendo na cidade, mas nem todos querem se mudar."
     m_Metadata:
       m_Items: []
-  - m_Id: 125
-    m_Localized: "Tain\xE1{} Sim! J\xE1 faz quatro anos que eu me mudei, o tempo
-      passa muito r\xE1pido!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 126
-    m_Localized: "Ana{} Veio visitar a fam\xEDlia?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 127
-    m_Localized: "Tain\xE1{} Na verdade, vim busc\xE1-los para ir embora comigo.
-      Minha m\xE3e me escreveu dizendo que estava com medo das mortes que vem acontecendo
-      na cidade."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 128
+  - m_Id: 141
     m_Localized: "Tain\xE1{} Meu av\xF4 diz que \xE9 um bicho do mato gigante que
       tem uma boca enorme que vai at\xE9 a barriga."
     m_Metadata:
       m_Items: []
-  - m_Id: 129
+  - m_Id: 142
     m_Localized: "Ana{} E seu av\xF4 tem alguma ideia do porque esse bicho viria
       para a cidade?"
     m_Metadata:
       m_Items: []
-  - m_Id: 130
+  - m_Id: 143
     m_Localized: "Tain\xE1{} Ele diz que \xE9 pelas obras que est\xE3o sendo feitas,
       est\xE3o desmatando a mata, ent\xE3o ele vem se vingar dos que est\xE3o acabando
       com a floresta."
     m_Metadata:
       m_Items: []
-  - m_Id: 131
+  - m_Id: 144
     m_Localized: "Ana{} Eu n\xE3o sou de acreditar em misticismos, mas dessa vez
       vou ter que dar o bra\xE7o a torcer, talvez seu av\xF4 realmente tenha raz\xE3o."
     m_Metadata:
       m_Items: []
-  - m_Id: 132
+  - m_Id: 145
+    m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta
+      ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146
+    m_Localized: "Ana{} Sim, aqui est\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147
+    m_Localized: "Tain\xE1{} Muito obrigada pela foto, Ana. Se cuida!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148
     m_Localized: "Guedes{} Voc\xEA e seu amiguinho jornalista est\xE3o satisfeitos?
       Acabaram com a carreira do Prefeito, e eu acho bom que isso n\xE3o respingue
       sobre a minha."
     m_Metadata:
       m_Items: []
-  - m_Id: 133
+  - m_Id: 149
     m_Localized: "Ana{} Isso \xE9 uma amea\xE7a?"
     m_Metadata:
       m_Items: []
-  - m_Id: 134
+  - m_Id: 150
     m_Localized: "Guedes{} N\xE3o, eu s\xF3 vim lembr\xE1-la que o Prefeito estava
       trazendo o progresso para esse fim de mundo, e voc\xEAs acabaram com tudo."
     m_Metadata:
       m_Items: []
-  - m_Id: 135
+  - m_Id: 151
     m_Localized: "Ana{} \xC9 s\xE9rio isso? Tem uma criatura solta que matou uma
       d\xFAzia de pessoas na cidade e o capit\xE3o da pol\xEDcia vem at\xE9 a minha
       loja para chorar pelo Prefeito ao inv\xE9s de estar atr\xE1s dela."
     m_Metadata:
       m_Items: []
-  - m_Id: 136
+  - m_Id: 152
     m_Localized: "Guedes{} Voc\xEA n\xE3o me venha querer me dizer como fazer o meu
       trabalho! Mas n\xE3o se preocupe, isso agora est\xE1 nas m\xE3os do ex\xE9rcito."
     m_Metadata:
       m_Items: []
-  - m_Id: 137
-    m_Localized: "Guedes{} Ali\xE1s, eu nem sei mesmo o que eu vim fazer aqui, n\xE3o
-      vamos mais precisar dos seus servi\xE7os, nosso departamento est\xE1 montando
-      um laborat\xF3rio pr\xF3prio."
+  - m_Id: 155
+    m_Localized: Guedes{} Hunf!
     m_Metadata:
       m_Items: []
-  - m_Id: 138
+  - m_Id: 154
     m_Localized: "Ana{} Infelizmente n\xE3o posso dizer o mesmo, quando o ex\xE9rcito
       for embora n\xF3s ainda vamos precisar de voc\xEAs para garantir a seguran\xE7a
       p\xFAblica."
     m_Metadata:
       m_Items: []
-  - m_Id: 139
-    m_Localized: Guedes{} Hunf!
+  - m_Id: 153
+    m_Localized: "Guedes{} Ali\xE1s, eu nem sei mesmo o que eu vim fazer aqui, n\xE3o
+      vamos mais precisar dos seus servi\xE7os, nosso departamento est\xE1 montando
+      um laborat\xF3rio pr\xF3prio."
     m_Metadata:
       m_Items: []
   references:

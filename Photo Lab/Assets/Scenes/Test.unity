@@ -2666,7 +2666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &279625842
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8761,9 +8761,19 @@ MonoBehaviour:
   allCostumers:
   - {fileID: 4611121442138890078, guid: 607d9a1de6e56ea48907fdf420f96d9e, type: 3}
   - {fileID: 4611121442138890078, guid: c91b317363941494eb1162d0b4aa2d49, type: 3}
-  actualCostumerID: 1
+  - {fileID: 4611121442138890078, guid: 3a9921ff2f8e05a42bbb5d4a59b0a954, type: 3}
+  - {fileID: 4611121442138890078, guid: c376008365e067342922b55cdbe87924, type: 3}
+  - {fileID: 4611121442138890078, guid: 42b57adfe63782741a6f36303b0e6111, type: 3}
+  - {fileID: 4611121442138890078, guid: aab72066360d50e4f8acab89ffe6d5fc, type: 3}
+  - {fileID: 4611121442138890078, guid: 3d393fe2f6054334abdd0a3851f794bb, type: 3}
+  - {fileID: 4611121442138890078, guid: c5585a5bd6c4052448cc5546edfd9b6d, type: 3}
+  - {fileID: 4611121442138890078, guid: 2fbed6569be86ef4b80341a2c4dc7e79, type: 3}
+  - {fileID: 4611121442138890078, guid: c2d1416b7a048f54888ec7297f144f0e, type: 3}
+  - {fileID: 4611121442138890078, guid: 1d831fccd3401384eb9901652fb12078, type: 3}
+  actualCostumerID: 0
   costumer: {fileID: 0}
   speaking: 0
+  dialogueIsOver: 0
 --- !u!114 &923285626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9305,7 +9315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 83.88, y: -19.92}
+  m_AnchoredPosition: {x: 83.88, y: -10}
   m_SizeDelta: {x: 1286.95, y: 121.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945392897
@@ -9355,8 +9365,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 46
+  m_fontSizeBase: 46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14994,6 +15004,7 @@ GameObject:
   - component: {fileID: 1568530270}
   - component: {fileID: 1568530269}
   - component: {fileID: 1568530268}
+  - component: {fileID: 1568530272}
   m_Layer: 5
   m_Name: Button Close
   m_TagString: Untagged
@@ -15126,6 +15137,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568530266}
   m_CullTransparentMesh: 1
+--- !u!114 &1568530272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568530266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dff35e705029c40909dd2b307055e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1574607703
 GameObject:
   m_ObjectHideFlags: 0

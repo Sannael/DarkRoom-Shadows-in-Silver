@@ -51,6 +51,15 @@ public class ButtonsPanelClose : MonoBehaviour
 
     public void ClosePanel()
     {
+        if (storeScript != null)
+        {
+            if (storeScript.dialogueIsOver == true)
+            {
+                storeScript.actualCostumerID++;
+                storeScript.dialogueIsOver = false;
+            }
+            
+        }
         GameObject.Find("Game Controller").GetComponent<GameControllerScript>().seeQuestPointer = true;
         panel.SetActive(false);
         GameObject.Find("Camera Follow").GetComponent<CameraFollow>().backToPos = true;
