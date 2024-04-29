@@ -477,8 +477,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 100
-    m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta
-      ?"
+    m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta?"
     m_Metadata:
       m_Items: []
   - m_Id: 101
@@ -700,8 +699,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 145
-    m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta
-      ?"
+    m_Localized: "Tain\xE1{} Voltei para buscar a foto, ela j\xE1 est\xE1 pronta?"
     m_Metadata:
       m_Items: []
   - m_Id: 146
@@ -752,6 +750,212 @@ MonoBehaviour:
     m_Localized: "Guedes{} Ali\xE1s, eu nem sei mesmo o que eu vim fazer aqui, n\xE3o
       vamos mais precisar dos seus servi\xE7os, nosso departamento est\xE1 montando
       um laborat\xF3rio pr\xF3prio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Localized: "Prefeitura come\xE7a obras de amplia\xE7\xE3o da Cidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157
+    m_Localized: "Prefeito diz que \"O progresso n\xE3o pode parar!\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
+    m_Localized: Protestos contra as obras da prefeitura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161
+    m_Localized: "Manifestantes dizem que o territ\xF3rio faz parte de reserva ind\xEDgena."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164
+    m_Localized: Morte na Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165
+    m_Localized: "Cachorro raivoso teria atacado jovem at\xE9 a sua morte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168
+    m_Localized: Nova morte na Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169
+    m_Localized: Centro de zoonose amplia buscas no bairro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170
+    m_Localized: 'Novo toque de recolher '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171
+    m_Localized: "Diante da crescente onda de inseguran\xE7a na cidade, o Prefeito
+      decretou toque de recolher. A medida, que visa garantir a seguran\xE7a da popula\xE7\xE3o,
+      tem gerado controv\xE9rsias entre os moradores e comerciantes. De acordo com
+      o decreto, a circula\xE7\xE3o de pessoas nas ruas fica proibida ap\xF3s as
+      20h, exceto para funcion\xE1rios de \xF3rg\xE3os essenciais, como sa\xFAde,
+      seguran\xE7a. A medida visa garantir a seguran\xE7a da popula\xE7\xE3o durante
+      a noite. Em entrevista \xE0 nossa equipe, alguns donos de com\xE9rcios se mostraram
+      apreensivos com o toque de recolher."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
+    m_Localized: Morre Jornalista Mauro Fontana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173
+    m_Localized: "Laudo diz que mordidas s\xE3o incompat\xEDveis com as de um cachorro."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176
+    m_Localized: Mortes se espalham pela cidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177
+    m_Localized: Quatro corpos encontrados em diferentes bairros.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180
+    m_Localized: "Duas mortes na \xFAltima noite"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181
+    m_Localized: "Entre elas Ana Rizzo, t\xE9cnica do laborat\xF3rio Foto Rizzo. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182
+    m_Localized: "Calamidade P\xFAblica!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183
+    m_Localized: "Governo decreta estado de calamidade p\xFAblica e o Ex\xE9rcito
+      ser\xE1 enviado \xE0 cidade amanh\xE3 para auxiliar na busca pela criatura.
+      Uma equipe de especialistas tamb\xE9m est\xE1 sendo formada para investigar
+      os crimes e tentar identificar a origem dos ataques. Enquanto isso a cidade
+      continua em estado de choque ap\xF3s a s\xE9rie de ataques brutais que resultaram
+      na morte de x pessoas. As v\xEDtimas foram encontradas nos arredores da Rua
+      Triunfo, no centro velho. A popula\xE7\xE3o local est\xE1 em p\xE2nico e teme
+      o pior. Muitos moradores j\xE1 est\xE3o planejando deixar a cidade at\xE9 que
+      a situa\xE7\xE3o se normalize."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
+    m_Localized: Revelada a imagem da criatura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185
+    m_Localized: "Pol\xEDcia e Prefeitura vinham tentando omitir o caso"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188
+    m_Localized: "Popula\xE7\xE3o incendeia a casa do prefeito"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189
+    m_Localized: "Pol\xEDcia interv\xE9m e prende 10 manifestantes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192
+    m_Localized: "Minist\xE9rio P\xFAblico investiga a\xE7\xF5es do Prefeito"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193
+    m_Localized: "Den\xFAncias indicam que ele e oficiais da pol\xEDcia sabiam do
+      real motivo dos ataques"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
+    m_Localized: Obras Paralizadas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195
+    m_Localized: "As obras da Prefeitura foram interrompidas por tempo indeterminado,
+      em meio a um clima de tens\xE3o na cidade. A decis\xE3o foi tomada ap\xF3s
+      uma s\xE9rie de ataques violentos, o descaso das autoridades locais em rela\xE7\xE3o
+      \xE0 seguran\xE7a p\xFAblica e as manifesta\xE7\xF5es populares contr\xE1rias
+      \xE0 continua\xE7\xE3o das obras. Em entrevista \xE0 nossa equipe, um dos moradores
+      da cidade expressou sua indigna\xE7\xE3o com a situa\xE7\xE3o. \"As pessoas
+      est\xE3o morrendo nas ruas, e a prefeitura s\xF3 se preocupa com seus projetos
+      milion\xE1rios. Isso \xE9 um crime contra a popula\xE7\xE3o!\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196
+    m_Localized: Segunda semana sem mortes na cidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197
+    m_Localized: "For\xE7as Armadas encerraram as buscas, sem encontrar paradeiro
+      da criatura. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158
+    m_Localized: ET de Varginha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159
+    m_Localized: "Exclusivo! Novas e chocantes provas indicam que a captura de um
+      ser extraterrestre em Varginha, n\xE3o foi apenas um caso de fic\xE7\xE3o cient\xEDfica.
+      Testemunhas, documentos confidenciais e evid\xEAncias materiais corroboram
+      a hist\xF3ria que vem sendo silenciada pelos militares. Testemunhas que presenciaram
+      a captura da criatura alien\xEDgena decidem contar tudo. Em relatos emocionantes
+      e detalhados, descrevem a criatura de pele marrom, olhos grandes e avermelhados,
+      e a forma brutal como foi levada pelos militares. Leia a mat\xE9ria completa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198
+    m_Localized: Estamos mesmo seguros?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199
+    m_Localized: Lorem Ipsum
     m_Metadata:
       m_Items: []
   references:

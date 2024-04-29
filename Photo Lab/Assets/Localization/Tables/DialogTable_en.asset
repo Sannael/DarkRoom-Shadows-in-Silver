@@ -229,7 +229,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 47
     m_Localized: Ana{} I read about it in the newspaper. But what will this expansion
-      entail?
+      mean?
     m_Metadata:
       m_Items: []
   - m_Id: 48
@@ -280,8 +280,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 58
-    m_Localized: Guedes{} Yes, your father was very well known in the city, many
-      years ago our Mayor even invited him to run for councilman, but his father
+    m_Localized: Guedes{} Yes, your father was very well known in the city, even
+      many years ago our Mayor invited him to run for councilman, but his father
       didn't want to.
     m_Metadata:
       m_Items: []
@@ -742,6 +742,209 @@ MonoBehaviour:
   - m_Id: 153
     m_Localized: Guedes{} In fact, I don't even know what I came here to do, we won't
       need your services anymore, our department is setting up its own laboratory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Localized: City Hall begins city expansion works
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157
+    m_Localized: Mayor says "Progress cannot stop!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158
+    m_Localized: ET of Varginha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159
+    m_Localized: Exclusive! New and shocking evidence indicates that the capture
+      of an extraterrestrial being in Varginha was not just a case of science fiction.
+      Witnesses, confidential documents and material evidence corroborate the story
+      that has been silenced by the military. Witnesses who witnessed the capture
+      of the alien creature decide to tell everything. In emotional and detailed
+      accounts, they describe the creature with brown skin, large, reddish eyes,
+      and the brutal way in which it was taken by the military. Read the full article!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
+    m_Localized: Protests against city hall works
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161
+    m_Localized: Protesters say the territory is part of an indigenous reserve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164
+    m_Localized: Death on Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165
+    m_Localized: A rabid dog allegedly attacked a young man until he died.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168
+    m_Localized: New death on Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169
+    m_Localized: Zoonosis center expands searches in the neighborhood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170
+    m_Localized: New curfew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171
+    m_Localized: Faced with the growing wave of insecurity in the city, the Mayor
+      decreed a curfew. The measure, which aims to guarantee the safety of the population,
+      has generated controversy among residents and traders. According to the decree,
+      the movement of people on the streets is prohibited after 8 pm, except for
+      employees of essential bodies, such as health and security. The measure aims
+      to ensure the safety of the population at night. In an interview with our team,
+      some business owners expressed apprehension about the curfew.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
+    m_Localized: Journalist Mauro Fontana dies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173
+    m_Localized: Report says that bites are incompatible with those of a dog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176
+    m_Localized: Deaths spread across the city
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177
+    m_Localized: Four bodies found in different neighborhoods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180
+    m_Localized: Two deaths last night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181
+    m_Localized: Among them Ana Rizzo, technician at the Foto Rizzo laboratory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182
+    m_Localized: Public calamity!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183
+    m_Localized: Government declares a state of public calamity and the Army will
+      be sent to the city tomorrow to assist in the search for the creature. A team
+      of experts is also being formed to investigate the crimes and try to identify
+      the origin of the attacks. Meanwhile, the city remains in a state of shock
+      after the series of brutal attacks that resulted in the deaths of x people.
+      The victims were found on the outskirts of Rua Triunfo, in the old center.
+      The local population is in panic and fears the worst. Many residents are already
+      planning to leave the city until the situation normalizes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
+    m_Localized: Image of creature revealed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185
+    m_Localized: Police and City Hall had been trying to hide the case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188
+    m_Localized: People set fire to the mayor's house
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189
+    m_Localized: Police intervene and arrest 10 protesters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192
+    m_Localized: Public Ministry investigates actions of the Mayor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193
+    m_Localized: Reports indicate that he and police officers knew the real reason
+      for the attacks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
+    m_Localized: Works Paralyzed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195
+    m_Localized: City Hall works were interrupted for an indefinite period of time,
+      amid a climate of tension in the city. The decision was taken after a series
+      of violent attacks, the local authorities' disregard for public safety and
+      popular demonstrations against the continuation of the works. In an interview
+      with our team, one of the city's residents expressed his indignation with the
+      situation. "People are dying in the streets, and the city hall only cares about
+      its million-dollar projects. This is a crime against the population!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196
+    m_Localized: Second week without deaths in the city
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197
+    m_Localized: The Armed Forces ended the search without finding the creature's
+      whereabouts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198
+    m_Localized: Are we really safe?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199
+    m_Localized: Lorem Ipsum
     m_Metadata:
       m_Items: []
   references:

@@ -231,7 +231,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 47
-    m_Localized: "Ana{} Lo le\xED en el peri\xF3dico. \xBFPero qu\xE9 implicar\xE1
+    m_Localized: "Ana{} Lo le\xED en el peri\xF3dico. \xBFPero qu\xE9 significar\xE1
       esta expansi\xF3n?"
     m_Metadata:
       m_Items: []
@@ -283,9 +283,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 58
-    m_Localized: "Guedes{} S\xED, tu padre era muy conocido en la ciudad, hace muchos
-      a\xF1os nuestro alcalde incluso lo invit\xF3 a postularse para concejal, pero
-      su padre no quiso."
+    m_Localized: "Guedes{} S\xED, tu padre era muy conocido en la ciudad, incluso
+      hace muchos a\xF1os nuestro Alcalde lo invit\xF3 a postularse para concejal,
+      pero su padre no quiso."
     m_Metadata:
       m_Items: []
   - m_Id: 59
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 74
-    m_Localized: "Mauro{} La polic\xEDa ha impuesto toque de queda y nadie puede
+    m_Localized: "Mauro{} La polic\xEDa ha impuesto un toque de queda y nadie puede
       estar en la calle despu\xE9s de las 8 de la noche, pero hoy logr\xE9 estar
       alerta y fotografiar el momento del ataque."
     m_Metadata:
@@ -745,8 +745,218 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 153
     m_Localized: "Guedes{} De hecho, ni siquiera s\xE9 para qu\xE9 vine aqu\xED,
-      ya no necesitaremos tus servicios, nuestro departamento est\xE1 montando su
+      ya no necesitaremos sus servicios, nuestro departamento est\xE1 montando su
       propio laboratorio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Localized: "Ayuntamiento inicia obras de ampliaci\xF3n de la ciudad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157
+    m_Localized: "El alcalde dice \"\xA1El progreso no puede detenerse!\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158
+    m_Localized: ET de Varginha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159
+    m_Localized: "\xA1Exclusivo! Nuevas e impactantes evidencias indican que la captura
+      de un ser extraterrestre en Varginha no fue s\xF3lo un caso de ciencia ficci\xF3n.
+      Testigos, documentos confidenciales y pruebas materiales corroboran la historia
+      silenciada por los militares. Los testigos que presenciaron la captura de la
+      criatura alien\xEDgena deciden contarlo todo. En relatos emotivos y detallados,
+      describen a la criatura de piel morena, ojos grandes y rojizos y la forma brutal
+      en que fue capturada por los militares. \xA1Lee el art\xEDculo completo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
+    m_Localized: Protestas contra obras del ayuntamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161
+    m_Localized: "Los manifestantes dicen que el territorio es parte de una reserva
+      ind\xEDgena."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164
+    m_Localized: Muerte en la Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165
+    m_Localized: "Un perro rabioso presuntamente atac\xF3 a un joven hasta causarle
+      la muerte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168
+    m_Localized: Nueva muerte en la Rua Triunfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169
+    m_Localized: "Centro de zoonosis ampl\xEDa b\xFAsquedas en el barrio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170
+    m_Localized: Nuevo toque de queda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171
+    m_Localized: "Ante la creciente ola de inseguridad en la ciudad, el Alcalde decret\xF3
+      toque de queda. La medida, que pretende garantizar la seguridad de la poblaci\xF3n,
+      ha generado pol\xE9mica entre vecinos y comerciantes. Seg\xFAn el decreto,
+      la circulaci\xF3n de personas en las calles est\xE1 prohibida despu\xE9s de
+      las 20.00 horas, excepto para los empleados de organismos esenciales, como
+      los de salud y seguridad. La medida tiene como objetivo garantizar la seguridad
+      de la poblaci\xF3n durante la noche. En una entrevista con nuestro equipo,
+      algunos due\xF1os de negocios expresaron su aprensi\xF3n por el toque de queda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
+    m_Localized: Muere el periodista Mauro Fontana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173
+    m_Localized: Informe dice que las mordeduras son incompatibles con las de un
+      perro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176
+    m_Localized: Muertes repartidas por la ciudad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177
+    m_Localized: "Cuatro cad\xE1veres encontrados en distintos barrios."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180
+    m_Localized: Dos muertes anoche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181
+    m_Localized: "Entre ellos Ana Rizzo, t\xE9cnica del laboratorio Foto Rizzo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182
+    m_Localized: "\xA1Calamidad p\xFAblica!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183
+    m_Localized: "El gobierno declara estado de calamidad p\xFAblica y ma\xF1ana
+      el Ej\xE9rcito ser\xE1 enviado a la ciudad para ayudar en la b\xFAsqueda de
+      la criatura. Tambi\xE9n se est\xE1 formando un equipo de expertos para investigar
+      los cr\xEDmenes e intentar identificar el origen de las agresiones. Mientras
+      tanto, la ciudad permanece en estado de shock luego de la serie de brutales
+      ataques que resultaron en la muerte de x personas. Las v\xEDctimas fueron encontradas
+      en las afueras de Rua Triunfo, en el casco antiguo. La poblaci\xF3n local est\xE1
+      presa del p\xE1nico y teme lo peor. Muchos residentes ya est\xE1n planeando
+      abandonar la ciudad hasta que la situaci\xF3n se normalice."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
+    m_Localized: Imagen de criatura revelada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185
+    m_Localized: "La polic\xEDa y el Ayuntamiento hab\xEDan estado tratando de ocultar
+      el caso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188
+    m_Localized: "La gente prendi\xF3 fuego a la casa del alcalde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189
+    m_Localized: "La polic\xEDa interviene y arresta a 10 manifestantes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191
+    m_Localized: Lorem Ipsum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192
+    m_Localized: "Ministerio P\xFAblico investiga acciones del Alcalde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193
+    m_Localized: "Los informes indican que \xE9l y los agentes de polic\xEDa conoc\xEDan
+      el verdadero motivo de los ataques."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
+    m_Localized: "\xA1Trabajas paralizadas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195
+    m_Localized: "Las obras del Ayuntamiento fueron interrumpidas por tiempo indefinido,
+      en medio de un clima de tensi\xF3n en la ciudad. La decisi\xF3n se tom\xF3
+      despu\xE9s de una serie de ataques violentos, el desprecio de las autoridades
+      locales por la seguridad p\xFAblica y manifestaciones populares contra la continuaci\xF3n
+      de las obras. En una entrevista con nuestro equipo, uno de los vecinos de la
+      ciudad expres\xF3 su indignaci\xF3n por la situaci\xF3n. \"La gente est\xE1
+      muriendo en las calles y el ayuntamiento s\xF3lo se preocupa por sus proyectos
+      millonarios. \xA1Esto es un crimen contra la poblaci\xF3n!\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196
+    m_Localized: Segunda semana sin muertes en la ciudad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197
+    m_Localized: "Las Fuerzas Armadas finalizaron la b\xFAsqueda sin dar con el paradero
+      de la criatura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198
+    m_Localized: "\xBFEstamos realmente a salvo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199
+    m_Localized: Lorem Ipsum
     m_Metadata:
       m_Items: []
   references:
