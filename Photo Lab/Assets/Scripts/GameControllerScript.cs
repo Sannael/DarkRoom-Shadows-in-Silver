@@ -35,8 +35,12 @@ public class GameControllerScript : MonoBehaviour
         {
             storeScript.prefabCostumerScript.costumerAction = 2;
         }
-        
-        if(ps.photoStage < photoFinal)
+        if (ps.photoStage == photoFinal && storeScript.prefabCostumerScript.costumerAction == 3) //#G: Quando o cliente tiver mais de 2 ações
+        {
+            storeScript.prefabCostumerScript.costumerAction = 4;
+        }
+
+        if (ps.photoStage < photoFinal)
         {
             NextToUse();
         }
