@@ -17,8 +17,10 @@ public class Costumer : MonoBehaviour
     public Speakers[] speaker;
     public int costumerID;
     [Header("Dialogues")]
-    public int lastDialogues;
-    public int totalDialogLines; //#G: Informação relevante para gerar as keys da tabela de localização (substitui a antiga lista de diálogos embutida no costumer)
+    public int totalDialogueLines; //#G: Informação relevante para gerar as keys da tabela de localização (substitui a antiga lista de diálogos embutida no costumer)
+    public int middleDialogue; //#G: Marcação intermediária dos diálogos para os clientes que tem mais de 3 ações
+    public int lastDialogue;//
+    public int thirdSpeakerStartDialogue; //#G: Marcação para definir o momento em que o terceiro interlocutor aparace na cena
 
     [Header("Photo Area")]
     public Sprite photoSprite;
@@ -35,9 +37,9 @@ public class Costumer : MonoBehaviour
     [Header("Event Triggers")]
     public EventTrigger[] evt;
 
-    public int costumerAction =0; //0 = entregar o negativo; 1 = esperar a foto; 2 = receber a foto
+    public int costumerAction = 0; //#G 0 = entregar o negativo; 1 = esperar a foto; 2 = receber a foto; 3 = esperar a foto; 4 = receber a foto; 
+    public int lastCostumerAction; //#G Definir o número de total ações, para os casos em que há mais de 3 ações
 
-    
 
     private void Awake()
     {
