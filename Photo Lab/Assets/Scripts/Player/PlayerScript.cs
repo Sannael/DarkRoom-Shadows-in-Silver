@@ -21,6 +21,13 @@ public class PlayerScript : MonoBehaviour
     public int photoStage;
     public Color32 photoColor;
     private Animator anim;
+    [Header("Retoque")]
+    public Sprite truePhotoRet;
+    public bool photoNeedRet;
+    public int photoRetCount;
+    public Sprite photoRet;
+    public GameObject photoRetObj;
+    public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
 
     private UnityEngine.Vector2 lookDirection; //Direção do mouse em relação a arma
     private float lookAngle; //Angulo do mouse em relação a arma

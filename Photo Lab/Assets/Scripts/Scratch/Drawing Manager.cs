@@ -22,6 +22,8 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler
         currentLineRenderer.SetPosition(0, new Vector3(eventData.pointerCurrentRaycast.worldPosition.x, eventData.pointerCurrentRaycast.worldPosition.y, 0));
         currentLineRenderer.SetPosition(1, new Vector3(eventData.pointerCurrentRaycast.worldPosition.x, eventData.pointerCurrentRaycast.worldPosition.y, 0));
         myLineInstances.Add(currentLineRenderer);
+
+
     }
 
     [ContextMenu("Clear Instances")]
@@ -73,4 +75,6 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler
     {
         currentLineRenderer = null;
     }
+
+
 }

@@ -16,7 +16,12 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 915e9fa4feec7d34e8d63994a892b227
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: fe6b09cd262fe9c438dab908bcdd1d36
+    m_Address: Assets/Materials And Shaders/UI Main Scratching Area.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 606998b4afeecfc41984230375ac464b, type: 2}
   m_SchemaSet:
