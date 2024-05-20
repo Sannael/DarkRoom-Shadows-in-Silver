@@ -33,6 +33,8 @@ public class Store : MonoBehaviour
     [HideInInspector]
     public bool dialogueIsOver = false; //#G: Para checar se a conversa com o cliente chegou ao fim, para passar para o próximo cliente
 
+    public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
+
     private void OnEnable()
     {
         speaking = false;
@@ -206,7 +208,13 @@ public class Store : MonoBehaviour
             ps.photoSprite = costumerScript.photoSprite;
             ps.photoVertical = costumerScript.hotoVertical;
             ps.photoStage = 1;
+            ps.photoNeedRet = costumerScript.needRet;
+            ps.photoRetCount = costumerScript.photoRetCount;
+            ps.photoRet = costumerScript.photoRet;
+            ps.truePhotoRet = costumerScript.truePhotoRet;
+            ps.photoRetObj = costumerScript.photoRetObj;
             prefabCostumerScript.costumerAction = 1;
+            ps.photoRetLocations = costumerScript.photoRetLocations;
         }
         else if (prefabCostumerScript.costumerAction == 2 & prefabCostumerScript.lastCostumerAction == 2) //#G: Caso sejam apenas 3 ações
         {
@@ -231,6 +239,7 @@ public class Store : MonoBehaviour
             prefabCostumerScript.costumerAction = 5;
             dialogueIsOver = true;
             actualDialogue = 0;
+
         }
 
     }

@@ -5,6 +5,10 @@ using UnityEngine;
 public class PhotoInfos : MonoBehaviour
 {
     public bool photoVertical;
+    public bool needRet;
+    public int photoRetCounts; //quantidade de botoes de retoque (Gambiarra)
+    public Sprite truePhotoRet;
+    public Sprite photoRet;
     [Header("Stage")]
     public int actualStage;
     [SerializeField]
@@ -29,6 +33,8 @@ public class PhotoInfos : MonoBehaviour
     {
         //ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         actualStage = ps.photoStage;
+        needRet = ps.photoNeedRet;
+        photoRetCounts = ps.photoRetCount;
         try { this.GetComponent<SpriteRenderer>().sprite = ps.photoSprite; }
         catch { }
         photoVertical = ps.photoVertical;

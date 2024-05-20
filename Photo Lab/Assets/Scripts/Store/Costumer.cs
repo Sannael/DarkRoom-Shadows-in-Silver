@@ -26,6 +26,13 @@ public class Costumer : MonoBehaviour
     public Sprite photoSprite;
     public bool hotoVertical;
     public int photoStage;
+    [Tooltip("MArcar apensar se a foto precisar de retoque")]
+    public bool needRet;
+    public int photoRetCount;
+    public Sprite truePhotoRet;
+    public Sprite photoRet;
+    public GameObject photoRetObj; //Prefab da foto com os erros para o retoque
+    public GameObject photoRetLocations; //Prefab com os erros das imagens
 
     [Header("Event Triggers")]
     public EventTrigger[] evt;
