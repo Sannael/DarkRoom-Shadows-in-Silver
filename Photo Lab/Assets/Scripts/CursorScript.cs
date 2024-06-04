@@ -7,9 +7,11 @@ public class CursorScript : MonoBehaviour
 {
     public static CursorScript cursorInstace;
 
-    public Texture2D cursorIdle, cursorSelect;
+    public Texture2D cursorIdle, cursorSelect, brushCursor, brushClick;
     public  Vector2 idleHotSpot = new Vector2(9, 3),
-        selectHotSpot = new Vector2(11, 1);
+        selectHotSpot = new Vector2(11, 1),
+        brushSpot = new Vector2(0,0),
+        brushClickSpot = new Vector2(0,0);
 
     public void Awake()
     {
@@ -26,7 +28,12 @@ public class CursorScript : MonoBehaviour
             case "Select":
                 Cursor.SetCursor(cursorSelect, selectHotSpot, CursorMode.Auto);
                 break;
-
+            case "Brush":
+                Cursor.SetCursor(brushCursor, brushSpot, CursorMode.Auto);
+                break;
+            case "BrushClick":
+                Cursor.SetCursor(brushClick, brushClickSpot, CursorMode.Auto);
+                break;
         }
     }
 

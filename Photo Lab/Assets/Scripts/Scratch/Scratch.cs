@@ -19,6 +19,7 @@ public class Scratch : MonoBehaviour
     public Sprite photoRet;
 
     [Header("Objects")]
+    public GameObject brush;
     public GameObject photoObj; //local onde a foto vai
     public GameObject photoRetObj; //local onde o sprite de retoque vai
     public GameObject photoRetLocations; //prefab que vem do cliente com a parte dos erros nas fotos q precisam de retoque 
@@ -46,20 +47,23 @@ public class Scratch : MonoBehaviour
         {
             if (photoNeedRet)
             {
-                retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
-                retL.GetComponent<Image>().sprite = null;
-                photoRetObj.GetComponent<Image>().sprite = ps.photoRet;
-                photoRetObj.GetComponent<Image>().SetNativeSize();
-                photoRetObj.SetActive(true);
-                photoRetObj.GetComponent<Image>().material.SetTexture("_Pattern", ps.photoRet.texture); //altera a textura para os erros da imagem e torna visivel
-
-                GameObject.Instantiate(ps.photoRetObj);
+                brush.GetComponent<BrushScript>().interactive = true;
+                brush.GetComponent<BrushScript>().scratchScript = GetComponent<Scratch>();
             }
-        }
-        
-        //mainCamera.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Scratching"); //Torna visivel a parte dos "Rabiscos" da mecania de retoque
+        }    //mainCamera.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Scratching"); //Torna visivel a parte dos "Rabiscos" da mecania de retoque
     }
 
+    public void EnableRet() 
+    {
+        retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
+        retL.GetComponent<Image>().sprite = null;
+        photoRetObj.GetComponent<Image>().sprite = ps.photoRet;
+        photoRetObj.GetComponent<Image>().SetNativeSize();
+        photoRetObj.SetActive(true);
+        photoRetObj.GetComponent<Image>().material.SetTexture("_Pattern", ps.photoRet.texture); //altera a textura para os erros da imagem e torna visivel
+
+        GameObject.Instantiate(ps.photoRetObj);
+    }
     private void OnDisable()
     {
         lines = GameObject.FindGameObjectsWithTag("Line");
@@ -84,6 +88,8 @@ public class Scratch : MonoBehaviour
                 photoNeedRet = false;
                 ps.photoNeedRet = false;
                 photoStage++;
+                brush.GetComponent<Image>().enabled = true;
+                CursorScript.cursorInstace.ChangeCursor("Idle");
             }
         }
         else if(photoStage == 7) 

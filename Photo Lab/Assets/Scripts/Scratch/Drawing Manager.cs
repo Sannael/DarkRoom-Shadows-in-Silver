@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler
+public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     List<Vector3> positions = new List<Vector3>();
     public GameObject lineRenderPrefab;
@@ -74,7 +74,11 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         currentLineRenderer = null;
+        CursorScript.cursorInstace.ChangeCursor("BrushClick");
     }
 
-
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        CursorScript.cursorInstace.ChangeCursor("Brush");
+    }
 }
