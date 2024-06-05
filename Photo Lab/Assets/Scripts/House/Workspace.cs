@@ -44,7 +44,7 @@ public class CheckDistance : MonoBehaviour
             {
                 if(mouseCol.gameObject.tag != ("Work Space"))
                 {
-                    \
+                    //
                 }
             }
             if(GetComponent<Collider2D>().OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition)) && player.GetComponent<PlayerScript>().actualLocation == actualLocation)
