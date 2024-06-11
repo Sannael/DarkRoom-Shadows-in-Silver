@@ -26,6 +26,7 @@ public class RevelationSliderBar : MonoBehaviour
     }
     private void OnEnable()
     {
+        score = 0;
         sliding = true;
     }
 

@@ -10,6 +10,12 @@ public class BrushScript : MonoBehaviour
     public Scratch scratchScript;
 
     public Sprite normalSprite, interactiveSprite;
+    private bool retIsEnable;
+
+    private void Awake()
+    {
+        retIsEnable = false;
+    }
     private void Update()
     {
         if (!interactive)
@@ -21,6 +27,12 @@ public class BrushScript : MonoBehaviour
         {
             GetComponent<Image>().sprite = interactiveSprite;
             canUse = true;
+            if (!retIsEnable)
+            {
+                retIsEnable = true;
+                scratchScript.EnableRet();
+            }
+            
         }
     }
 
@@ -30,8 +42,8 @@ public class BrushScript : MonoBehaviour
         {
             GetComponent<Image>().enabled = false;
             interactive = false;
-            scratchScript.EnableRet();
-            CursorScript.cursorInstace.ChangeCursor("Brush");
+            //scratchScript.EnableRet();
+            //CursorScript.cursorInstace.ChangeCursor("Brush");
         }
     }
 

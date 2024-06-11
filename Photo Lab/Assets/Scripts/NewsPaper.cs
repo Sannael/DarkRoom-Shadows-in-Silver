@@ -8,6 +8,8 @@ using TMPro;
 
 public class NewsPaper : MonoBehaviour
 {
+    public PlayerScript ps;
+
     public int actualNewsPaperID;
 
     [Header("Article 1")]
@@ -39,11 +41,25 @@ public class NewsPaper : MonoBehaviour
         imageArticle1.GetComponent<Image>().sprite = allArticleImages[0]; //#G: No futuro usar o actualNewsPaperID para puxar a foto 
         imageAd.GetComponent<Image>().sprite = allArticleImages[0]; //#G: No futuro usar o actualNewsPaperID para puxar a foto
 
+
+        ps = GameObject.Find("Player").GetComponent<PlayerScript>(); //#B armazena script do player 
+        ps.canMove = false;
     }
 
         // Update is called once per frame
         void Update()
     {
         
+    }
+
+    private void OnDisable()
+    {
+        ps.canMove = true;
+        int photStag = GameObject.Find("Player").GetComponent<PlayerScript>().photoStage;
+
+        if (photStag == -1) 
+        {
+            GameObject.Find("Player").GetComponent<PlayerScript>().photoStage ++;
+        }
     }
 }

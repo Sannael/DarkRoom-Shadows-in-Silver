@@ -210,6 +210,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ba621b3568cc47a4db77e8a6508d0ea9, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: needRet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRet
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c68811b0fbc71144bac6a0fb4249e00, type: 3}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialog
       value: 3
       objectReference: {fileID: 0}
@@ -218,9 +226,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetObj
+      value: 
+      objectReference: {fileID: 6240338608880241227, guid: b4cfd5bf3af456d458a97658da1a9b71, type: 3}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: photoSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0d996081c38fcb5469f4f2e2bf1cbc2d, type: 3}
+      objectReference: {fileID: 21300000, guid: 14c3cfc83a1b8ba4982d684b087cae8b, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: hotoVertical
       value: 0
@@ -230,12 +242,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: truePhotoRet
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c3cfc83a1b8ba4982d684b087cae8b, type: 3}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialogues
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: costumerAction
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: firstDialogues
@@ -249,6 +269,10 @@ PrefabInstance:
       propertyPath: totalDialogLines
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetLocations
+      value: 
+      objectReference: {fileID: 6240338608880241227, guid: b4cfd5bf3af456d458a97658da1a9b71, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastCostumerAction
       value: 2

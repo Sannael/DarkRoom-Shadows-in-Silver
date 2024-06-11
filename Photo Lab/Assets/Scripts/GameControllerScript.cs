@@ -15,7 +15,15 @@ public class GameControllerScript : MonoBehaviour
     public GameObject questPointer;
     public bool seeQuestPointer;
 
+    public GameObject[] costumers;
 
+    private void Awake()
+    {
+        foreach (GameObject c in costumers) 
+        {
+            c.GetComponent<Costumer>().costumerAction = 0;
+        }
+    }
     private void Start()
     {
         seeQuestPointer = true;
@@ -23,6 +31,7 @@ public class GameControllerScript : MonoBehaviour
     }
     private void Update()
     {
+        
         if (seeQuestPointer)
         {
             questPointer.SetActive(true);

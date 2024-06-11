@@ -29,6 +29,7 @@ public class RevelationScript : MonoBehaviour
         bar[2].SetActive(false);
         buttonclose = this.GetComponent<ButtonsPanelClose>().btnClose;
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        ps.canMove = false;
         photoSprite = ps.photoSprite;
         photoVertical = ps.photoVertical;
         photoStage = ps.photoStage;
@@ -141,6 +142,10 @@ public class RevelationScript : MonoBehaviour
         }
         ps.photoStage = photoStage;
 
+    }
+    private void OnDisable()
+    {
+        ps.canMove = true;
     }
 
 }
