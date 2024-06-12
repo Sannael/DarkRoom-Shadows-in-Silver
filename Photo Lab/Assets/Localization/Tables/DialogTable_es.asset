@@ -127,8 +127,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24
-    m_Localized: "Mauro{} Realmente necesito tu ayuda, la ampliadora del peri\xF3dico
-      se rompi\xF3 y necesito ampliar esta foto para la portada de ma\xF1ana."
+    m_Localized: "Mauro{} Realmente necesito tu ayuda, se rompi\xF3 la ampliadora
+      del peri\xF3dico y necesito ampliar esta foto para la portada de ma\xF1ana."
     m_Metadata:
       m_Items: []
   - m_Id: 25
@@ -231,7 +231,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 47
-    m_Localized: "Ana{} Lo le\xED en el peri\xF3dico. \xBFPero qu\xE9 significar\xE1
+    m_Localized: "Ana{} Lo le\xED en el peri\xF3dico. \xBFPero qu\xE9 implicar\xE1
       esta expansi\xF3n?"
     m_Metadata:
       m_Items: []
@@ -327,7 +327,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 67
     m_Localized: Guedes{} No le cuentes a nadie lo que viste en esta foto. Esto incluye
-      al periodista e incluso a cualquier otro empleado de la guardia.
+      al periodista e incluso a cualquier otro empleado de guardia.
     m_Metadata:
       m_Items: []
   - m_Id: 68
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 74
-    m_Localized: "Mauro{} La polic\xEDa ha impuesto un toque de queda y nadie puede
+    m_Localized: "Mauro{} La polic\xEDa ha impuesto toque de queda y nadie puede
       estar en la calle despu\xE9s de las 8 de la noche, pero hoy logr\xE9 estar
       alerta y fotografiar el momento del ataque."
     m_Metadata:
@@ -368,8 +368,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 76
     m_Localized: "Mauro{} Estaba muy oscuro y todo pas\xF3 muy r\xE1pido, solo apunt\xE9
-      la c\xE1mara y tom\xE9 la foto. Pero es muy probable que hubiera algo en la
-      foto, as\xED que vine corriendo para entreg\xE1rselo y revelarlo."
+      la c\xE1mara y tom\xE9 la foto. Pero es muy probable que haya algo en la foto,
+      as\xED que vine corriendo para entreg\xE1rselo y revelarlo."
     m_Metadata:
       m_Items: []
   - m_Id: 77
@@ -433,7 +433,7 @@ MonoBehaviour:
   - m_Id: 90
     m_Localized: "Guedes{} Creo que ser\xE1 mejor que cierres la tienda Ana, seg\xFAn
       el decreto del alcalde ning\xFAn negocio puede permanecer abierto despu\xE9s
-      de las 19, sino tendr\xE9 que llevarte a ti tambi\xE9n."
+      de las 7pm, sino tendr\xE9 que llevarte a ti tambi\xE9n."
     m_Metadata:
       m_Items: []
   - m_Id: 91
@@ -441,327 +441,332 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 92
-    m_Localized: "Tain\xE1{} Hola Ana, \xA1buenos d\xEDas!"
+    m_Localized: "Ticket{} Deja esa primera foto en un sobre en la ventana, volver\xE9
+      m\xE1s tarde a buscarla, \xA1la ciudad necesita saber qu\xE9 est\xE1 pasando!"
     m_Metadata:
       m_Items: []
   - m_Id: 93
+    m_Localized: "Tain\xE1{} Hola Ana, \xA1buenos d\xEDas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94
     m_Localized: "\xBFAna{} Ta\xEDna? \xA1Guau, cu\xE1nto tiempo! \xA1Casi no te
       reconoc\xED!"
     m_Metadata:
       m_Items: []
-  - m_Id: 94
+  - m_Id: 95
     m_Localized: "Taina{} \xA1S\xED! Han pasado cuatro a\xF1os desde que me mud\xE9,
       \xA1el tiempo pasa tan r\xE1pido!"
     m_Metadata:
       m_Items: []
-  - m_Id: 95
+  - m_Id: 96
     m_Localized: "Ana{} \xBFVino a visitar a la familia?"
     m_Metadata:
       m_Items: []
-  - m_Id: 96
+  - m_Id: 97
     m_Localized: "Tain\xE1{} En realidad vine a recogerte para irte conmigo."
     m_Metadata:
       m_Items: []
-  - m_Id: 97
+  - m_Id: 98
     m_Localized: "Tain\xE1{} Mi mam\xE1 me escribi\xF3 diciendo que ten\xEDa miedo
       de las muertes que han estado pasando en la ciudad, pero no todos quieren mudarse."
     m_Metadata:
       m_Items: []
-  - m_Id: 98
+  - m_Id: 99
     m_Localized: "Tain\xE1{} Por eso aprovechamos que estamos todos juntos para tomar
       esta foto, quer\xEDa que me la revelaras."
     m_Metadata:
       m_Items: []
-  - m_Id: 99
+  - m_Id: 100
     m_Localized: "Ana{} Puedes dejarlo, ser\xE1 un placer."
     m_Metadata:
       m_Items: []
-  - m_Id: 100
+  - m_Id: 101
     m_Localized: "Tain\xE1{} Volv\xED a buscar la foto, \xBFya est\xE1 lista?"
     m_Metadata:
       m_Items: []
-  - m_Id: 101
+  - m_Id: 102
     m_Localized: "Ana{} S\xED, s\xED."
     m_Metadata:
       m_Items: []
-  - m_Id: 102
+  - m_Id: 103
     m_Localized: "Ana{} Not\xE9 que tu abuelo no est\xE1 en la foto, \xBFpas\xF3
       algo?"
     m_Metadata:
       m_Items: []
-  - m_Id: 103
+  - m_Id: 104
     m_Localized: "Tain\xE1{} A mi abuelo no le gusta tomar fotos, dice que los retratos
-      aprisionan el alma de la persona,"
+      aprisionan el alma de la persona, "
     m_Metadata:
       m_Items: []
-  - m_Id: 104
+  - m_Id: 105
     m_Localized: "Tain\xE1{} nadie antes de mi madre tom\xF3 un retrato. Es una pena
       que no tenga constancia de ellos."
     m_Metadata:
       m_Items: []
-  - m_Id: 105
+  - m_Id: 106
     m_Localized: "Tain\xE1{} pero respeto las creencias de mi abuelo, nos guste o
       no, son una conexi\xF3n con nuestros ancestros."
     m_Metadata:
       m_Items: []
-  - m_Id: 106
+  - m_Id: 107
     m_Localized: "Ana{} Bueno, las fotos no son la \xFAnica forma de guardar recuerdos
       y puedes hacer como tu abuelo y seguir contando sobre \xE9l y los que le precedieron."
     m_Metadata:
       m_Items: []
-  - m_Id: 107
+  - m_Id: 108
     m_Localized: "Tain\xE1{} Muchas gracias por la foto, Ana \xA1Cu\xEDdate!"
     m_Metadata:
       m_Items: []
-  - m_Id: 108
+  - m_Id: 109
     m_Localized: "Guedes{} Hola se\xF1orita, usted era amiga de ese periodista, \xBFno?"
     m_Metadata:
       m_Items: []
-  - m_Id: 109
+  - m_Id: 110
     m_Localized: "Guedes{} Lo siento, esto no habr\xEDa sucedido si hubiera escuchado
       a la polic\xEDa y respetado el toque de queda."
     m_Metadata:
       m_Items: []
-  - m_Id: 110
+  - m_Id: 111
     m_Localized: Ana{} Nada de esto hubiera pasado si la ciudad hubiera estado segura...
     m_Metadata:
       m_Items: []
-  - m_Id: 111
+  - m_Id: 112
     m_Localized: "Guedes{} \xBFQu\xE9 est\xE1s insinuando? La polic\xEDa ha hecho
-      todo lo posible para mantener segura la ciudad."
+      todo lo que estuvo a su alcance para mantener la ciudad segura."
     m_Metadata:
       m_Items: []
-  - m_Id: 112
+  - m_Id: 113
     m_Localized: "Ana{} Entonces \xBFpor qu\xE9 no dejaron que Mauro publicara la
       foto de la criatura en el peri\xF3dico?"
     m_Metadata:
       m_Items: []
-  - m_Id: 113
+  - m_Id: 114
     m_Localized: "Ana{} La poblaci\xF3n necesita saber la verdad sobre lo que est\xE1
       pasando."
     m_Metadata:
       m_Items: []
-  - m_Id: 114
+  - m_Id: 115
     m_Localized: "Guedes{} Este peri\xF3dico s\xF3lo quiere crear sensacionalismo
       para vender m\xE1s. Adem\xE1s, \xBFalguna vez te has preguntado si esta historia
       de monstruos est\xE1 empezando a difundirse?"
     m_Metadata:
       m_Items: []
-  - m_Id: 115
+  - m_Id: 116
     m_Localized: "Guedes{} Este a\xF1o hay elecciones y nuestro alcalde ver\xEDa
       su reputaci\xF3n empa\xF1ada. \xC9l me dio la misi\xF3n de resolver este problema
       sin crear esc\xE1ndalo, \xA1y lo haremos!"
     m_Metadata:
       m_Items: []
-  - m_Id: 116
+  - m_Id: 117
     m_Localized: "Ana{} Ahora todo tiene sentido, esta Alcaldesa est\xE1 m\xE1s preocupada
       por hacer obras para conseguir la reelecci\xF3n que por la vida de la poblaci\xF3n."
     m_Metadata:
       m_Items: []
-  - m_Id: 117
+  - m_Id: 118
     m_Localized: "Ana{} Pero deber\xEDas advertirle que si todos en la ciudad mueren,
       no quedar\xE1 nadie para votar por \xE9l."
     m_Metadata:
       m_Items: []
-  - m_Id: 118
+  - m_Id: 119
     m_Localized: "Guedes{} Espero que tu est\xF3mago est\xE9 tan fuerte como tu opini\xF3n.
       Toma, esta es la foto del \xFAltimo ataque, la necesito hoy para adjuntarla
       al expediente de investigaci\xF3n."
     m_Metadata:
       m_Items: []
-  - m_Id: 119
+  - m_Id: 120
     m_Localized: "Ana{} Aqu\xED est\xE1 tu foto, \xBFel ataque fue esta ma\xF1ana?
       Vi que estaba en la calle principal, pero no escuch\xE9 nada."
     m_Metadata:
       m_Items: []
-  - m_Id: 120
+  - m_Id: 121
     m_Localized: "Guedes{} S\xED, as\xED fue, los ataques comenzaron a extenderse
       por toda la ciudad, as\xED que si no quieres tener la misma suerte que tu amigo,
       no intentes actuar como un h\xE9roe y no salgas de casa en noche."
     m_Metadata:
       m_Items: []
-  - m_Id: 121
+  - m_Id: 122
     m_Localized: Mauro{} Hola Ana, muchas gracias por tu ayuda. Gracias a ti, ahora
       todo el mundo sabe que realmente hay una criatura atacando la ciudad.
     m_Metadata:
       m_Items: []
-  - m_Id: 122
+  - m_Id: 123
     m_Localized: "Ana{} Solo revel\xE9 una foto, t\xFA fuiste quien se arriesg\xF3
       a tomarla y aun as\xED fuiste arrestada por ello. \xBFQue te hicieron?"
     m_Metadata:
       m_Items: []
-  - m_Id: 123
+  - m_Id: 124
     m_Localized: "Mauro{} Nada, solo me retuvieron ah\xED todo el tiempo que pudieron
       para evitar que publicara algo en el peri\xF3dico, no sab\xEDan que la foto
       ya iba a estar escrita."
     m_Metadata:
       m_Items: []
-  - m_Id: 124
+  - m_Id: 125
     m_Localized: "Ana{} Espera, \xBFentonces no fuiste t\xFA quien dej\xF3 la nota?"
     m_Metadata:
       m_Items: []
-  - m_Id: 125
+  - m_Id: 126
     m_Localized: "Mauro{} No, ped\xED llamar a mi abogado, pero en realidad llam\xE9
       al editor jefe del peri\xF3dico,"
     m_Metadata:
       m_Items: []
-  - m_Id: 126
+  - m_Id: 127
     m_Localized: "Mauro{} dije que ten\xEDas una copia de la foto, ella fue quien
       dej\xF3 la nota y fue a buscarla."
     m_Metadata:
       m_Items: []
-  - m_Id: 127
+  - m_Id: 128
     m_Localized: "Ana{} Entiendo, \xBFy c\xF3mo afect\xF3 la noticia a la ciudad?"
     m_Metadata:
       m_Items: []
-  - m_Id: 128
+  - m_Id: 129
     m_Localized: "Mauro{} \xA1Fue una bomba! \xA1Este fue nuestro n\xFAmero m\xE1s
-      vendido de todos los tiempos!"
+      vendido de todos los tiempos! "
     m_Metadata:
       m_Items: []
-  - m_Id: 129
+  - m_Id: 130
     m_Localized: "Mauro{} Ya vinieron dos equipos de televisi\xF3n a grabar historias,
       ni la polic\xEDa ni el alcalde quisieron dar entrevistas, pero no los defraudaron."
     m_Metadata:
       m_Items: []
-  - m_Id: 130
+  - m_Id: 131
     m_Localized: "Mauro{} Hablaron de la falta de inversi\xF3n en seguridad y la
       falta de transparencia en las cuentas del Ayuntamiento, adem\xE1s del precario
-      actuar de la Polic\xEDa ante la gravedad del caso."
+      actuar de la Polic\xEDa ante la gravedad del caso. "
     m_Metadata:
       m_Items: []
-  - m_Id: 131
+  - m_Id: 132
     m_Localized: "Mauro{} \xA1La poblaci\xF3n est\xE1 loca! Pero te ahorrar\xE9 detalles,
       ya ver\xE1s cuando revele estas fotos."
     m_Metadata:
       m_Items: []
-  - m_Id: 132
+  - m_Id: 133
     m_Localized: "Ana{} \xBFPuedes enviar estas fotos aqu\xED, porque ahora tengo
       curiosidad?"
     m_Metadata:
       m_Items: []
-  - m_Id: 133
+  - m_Id: 134
     m_Localized: "Ana{} Esa casa de la foto, \xBFa qui\xE9n creo que pertenece?"
     m_Metadata:
       m_Items: []
-  - m_Id: 134
+  - m_Id: 135
     m_Localized: "Mauro{} \xA1Exactamente!"
     m_Metadata:
       m_Items: []
-  - m_Id: 135
+  - m_Id: 136
     m_Localized: "Tain\xE1{} Hola Ana, \xA1buenos d\xEDas!"
     m_Metadata:
       m_Items: []
-  - m_Id: 136
+  - m_Id: 137
     m_Localized: "\xBFAna{} Ta\xEDna? \xA1Guau, cu\xE1nto tiempo! \xA1Casi no te
       reconoc\xED!"
     m_Metadata:
       m_Items: []
-  - m_Id: 137
+  - m_Id: 138
     m_Localized: "Taina{} \xA1S\xED! Han pasado cuatro a\xF1os desde que me mud\xE9,
       \xA1el tiempo pasa tan r\xE1pido!"
     m_Metadata:
       m_Items: []
-  - m_Id: 138
+  - m_Id: 139
     m_Localized: "Ana{} \xBFVino a visitar a la familia?"
     m_Metadata:
       m_Items: []
-  - m_Id: 139
+  - m_Id: 140
     m_Localized: "Tain\xE1{} En realidad vine a recogerte para irte conmigo."
     m_Metadata:
       m_Items: []
-  - m_Id: 140
+  - m_Id: 141
     m_Localized: "Tain\xE1{} Mi mam\xE1 me escribi\xF3 diciendo que ten\xEDa miedo
       de las muertes que han estado pasando en la ciudad, pero no todos quieren mudarse."
     m_Metadata:
       m_Items: []
-  - m_Id: 141
+  - m_Id: 142
     m_Localized: "Tain\xE1{} Mi abuelo dice que es un animal salvaje gigante que
       tiene una boca enorme que le llega hasta el vientre."
     m_Metadata:
       m_Items: []
-  - m_Id: 142
+  - m_Id: 143
     m_Localized: "Ana{} \xBFY tu abuelo tiene alguna idea de por qu\xE9 este animal
       vino a la ciudad?"
     m_Metadata:
       m_Items: []
-  - m_Id: 143
+  - m_Id: 144
     m_Localized: "Tain\xE1{} Dice que es por las obras que se est\xE1n haciendo,
       est\xE1n deforestando el bosque, entonces viene a vengarse de los que est\xE1n
       destruyendo el bosque."
     m_Metadata:
       m_Items: []
-  - m_Id: 144
+  - m_Id: 145
     m_Localized: "Ana{} No soy de creer en el misticismo, pero esta vez voy a tener
       que mantenerme firme, tal vez tu abuelo realmente tenga raz\xF3n."
     m_Metadata:
       m_Items: []
-  - m_Id: 145
+  - m_Id: 146
     m_Localized: "Tain\xE1{} Volv\xED a buscar la foto, \xBFya est\xE1 lista?"
     m_Metadata:
       m_Items: []
-  - m_Id: 146
+  - m_Id: 147
     m_Localized: "Ana{} S\xED, aqu\xED est\xE1."
     m_Metadata:
       m_Items: []
-  - m_Id: 147
+  - m_Id: 148
     m_Localized: "Tain\xE1{} Muchas gracias por la foto, Ana \xA1Cu\xEDdate!"
     m_Metadata:
       m_Items: []
-  - m_Id: 148
+  - m_Id: 149
     m_Localized: "Guedes{} \xBFEst\xE1is satisfechos t\xFA y tu amiguito periodista?
       Terminaron con la carrera del alcalde y creo que es bueno que esto no afecte
       la m\xEDa."
     m_Metadata:
       m_Items: []
-  - m_Id: 149
+  - m_Id: 150
     m_Localized: "Ana{} \xBFEs esto una amenaza?"
     m_Metadata:
       m_Items: []
-  - m_Id: 150
+  - m_Id: 151
     m_Localized: "Guedes{} No, s\xF3lo vine a recordarte que el alcalde estaba trayendo
       progreso a este fin del mundo, y t\xFA acabaste con todo."
     m_Metadata:
       m_Items: []
-  - m_Id: 151
+  - m_Id: 152
     m_Localized: "Ana{} \xBFEsto es serio? Hay una criatura suelta que mat\xF3 a
       una docena de personas en la ciudad y el capit\xE1n de la polic\xEDa viene
       a mi tienda a llorar por la alcaldesa en lugar de perseguirla."
     m_Metadata:
       m_Items: []
-  - m_Id: 152
-    m_Localized: "Guedes{} \xA1No me digas c\xF3mo hacer mi trabajo! Pero no te preocupes,
-      esto ahora est\xE1 en manos del ej\xE9rcito."
-    m_Metadata:
-      m_Items: []
   - m_Id: 155
-    m_Localized: "Guedes{} \xA1Humph!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 154
     m_Localized: "Ana{} Lamentablemente no puedo decir lo mismo, cuando el ej\xE9rcito
       se vaya todav\xEDa te necesitaremos para garantizar la seguridad p\xFAblica."
     m_Metadata:
       m_Items: []
-  - m_Id: 153
+  - m_Id: 154
     m_Localized: "Guedes{} De hecho, ni siquiera s\xE9 para qu\xE9 vine aqu\xED,
-      ya no necesitaremos sus servicios, nuestro departamento est\xE1 montando su
+      ya no necesitaremos tus servicios, nuestro departamento est\xE1 montando su
       propio laboratorio."
     m_Metadata:
       m_Items: []
+  - m_Id: 153
+    m_Localized: "Guedes{} \xA1No me digas c\xF3mo hacer mi trabajo! Pero no te preocupes,
+      esto ahora est\xE1 en manos del ej\xE9rcito."
+    m_Metadata:
+      m_Items: []
   - m_Id: 156
-    m_Localized: "Ayuntamiento inicia obras de ampliaci\xF3n de la ciudad"
+    m_Localized: "Guedes{} \xA1Humph!"
     m_Metadata:
       m_Items: []
   - m_Id: 157
-    m_Localized: "El alcalde dice \"\xA1El progreso no puede detenerse!\""
+    m_Localized: "Ayuntamiento inicia obras de ampliaci\xF3n de la ciudad"
     m_Metadata:
       m_Items: []
   - m_Id: 158
-    m_Localized: ET de Varginha
+    m_Localized: "El alcalde dice \"\xA1El progreso no puede detenerse!\""
     m_Metadata:
       m_Items: []
   - m_Id: 159
+    m_Localized: ET de Varginha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
     m_Localized: "\xA1Exclusivo! Nuevas e impactantes evidencias indican que la captura
       de un ser extraterrestre en Varginha no fue s\xF3lo un caso de ciencia ficci\xF3n.
       Testigos, documentos confidenciales y pruebas materiales corroboran la historia
@@ -771,53 +776,65 @@ MonoBehaviour:
       en que fue capturada por los militares. \xA1Lee el art\xEDculo completo!"
     m_Metadata:
       m_Items: []
-  - m_Id: 160
+  - m_Id: 161
     m_Localized: Protestas contra obras del ayuntamiento
     m_Metadata:
       m_Items: []
-  - m_Id: 161
-    m_Localized: "Los manifestantes dicen que el territorio es parte de una reserva
-      ind\xEDgena."
-    m_Metadata:
-      m_Items: []
   - m_Id: 162
-    m_Localized: Lorem Ipsum
+    m_Localized: "Manifestantes dicen que el territorio es parte de una reserva ind\xEDgena"
     m_Metadata:
       m_Items: []
   - m_Id: 163
-    m_Localized: Lorem Ipsum
+    m_Localized: "\xA1B\xFAzios confirma la copa!"
     m_Metadata:
       m_Items: []
   - m_Id: 164
-    m_Localized: Muerte en la Rua Triunfo
+    m_Localized: "En entrevista exclusiva con nuestro diario, la reconocida ps\xEDquica
+      Madame Zora, conocida por sus acertadas predicciones, revela que las conchas
+      de cauri indican que Brasil ser\xE1 el tetracampe\xF3n del pr\xF3ximo Mundial.
+      En sus visiones, la vidente observa un equipo brasile\xF1o unido y decidido,
+      con jugadores talentosos y un entrenador capaz de llevarlos a la gloria. Destaca
+      la importancia del trabajo en equipo y la determinaci\xF3n brasile\xF1a como
+      factores fundamentales para el \xE9xito. La energ\xEDa positiva de la afici\xF3n
+      ser\xE1 fundamental: \xA1animamos juntos al equipo!"
     m_Metadata:
       m_Items: []
   - m_Id: 165
-    m_Localized: "Un perro rabioso presuntamente atac\xF3 a un joven hasta causarle
-      la muerte."
+    m_Localized: Muerte en la Rua Triunfo
     m_Metadata:
       m_Items: []
   - m_Id: 166
-    m_Localized: Lorem Ipsum
+    m_Localized: "Perro rabioso presuntamente atac\xF3 a joven hasta matarlo"
     m_Metadata:
       m_Items: []
   - m_Id: 167
-    m_Localized: Lorem Ipsum
+    m_Localized: "El ladr\xF3n invisible arrestado"
     m_Metadata:
       m_Items: []
   - m_Id: 168
-    m_Localized: Nueva muerte en la Rua Triunfo
+    m_Localized: "Despu\xE9s de meses de investigaci\xF3n y una persecuci\xF3n fren\xE9tica,
+      la polic\xEDa finalmente arrest\xF3 al \"Ladr\xF3n Invisible\", el criminal
+      que aterroriz\xF3 a cuatro estados con sus misteriosos robos. Nadie lo vio
+      nunca, pero su rastro de cr\xEDmenes perfectos dej\xF3 perplejas a las autoridades.
+      Las v\xEDctimas describieron la misma escena: puertas abiertas sin forzar la
+      entrada, objetos de valor robados y ning\xFAn testigo presencial del crimen. 
+      Las autoridades creen que este arresto pondr\xE1 fin a la serie de cr\xEDmenes
+      y traer\xE1 paz a los residentes de las regiones afectadas."
     m_Metadata:
       m_Items: []
   - m_Id: 169
-    m_Localized: "Centro de zoonosis ampl\xEDa b\xFAsquedas en el barrio."
+    m_Localized: Nueva muerte en la Rua Triunfo
     m_Metadata:
       m_Items: []
   - m_Id: 170
-    m_Localized: Nuevo toque de queda
+    m_Localized: "Centro de zoonosis ampl\xEDa b\xFAsquedas en el barrio"
     m_Metadata:
       m_Items: []
   - m_Id: 171
+    m_Localized: 'Nuevo toque de queda '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
     m_Localized: "Ante la creciente ola de inseguridad en la ciudad, el Alcalde decret\xF3
       toque de queda. La medida, que pretende garantizar la seguridad de la poblaci\xF3n,
       ha generado pol\xE9mica entre vecinos y comerciantes. Seg\xFAn el decreto,
@@ -828,52 +845,66 @@ MonoBehaviour:
       algunos due\xF1os de negocios expresaron su aprensi\xF3n por el toque de queda."
     m_Metadata:
       m_Items: []
-  - m_Id: 172
+  - m_Id: 173
     m_Localized: Muere el periodista Mauro Fontana
     m_Metadata:
       m_Items: []
-  - m_Id: 173
-    m_Localized: Informe dice que las mordeduras son incompatibles con las de un
-      perro.
-    m_Metadata:
-      m_Items: []
   - m_Id: 174
-    m_Localized: Lorem Ipsum
+    m_Localized: Un informe dice que las mordeduras son incompatibles con las de
+      un perro
     m_Metadata:
       m_Items: []
   - m_Id: 175
-    m_Localized: Lorem Ipsum
+    m_Localized: hombre lobo del campo
     m_Metadata:
       m_Items: []
   - m_Id: 176
-    m_Localized: Muertes repartidas por la ciudad
+    m_Localized: "El terror se apoder\xF3 del interior de Pernambuco luego de informes
+      de avistamientos de un hombre lobo, una criatura feroz que acecha las noches
+      en el interior del estado. Los residentes aterrorizados describen a la criatura
+      como un ser alto y peludo, con ojos llameantes y colmillos afilados, que a\xFAlla
+      a la luna y ataca a los animales. Ante la creciente ola de miedo, la Polic\xEDa
+      Militar inici\xF3 un operativo de b\xFAsqueda de la criatura. Se enviaron equipos
+      especializados al interior del pa\xEDs, con perros rastreadores y equipos de
+      visi\xF3n nocturna, para intentar capturar al hombre lobo."
     m_Metadata:
       m_Items: []
   - m_Id: 177
-    m_Localized: "Cuatro cad\xE1veres encontrados en distintos barrios."
+    m_Localized: Muertes repartidas por la ciudad
     m_Metadata:
       m_Items: []
   - m_Id: 178
-    m_Localized: Lorem Ipsum
+    m_Localized: "Cuatro cad\xE1veres encontrados en distintos barrios"
     m_Metadata:
       m_Items: []
   - m_Id: 179
-    m_Localized: Lorem Ipsum
+    m_Localized: "\xA1Es brujer\xEDa!"
     m_Metadata:
       m_Items: []
   - m_Id: 180
-    m_Localized: Dos muertes anoche
+    m_Localized: "Varios vecinos de Volta Redonda, en R\xEDo de Janeiro, informaron
+      haber visto una figura sombr\xEDa cruzando el cielo nocturno, provocando p\xE1nico
+      y miedo entre la poblaci\xF3n. \"Era una anciana, con sombrero negro y capa
+      larga\", informa un residente. \"Estaba encima de una escoba de madera y volaba
+      alto en el cielo. \xA1Fue horrible!\" Los expertos en brujer\xEDa y ocultismo
+      dicen que la aparici\xF3n de la bruja podr\xEDa ser una se\xF1al de que algo
+      malo se avecina. El caso se vuelve cada vez m\xE1s misterioso y aterrador,
+      alimentando el miedo de la poblaci\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 181
-    m_Localized: "Entre ellos Ana Rizzo, t\xE9cnica del laboratorio Foto Rizzo."
+    m_Localized: Dos muertes anoche
     m_Metadata:
       m_Items: []
   - m_Id: 182
-    m_Localized: "\xA1Calamidad p\xFAblica!"
+    m_Localized: "Entre ellos Ana Rizzo, t\xE9cnica de laboratorio Foto Rizzo"
     m_Metadata:
       m_Items: []
   - m_Id: 183
+    m_Localized: "\xA1Calamidad p\xFAblica!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
     m_Localized: "El gobierno declara estado de calamidad p\xFAblica y ma\xF1ana
       el Ej\xE9rcito ser\xE1 enviado a la ciudad para ayudar en la b\xFAsqueda de
       la criatura. Tambi\xE9n se est\xE1 formando un equipo de expertos para investigar
@@ -885,53 +916,67 @@ MonoBehaviour:
       abandonar la ciudad hasta que la situaci\xF3n se normalice."
     m_Metadata:
       m_Items: []
-  - m_Id: 184
-    m_Localized: Imagen de criatura revelada
+  - m_Id: 185
+    m_Localized: Imagen de la criatura revelada
     m_Metadata:
       m_Items: []
-  - m_Id: 185
+  - m_Id: 186
     m_Localized: "La polic\xEDa y el Ayuntamiento hab\xEDan estado tratando de ocultar
       el caso."
     m_Metadata:
       m_Items: []
-  - m_Id: 186
-    m_Localized: Lorem Ipsum
-    m_Metadata:
-      m_Items: []
   - m_Id: 187
-    m_Localized: Lorem Ipsum
+    m_Localized: "\xA1Anaconda se traga a toda la familia!"
     m_Metadata:
       m_Items: []
   - m_Id: 188
-    m_Localized: "La gente prendi\xF3 fuego a la casa del alcalde"
+    m_Localized: "Una serpiente anaconda gigante invadi\xF3 una residencia en la
+      ciudad de Bonito, en Mato Grosso do Sul, y mat\xF3 a una familia entera. La
+      tragedia ocurri\xF3 anoche, cuando la familia dorm\xEDa y la puerta de la casa
+      estaba abierta. Seg\xFAn informaci\xF3n no confirmada, la serpiente habr\xEDa
+      ingresado a la casa durante las primeras horas de la ma\xF1ana, atra\xEDda
+      por el calor y la facilidad de acceso. La anaconda habr\xEDa atacado brutalmente,
+      trag\xE1ndose todas las extremidades. La tr\xE1gica muerte de la familia sirve
+      como recordatorio de los peligros que puede representar la vida silvestre. "
     m_Metadata:
       m_Items: []
   - m_Id: 189
-    m_Localized: "La polic\xEDa interviene y arresta a 10 manifestantes."
+    m_Localized: "La gente prendi\xF3 fuego a la casa del alcalde"
     m_Metadata:
       m_Items: []
   - m_Id: 190
-    m_Localized: Lorem Ipsum
+    m_Localized: "La polic\xEDa interviene y arresta a 10 manifestantes"
     m_Metadata:
       m_Items: []
   - m_Id: 191
-    m_Localized: Lorem Ipsum
+    m_Localized: Aeropuerto para extraterrestres
     m_Metadata:
       m_Items: []
   - m_Id: 192
-    m_Localized: "Ministerio P\xFAblico investiga acciones del Alcalde"
+    m_Localized: "\xA1Exclusivo! Motivado por la ola de informes de avistamientos
+      de ovnis en Mato Grosso, el concejal Valdon Varj\xE3o, de la ciudad de Barra
+      do Gar\xE7as, present\xF3 ante el Ayuntamiento un proyecto de ley ins\xF3lito:
+      la creaci\xF3n de un \"discopuerto\", un aeropuerto destinado a recibir volantes
+      de discos y su tripulaci\xF3n extraterrestre. La propuesta, recibida con sorpresa
+      y escepticismo por algunos, fue aprobada por unanimidad por los concejales.
+      El proyecto prev\xE9 la construcci\xF3n de una zona con infraestructura adecuada
+      para recibir platillos volantes y sus ocupantes."
     m_Metadata:
       m_Items: []
   - m_Id: 193
+    m_Localized: "Ministerio P\xFAblico investiga acciones del Alcalde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
     m_Localized: "Los informes indican que \xE9l y los agentes de polic\xEDa conoc\xEDan
       el verdadero motivo de los ataques."
     m_Metadata:
       m_Items: []
-  - m_Id: 194
+  - m_Id: 195
     m_Localized: "\xA1Trabajas paralizadas!"
     m_Metadata:
       m_Items: []
-  - m_Id: 195
+  - m_Id: 196
     m_Localized: "Las obras del Ayuntamiento fueron interrumpidas por tiempo indefinido,
       en medio de un clima de tensi\xF3n en la ciudad. La decisi\xF3n se tom\xF3
       despu\xE9s de una serie de ataques violentos, el desprecio de las autoridades
@@ -942,21 +987,28 @@ MonoBehaviour:
       millonarios. \xA1Esto es un crimen contra la poblaci\xF3n!\""
     m_Metadata:
       m_Items: []
-  - m_Id: 196
+  - m_Id: 197
     m_Localized: Segunda semana sin muertes en la ciudad
     m_Metadata:
       m_Items: []
-  - m_Id: 197
-    m_Localized: "Las Fuerzas Armadas finalizaron la b\xFAsqueda sin dar con el paradero
-      de la criatura."
-    m_Metadata:
-      m_Items: []
   - m_Id: 198
-    m_Localized: "\xBFEstamos realmente a salvo?"
+    m_Localized: "Las Fuerzas Armadas finalizaron la b\xFAsqueda sin dar con el paradero
+      de la criatura"
     m_Metadata:
       m_Items: []
   - m_Id: 199
-    m_Localized: Lorem Ipsum
+    m_Localized: "\xBFEstamos realmente a salvo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200
+    m_Localized: "Despu\xE9s de semanas de terror que dejaron a la ciudad en estado
+      de shock, la misteriosa criatura que caus\xF3 varias muertes parece haber desaparecido.
+      Han pasado dos semanas sin nuevos ataques y las b\xFAsquedas de las autoridades
+      no han encontrado ning\xFAn rastro de la criatura. Las fuerzas armadas, que
+      lideraron el operativo, anunciaron el fin de las b\xFAsquedas, pero la poblaci\xF3n
+      permanece en alerta. La pregunta que flota en el aire es: \xBFla criatura realmente
+      ha desaparecido o simplemente se esconde, esperando el momento adecuado para
+      atacar nuevamente?"
     m_Metadata:
       m_Items: []
   references:

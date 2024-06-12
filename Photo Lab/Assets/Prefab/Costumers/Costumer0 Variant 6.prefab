@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8800811634879957848}
   - component: {fileID: 2665146417823822622}
   m_Layer: 5
-  m_Name: "Tain\xE1"
+  m_Name: Bilhete
   m_TagString: Store Char
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -153}
-  m_SizeDelta: {x: 234, y: 706}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 114, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5443139553687830746
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f219f20b8089ae840bd676a7bb63fb65, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0cd072a1b26df1844871803e8820d610, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -139,11 +139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 234
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 706
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -179,7 +179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -200,10 +200,10 @@ PrefabInstance:
     - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f219f20b8089ae840bd676a7bb63fb65, type: 3}
+      objectReference: {fileID: 21300000, guid: 0cd072a1b26df1844871803e8820d610, type: 3}
     - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: evt
@@ -214,32 +214,52 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ba621b3568cc47a4db77e8a6508d0ea9, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: needRet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRet
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: costumerID
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialog
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: photoStage
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetObj
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: photoSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0d996081c38fcb5469f4f2e2bf1cbc2d, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: hotoVertical
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialogue
-      value: 7
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: truePhotoRet
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastDialogues
-      value: 10
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: costumerAction
@@ -255,7 +275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: totalDialogLines
-      value: 13
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetLocations
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: lastCostumerAction
@@ -267,7 +291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: totalDialogueLines
-      value: 16
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: texts.Array.data[0]
@@ -305,7 +329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerName
-      value: "Tain\xE1"
+      value: Bilhete
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].speakerSprite
@@ -322,7 +346,7 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerPortrait
       value: 
-      objectReference: {fileID: 21300000, guid: a2bc568cfd55adb4ca4a3dd003019cb8, type: 3}
+      objectReference: {fileID: 21300000, guid: 237d4ad3c7a21814089fbe4d955f6de3, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].fullBodySprites.Array.size
       value: 2
@@ -342,11 +366,11 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: f219f20b8089ae840bd676a7bb63fb65, type: 3}
+      objectReference: {fileID: 21300000, guid: 0cd072a1b26df1844871803e8820d610, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: a776aa2c88d9ab842b46a28f23f0b07d, type: 3}
+      objectReference: {fileID: 21300000, guid: 0cd072a1b26df1844871803e8820d610, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
