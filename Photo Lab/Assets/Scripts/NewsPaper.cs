@@ -38,8 +38,8 @@ public class NewsPaper : MonoBehaviour
         textArticle1.text = LocalizationSettings.StringDatabase.GetLocalizedString("DialogTable", "MatPrin_Jornal_" + actualNewsPaperID.ToString());
         textHeadLine2.text = LocalizationSettings.StringDatabase.GetLocalizedString("DialogTable", "ManSec_Jornal_" + actualNewsPaperID.ToString());
         textArticle2.text = LocalizationSettings.StringDatabase.GetLocalizedString("DialogTable", "MatSec_Jornal_" + actualNewsPaperID.ToString());
-        imageArticle1.GetComponent<Image>().sprite = allArticleImages[0]; //#G: No futuro usar o actualNewsPaperID para puxar a foto 
-        imageAd.GetComponent<Image>().sprite = allArticleImages[0]; //#G: No futuro usar o actualNewsPaperID para puxar a foto
+        imageArticle1.GetComponent<Image>().sprite = allArticleImages[actualNewsPaperID]; //#G: No futuro usar o actualNewsPaperID para puxar a foto 
+        imageAd.GetComponent<Image>().sprite = allAdImages[actualNewsPaperID]; //#G: No futuro usar o actualNewsPaperID para puxar a foto
 
 
         ps = GameObject.Find("Player").GetComponent<PlayerScript>(); //#B armazena script do player 

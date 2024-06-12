@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+
+
 
 public class ButtonsPanelClose : MonoBehaviour
 {
@@ -25,7 +27,7 @@ public class ButtonsPanelClose : MonoBehaviour
     }
     void Update()
     {
-        if(storeScript != null)
+        if (storeScript != null)
         {
             speaking = storeScript.speaking;
         }
@@ -56,11 +58,12 @@ public class ButtonsPanelClose : MonoBehaviour
     {
         if (storeScript != null)
         {
+            //Debug.Log("teste 1");
             if (storeScript.dialogueIsOver == true)
             {
                 storeScript.actualCostumerID++;
               
-                NewsPaper newsPaperScript = GameObject.Find("Canvas").transform.GetChild(4).gameObject.GetComponent<NewsPaper>(); //#G: Gambiarra 
+                NewsPaper newsPaperScript = GameObject.Find("Canvas").transform.GetChild(5).gameObject.GetComponent<NewsPaper>(); //#G: Gambiarra 
                 
                 if (newsPaperScript != null) 
                 {
@@ -78,22 +81,22 @@ public class ButtonsPanelClose : MonoBehaviour
                         case 5:
                             newsPaperScript.actualNewsPaperID = 3;
                             break;
-                        case 6:
+                        case 7:
                             newsPaperScript.actualNewsPaperID = 4;
                             break;
-                        case 7:
+                        case 8:
                             newsPaperScript.actualNewsPaperID = 5;
                             break;
-                        case 8:
+                        case 9:
                             newsPaperScript.actualNewsPaperID = 7;
                             break;
-                        case 9:
+                        case 10:
                             newsPaperScript.actualNewsPaperID = 8;
                             break;
-                        case 10:
+                        case 11:
                             newsPaperScript.actualNewsPaperID = 9;
                             break;
-                        case 11:
+                        case 12:
                             newsPaperScript.actualNewsPaperID = 10;
                             break;
                         default:
