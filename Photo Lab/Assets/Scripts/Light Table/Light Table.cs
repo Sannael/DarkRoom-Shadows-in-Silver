@@ -34,7 +34,7 @@ public class LightTable : MonoBehaviour
     }
     private void OnEnable()
     {
-        ps = GameObject.Find("player").GetComponent<PlayerScript>();
+        ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         ps.canMove = false;
         alreadyUseLight = false;
         canRedLight = false;

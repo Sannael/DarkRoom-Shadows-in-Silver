@@ -8,6 +8,11 @@ public class DropLocation : MonoBehaviour, IDropHandler
 {
     public Sprite normalSprite, borderSprite;
     public GameObject varalPnl, scratchPnl;
+
+    private void OnEnable()
+    {
+        Border(false);
+    }
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("HH");

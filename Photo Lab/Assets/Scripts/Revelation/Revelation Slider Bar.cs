@@ -99,9 +99,9 @@ public class RevelationSliderBar : MonoBehaviour
 
     public IEnumerator PointerAfterClick()
     {
-        pointer.GetComponent<Image>().color = new Color32(0, 0, 0, 200);
+        pointer.GetComponent<Image>().color = new Color32(255, 255, 255, 200);
         yield return new WaitForSeconds(0.5f);
-        pointer.GetComponent<Image>().color = new Color32(0, 0, 0, 255);
+        pointer.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         sliding = true;
     }
 

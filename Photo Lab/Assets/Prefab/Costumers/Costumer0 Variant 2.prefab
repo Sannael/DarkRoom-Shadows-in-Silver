@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5133729613218664987
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 243.2, y: -153}
-  m_SizeDelta: {x: 200, y: 692}
+  m_SizeDelta: {x: 234, y: 706}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5443139553687830746
 CanvasRenderer:
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4807365099784153254}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -141,7 +141,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -153}
-  m_SizeDelta: {x: 200, y: 692}
+  m_SizeDelta: {x: 270, y: 728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7900403814067444950
 CanvasRenderer:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac0a7d04aa77fe245acd716c9611d6da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6767539b6a450aa409610e7933fda46a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -244,11 +244,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 692
+      value: 728
       objectReference: {fileID: 0}
     - target: {fileID: 350827568191808040, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -305,7 +305,7 @@ PrefabInstance:
     - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ac0a7d04aa77fe245acd716c9611d6da, type: 3}
+      objectReference: {fileID: 21300000, guid: 6767539b6a450aa409610e7933fda46a, type: 3}
     - target: {fileID: 5165842037613483722, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -443,11 +443,11 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].speakerPortrait
       value: 
-      objectReference: {fileID: 21300000, guid: eb847cea93f97e44b929a73cb61cb535, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9bcd5d391177749958597fabdd531b, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerPortrait
       value: 
-      objectReference: {fileID: 21300000, guid: 595a4a1ab746c304a83754b535799bb8, type: 3}
+      objectReference: {fileID: 21300000, guid: d65e7483e61ea0245972f2bc6f25376b, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[2].speakerPortrait
       value: 
@@ -475,11 +475,11 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: ac0a7d04aa77fe245acd716c9611d6da, type: 3}
+      objectReference: {fileID: 21300000, guid: 6767539b6a450aa409610e7933fda46a, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: e953a468b0c09e647b7cdc9f49a85f68, type: 3}
+      objectReference: {fileID: 21300000, guid: b21b89431ce0c3f4a9904f15f4afe1bc, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[2]
       value: 
