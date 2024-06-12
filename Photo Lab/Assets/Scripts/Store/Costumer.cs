@@ -59,6 +59,10 @@ public class Costumer : MonoBehaviour
 
     public void CostumerClick()
     {
+        if (needRet)
+        {
+            photoRetCount = photoRetObj.transform.childCount;
+        }
         this.GetComponentInParent<Store>().NextDialogue();
     }
     public void Update()

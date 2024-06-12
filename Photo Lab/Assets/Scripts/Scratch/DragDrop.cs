@@ -26,6 +26,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         photoBorderHover.GetComponent<Image>().enabled = true; 
 
         rectT.anchoredPosition = new Vector2(0, -25);
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
     }
     public void OnBeginDrag(PointerEventData eventData)
     { 
