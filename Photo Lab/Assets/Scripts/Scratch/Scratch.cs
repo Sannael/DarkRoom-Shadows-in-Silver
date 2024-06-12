@@ -98,6 +98,7 @@ public class Scratch : MonoBehaviour
         else if(photoStage == 7) 
         {
             ps.photoStage ++;
+            photoStage++;
         }
         
     }

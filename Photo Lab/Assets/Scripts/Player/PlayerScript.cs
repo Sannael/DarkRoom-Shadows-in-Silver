@@ -92,14 +92,17 @@ public class PlayerScript : MonoBehaviour
 
     public void Move()
     {
-        anim.SetBool("Walk", true);
-        playerDestination.GetComponent<NavMeshAgent>().enabled = false;
-        UnityEngine.Vector2 a = Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>());
-        playerDestination.transform.position = a;
-        playerDestination.GetComponent<NavMeshAgent>().enabled = true;
-        actualCorner =1;
-        navMeshCorners = player.path.corners;
-        player.SetDestination(playerDestination.transform.position);
+        if (Time.timeScale == 1)
+        {
+            anim.SetBool("Walk", true);
+            playerDestination.GetComponent<NavMeshAgent>().enabled = false;
+            UnityEngine.Vector2 a = Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>());
+            playerDestination.transform.position = a;
+            playerDestination.GetComponent<NavMeshAgent>().enabled = true;
+            actualCorner = 1;
+            navMeshCorners = player.path.corners;
+            player.SetDestination(playerDestination.transform.position);
+        }
         
     }
 

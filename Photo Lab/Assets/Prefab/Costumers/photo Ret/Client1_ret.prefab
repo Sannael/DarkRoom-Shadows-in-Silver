@@ -44,7 +44,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1100, y: 700}
+  m_SizeDelta: {x: 664, y: 456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4437605867406211821
 CanvasRenderer:
@@ -92,6 +92,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (4)
@@ -194,6 +206,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (5)
@@ -296,6 +320,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (6)
@@ -398,6 +434,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (3)
@@ -500,6 +548,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (7)
@@ -602,6 +662,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (1)
@@ -704,6 +776,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (2)
@@ -806,6 +890,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet (8)
@@ -908,6 +1004,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49633469837280161}
     m_Modifications:
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078769371961410049, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616521798744660276, guid: 62ab25470ac3d07489c5d3356d969558, type: 3}
       propertyPath: m_Name
       value: ButonRet
