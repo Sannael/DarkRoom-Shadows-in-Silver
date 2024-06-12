@@ -18,7 +18,6 @@ public class RevelationScript : MonoBehaviour
     public Sprite photoSprite;
     public bool photoVertical;
     public int photoStage;
-    public int lastStage;
     public Color32 photoColor;
 
     private PlayerScript ps;
@@ -29,6 +28,7 @@ public class RevelationScript : MonoBehaviour
         bar[2].SetActive(false);
         buttonclose = this.GetComponent<ButtonsPanelClose>().btnClose;
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        ps.canMove = false;
         photoSprite = ps.photoSprite;
         photoVertical = ps.photoVertical;
         photoStage = ps.photoStage;
@@ -111,6 +111,7 @@ public class RevelationScript : MonoBehaviour
         if(photoStage == 3)
         {
             paper[1].SetActive(false);
+            paper[2].SetActive(false);
             if(photoColor.a == 255)
             {
                 photoStage =4;
@@ -129,10 +130,12 @@ public class RevelationScript : MonoBehaviour
         else if(photoStage == 4)
         {
             paper[1].SetActive(true);
+            paper[2].SetActive(false);
             photo[1].GetComponent<Image>().sprite = photoSprite;
         }
-        else
+        else if(photoStage > 4)
         {
+            paper[2].SetActive(true);
             photo[2].GetComponent<Image>().sprite = photoSprite;
         }
         if (photoStage == 6)
@@ -141,6 +144,11 @@ public class RevelationScript : MonoBehaviour
         }
         ps.photoStage = photoStage;
 
+    }
+    private void OnDisable()
+    {
+        ps.canMove = true;
+        paper[2].SetActive(false);
     }
 
 }

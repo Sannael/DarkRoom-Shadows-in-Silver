@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -10,6 +11,7 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     private LineRenderer currentLineRenderer;
     private List<LineRenderer> myLineInstances = new List<LineRenderer>();
 
+    public GameObject brushCursor;
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -74,11 +76,15 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     public void OnBeginDrag(PointerEventData eventData)
     {
         currentLineRenderer = null;
-        CursorScript.cursorInstace.ChangeCursor("BrushClick");
+        brushCursor.GetComponent<Image>().enabled = true;
+       // Cursor.visible = false;
+        //CursorScript.cursorInstace.ChangeCursor("BrushClick");
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        CursorScript.cursorInstace.ChangeCursor("Brush");
+        brushCursor.GetComponent<Image>().enabled = false;
+        //Cursor.visible = true;
+        //CursorScript.cursorInstace.ChangeCursor("Brush");
     }
 }

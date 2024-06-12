@@ -44,10 +44,11 @@ public class CheckDistance : MonoBehaviour
             {
                 if(mouseCol.gameObject.tag != ("Work Space"))
                 {
-                    //
+                    CursorScript.cursorInstace.ChangeCursor("Idle");
+                    hover.SetActive(false);
                 }
             }
-            if(GetComponent<Collider2D>().OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition)) && player.GetComponent<PlayerScript>().actualLocation == actualLocation)
+            if (GetComponent<Collider2D>().OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition)) && player.GetComponent<PlayerScript>().actualLocation == actualLocation)
             {
                 if (canUse)
                 {
@@ -122,11 +123,14 @@ public class CheckDistance : MonoBehaviour
         panel.SetActive(false);
     }
     
-
     public void OnMouseExit()
     {
         hover.SetActive(false);
-        CursorScript.cursorInstace.ChangeCursor("Idle");
+        if (GameObject.Find("Player").GetComponent<PlayerScript>().canMove) 
+        {
+            CursorScript.cursorInstace.ChangeCursor("Idle");
+        }
+
     }
 
 

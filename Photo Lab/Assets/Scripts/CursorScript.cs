@@ -10,8 +10,8 @@ public class CursorScript : MonoBehaviour
     public Texture2D cursorIdle, cursorSelect, brushCursor, brushClick;
     public  Vector2 idleHotSpot = new Vector2(9, 3),
         selectHotSpot = new Vector2(11, 1),
-        brushSpot = new Vector2(0,0),
-        brushClickSpot = new Vector2(0,0);
+        brushSpot = new Vector2(6,640),
+        brushClickSpot = new Vector2(30,610);
 
     public void Awake()
     {

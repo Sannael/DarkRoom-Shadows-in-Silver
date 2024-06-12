@@ -37,57 +37,62 @@ public class Store : MonoBehaviour
 
     private void OnEnable()
     {
+        ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        ps.canMove = false;
         speaking = false;
-        dialogueIsOver = false; 
-        foreach (GameObject c in allCostumers)
+        dialogueIsOver = false;
+        if (ps.photoStage != -1)
         {
-            if (c.GetComponent<Costumer>().costumerID == actualCostumerID)
+            foreach (GameObject c in allCostumers)
             {
-                prefabCostumerScript = c.GetComponent<Costumer>();
-                if (prefabCostumerScript.costumerAction == 0 || prefabCostumerScript.costumerAction == 2 || prefabCostumerScript.costumerAction == 4)
+                if (c.GetComponent<Costumer>().costumerID == actualCostumerID)
                 {
+                    prefabCostumerScript = c.GetComponent<Costumer>();
+                    if (prefabCostumerScript.costumerAction == 0 || prefabCostumerScript.costumerAction == 2 || prefabCostumerScript.costumerAction == 4)
+                    {
 
-                    costumer = Instantiate(c);
-                    costumer.transform.SetParent(this.transform);
-                    costumer.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
-                    costumerScript = costumer.GetComponent<Costumer>();
-                    evt = costumer.GetComponent<Costumer>().evt;
-                    costumertotalDialogLines = costumerScript.totalDialogueLines; //#G: Puxa o total de linhas de diálogo para gerar as keys da tabela de localização
-                    
-                    if (costumerScript.costumerAction < 2 & costumerScript.lastCostumerAction == 2) //#G: Checa se a ação atual é menor que 2 e o tatal de ações é dois
-                    {
-                        costumerLastDialogue = costumerScript.lastDialogue;
-                        costumerFirstDialogue = 0;
-                    }
-                    else if (costumerScript.costumerAction < 2 & costumerScript.lastCostumerAction > 2) //#G: Checa se a ação atual é menor que 2 e o tatal de ações é maior que dois
-                    {
-                        costumerLastDialogue = costumerScript.middleDialogue;
-                        costumerFirstDialogue = 0;
-                    }
-                    else if (costumerScript.costumerAction < costumerScript.lastCostumerAction & costumerScript.lastCostumerAction > 2) //#G: Checa se a ação atual é menor que o tatal de ações e se o total de açõesé maior que dois
-                    {
-                        costumerFirstDialogue = costumerScript.middleDialogue;
-                        costumerLastDialogue = costumerScript.lastDialogue;
-                    }
-                    else if (costumerScript.lastCostumerAction == 2) //#G: Nos casos em que há 3 ações:
-                    {
-                        costumerFirstDialogue = costumerScript.lastDialogue;
-                        costumerLastDialogue = costumertotalDialogLines;
-                    }
-                    else //#G: Nos casos em que há mais que 3 ações:
-                    {
-                        costumerFirstDialogue = costumerScript.lastDialogue;
-                        costumerLastDialogue = costumertotalDialogLines;
-                    }
+                        costumer = Instantiate(c);
+                        costumer.transform.SetParent(this.transform);
+                        costumer.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
+                        costumerScript = costumer.GetComponent<Costumer>();
+                        evt = costumer.GetComponent<Costumer>().evt;
+                        costumertotalDialogLines = costumerScript.totalDialogueLines; //#G: Puxa o total de linhas de diálogo para gerar as keys da tabela de localização
 
-                    if (costumerScript.speaker.Length > 2) //#G: Checagem para ativar o sprite do terceiro interlocutor logo ao carregar a loja
-                    {
-                        if (costumerFirstDialogue >= costumerScript.thirdSpeakerStartDialogue)
+                        if (costumerScript.costumerAction < 2 & costumerScript.lastCostumerAction == 2) //#G: Checa se a ação atual é menor que 2 e o tatal de ações é dois
                         {
-                            GameObject.Find(costumerScript.speaker[2].speakerName).gameObject.GetComponent<Image>().enabled = true;
+                            costumerLastDialogue = costumerScript.lastDialogue;
+                            costumerFirstDialogue = 0;
                         }
-                    }
+                        else if (costumerScript.costumerAction < 2 & costumerScript.lastCostumerAction > 2) //#G: Checa se a ação atual é menor que 2 e o tatal de ações é maior que dois
+                        {
+                            costumerLastDialogue = costumerScript.middleDialogue;
+                            costumerFirstDialogue = 0;
+                        }
+                        else if (costumerScript.costumerAction < costumerScript.lastCostumerAction & costumerScript.lastCostumerAction > 2) //#G: Checa se a ação atual é menor que o tatal de ações e se o total de açõesé maior que dois
+                        {
+                            costumerFirstDialogue = costumerScript.middleDialogue;
+                            costumerLastDialogue = costumerScript.lastDialogue;
+                        }
+                        else if (costumerScript.lastCostumerAction == 2) //#G: Nos casos em que há 3 ações:
+                        {
+                            costumerFirstDialogue = costumerScript.lastDialogue;
+                            costumerLastDialogue = costumertotalDialogLines;
+                        }
+                        else //#G: Nos casos em que há mais que 3 ações:
+                        {
+                            costumerFirstDialogue = costumerScript.lastDialogue;
+                            costumerLastDialogue = costumertotalDialogLines;
+                        }
 
+                        if (costumerScript.speaker.Length > 2) //#G: Checagem para ativar o sprite do terceiro interlocutor logo ao carregar a loja
+                        {
+                            if (costumerFirstDialogue >= costumerScript.thirdSpeakerStartDialogue)
+                            {
+                                GameObject.Find(costumerScript.speaker[2].speakerName).gameObject.GetComponent<Image>().enabled = true;
+                            }
+                        }
+
+                    }
                 }
             }
         }
@@ -219,7 +224,7 @@ public class Store : MonoBehaviour
         else if (prefabCostumerScript.costumerAction == 2 & prefabCostumerScript.lastCostumerAction == 2) //#G: Caso sejam apenas 3 ações
         {
             ps.photoSprite = null;
-            ps.photoStage = 0;
+            ps.photoStage = -1; //mudei pra -1 por causa do jornal
             prefabCostumerScript.costumerAction = 3;
             dialogueIsOver = true;
             actualDialogue = 0;
@@ -235,7 +240,7 @@ public class Store : MonoBehaviour
         else if (prefabCostumerScript.costumerAction == 4) //#G: Caso sejam mais de 3 ações
         {
             ps.photoSprite = null;
-            ps.photoStage = 0;
+            ps.photoStage = -1; //mudei pra -1 por causa do jornal
             prefabCostumerScript.costumerAction = 5;
             dialogueIsOver = true;
             actualDialogue = 0;

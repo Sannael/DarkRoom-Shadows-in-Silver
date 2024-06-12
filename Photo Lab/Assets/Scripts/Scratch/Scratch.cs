@@ -32,6 +32,7 @@ public class Scratch : MonoBehaviour
     private void OnEnable()
     {
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        ps.canMove = false;
         scratchCamera.gameObject.SetActive(true); //ativa a camera q possibilita apagar os objetos
         photoSprite = ps.photoSprite;
         vertical = ps.photoVertical;
@@ -66,6 +67,7 @@ public class Scratch : MonoBehaviour
     }
     private void OnDisable()
     {
+        ps.canMove = true;
         lines = GameObject.FindGameObjectsWithTag("Line");
         foreach (GameObject l in lines) 
         {
@@ -89,6 +91,7 @@ public class Scratch : MonoBehaviour
                 ps.photoNeedRet = false;
                 photoStage++;
                 brush.GetComponent<Image>().enabled = true;
+                brush.GetComponent<BrushScript>().interactive = false;
                 CursorScript.cursorInstace.ChangeCursor("Idle");
             }
         }
@@ -98,5 +101,7 @@ public class Scratch : MonoBehaviour
         }
         
     }
+    
+    
 
 }

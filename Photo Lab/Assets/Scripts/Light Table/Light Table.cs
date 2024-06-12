@@ -17,6 +17,7 @@ public class LightTable : MonoBehaviour
     public GameObject verticalPaper;
     public GameObject horizontalPaper;
     public GameObject photo;
+    public GameObject photoBG;
     public bool photoVertical;
     [Header("Blur Area")]
     public GameObject blurUI;
@@ -24,6 +25,7 @@ public class LightTable : MonoBehaviour
     public GameObject lightTableItens;
 
     private PhotoInfos photoInfo;
+    private PlayerScript ps;
 
     void Start()
     {
@@ -32,6 +34,8 @@ public class LightTable : MonoBehaviour
     }
     private void OnEnable()
     {
+        ps = GameObject.Find("Player").GetComponent<PlayerScript>();
+        ps.canMove = false;
         alreadyUseLight = false;
         canRedLight = false;
         photoInfo = photo.GetComponent<PhotoInfos>();
@@ -49,6 +53,7 @@ public class LightTable : MonoBehaviour
     }
     private void OnDisable()
     {
+        ps.canMove = true;
         lightTableItens.SetActive(false);
     }
 
@@ -123,12 +128,14 @@ public class LightTable : MonoBehaviour
                 verticalPaper.SetActive(true);
                 horizontalPaper.SetActive(false);
                 photo.transform.position = new Vector3(-2.85f, -4.7f, 0);
+                photoBG.transform.position = photo.transform.position;
             }
             else
             {
                 horizontalPaper.SetActive(true);
                 verticalPaper.SetActive(false);
-                photo.transform.position = new Vector3(-2.79f, -2.8f, 0);
+                photo.transform.position = new Vector3(-2.79f, -0.9f, 0);
+                photoBG.transform.position = photo.transform.position;
             }
             StartCoroutine(SetBlurLocation());
         }

@@ -24,6 +24,10 @@ public class ScratchBtns : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (ps.leftClick.action.IsPressed()) 
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnDestroy()
