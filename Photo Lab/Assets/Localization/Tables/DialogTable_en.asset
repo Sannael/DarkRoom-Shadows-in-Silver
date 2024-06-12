@@ -229,7 +229,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 47
     m_Localized: Ana{} I read about it in the newspaper. But what will this expansion
-      mean?
+      entail?
     m_Metadata:
       m_Items: []
   - m_Id: 48
@@ -239,7 +239,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 49
-    m_Localized: Vicente{} It will be a big leap for the city's economic development.
+    m_Localized: "Vicente{} It will be a big leap forward for the city\u2019s economic
+      development."
     m_Metadata:
       m_Items: []
   - m_Id: 50
@@ -429,7 +430,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 90
     m_Localized: Guedes{} I think you'd better close the store Ana, according to
-      the Mayor's decree, no business can stay open after 7pm, otherwise I'll have
+      the Mayor's decree, no businesses can stay open after 7pm, otherwise I'll have
       to take you too.
     m_Metadata:
       m_Items: []
@@ -438,325 +439,328 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 92
-    m_Localized: "Tain\xE1{} Hello Ana, good morning!"
+    m_Localized: Ticket{} Leave that first photo in an envelope in the window, I'll
+      come back later to get it, the city needs to know what's going on!
     m_Metadata:
       m_Items: []
   - m_Id: 93
-    m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
+    m_Localized: "Tain\xE1{} Hello Ana, good morning!"
     m_Metadata:
       m_Items: []
   - m_Id: 94
+    m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95
     m_Localized: Taina{} Yes! It's been four years since I moved, time passes so
       quickly!
     m_Metadata:
       m_Items: []
-  - m_Id: 95
+  - m_Id: 96
     m_Localized: Ana{} Came to visit the family?
     m_Metadata:
       m_Items: []
-  - m_Id: 96
+  - m_Id: 97
     m_Localized: "Tain\xE1{} Actually, I came to pick you up to go away with me."
     m_Metadata:
       m_Items: []
-  - m_Id: 97
-    m_Localized: "Tain\xE1{} My mother wrote to me saying that she was scared of
-      the deaths that have been happening in the city, but not everyone wants to
-      move."
+  - m_Id: 98
+    m_Localized: "Tain\xE1{} My mother wrote to me saying she was scared of the deaths
+      that have been happening in the city, but not everyone wants to move."
     m_Metadata:
       m_Items: []
-  - m_Id: 98
+  - m_Id: 99
     m_Localized: "Tain\xE1{} That's why we took advantage of the fact that we're
       all together to take this photo, I wanted you to reveal it to me."
     m_Metadata:
       m_Items: []
-  - m_Id: 99
+  - m_Id: 100
     m_Localized: Ana{} You can leave it, it will be a pleasure.
     m_Metadata:
       m_Items: []
-  - m_Id: 100
+  - m_Id: 101
     m_Localized: "Tain\xE1{} I went back to get the photo, is it ready yet?"
     m_Metadata:
       m_Items: []
-  - m_Id: 101
+  - m_Id: 102
     m_Localized: Ana{} Yes, yes.
     m_Metadata:
       m_Items: []
-  - m_Id: 102
+  - m_Id: 103
     m_Localized: Ana{} I noticed that your grandfather is not in the photo, did something
       happen?
     m_Metadata:
       m_Items: []
-  - m_Id: 103
+  - m_Id: 104
     m_Localized: "Tain\xE1{} My grandfather doesn't like taking photos, he says that
-      portraits imprison the person's soul,"
+      portraits imprison the person's soul, "
     m_Metadata:
       m_Items: []
-  - m_Id: 104
+  - m_Id: 105
     m_Localized: "Tain\xE1{} no one before my mother took a portrait. It's a shame
       I don't have a record of them,"
     m_Metadata:
       m_Items: []
-  - m_Id: 105
+  - m_Id: 106
     m_Localized: "Tain\xE1{} but I respect my grandfather's beliefs, whether we like
       it or not, they are a connection with our ancestors."
     m_Metadata:
       m_Items: []
-  - m_Id: 106
+  - m_Id: 107
     m_Localized: Ana{} Well, photos are not the only way to keep memories and you
       can do like your grandfather and continue telling about him and those who came
       before him.
     m_Metadata:
       m_Items: []
-  - m_Id: 107
+  - m_Id: 108
     m_Localized: "Tain\xE1{} Thank you very much for the photo, Ana. Take care!"
     m_Metadata:
       m_Items: []
-  - m_Id: 108
+  - m_Id: 109
     m_Localized: Guedes{} Hello young lady, you were friends with that journalist,
       weren't you?
     m_Metadata:
       m_Items: []
-  - m_Id: 109
+  - m_Id: 110
     m_Localized: Guedes{} I'm sorry, this wouldn't have happened if he had listened
       to the police and respected the curfew.
     m_Metadata:
       m_Items: []
-  - m_Id: 110
+  - m_Id: 111
     m_Localized: Ana{} None of this would have happened if the city had been safe...
     m_Metadata:
       m_Items: []
-  - m_Id: 111
+  - m_Id: 112
     m_Localized: Guedes{} What are you insinuating? The police have done everything
       in their power to keep the city safe.
     m_Metadata:
       m_Items: []
-  - m_Id: 112
+  - m_Id: 113
     m_Localized: Ana{} So why didn't they let Mauro publish the photo of the creature
       in the newspaper?
     m_Metadata:
       m_Items: []
-  - m_Id: 113
+  - m_Id: 114
     m_Localized: Ana{} The population needs to know the truth about what is happening.
     m_Metadata:
       m_Items: []
-  - m_Id: 114
+  - m_Id: 115
     m_Localized: Guedes{} This newspaper just wants to create sensationalism to sell
       more. Besides, have you ever wondered if this monster story is starting to
       spread?
     m_Metadata:
       m_Items: []
-  - m_Id: 115
+  - m_Id: 116
     m_Localized: Guedes{} This year there is an election and our Mayor would have
       his reputation tarnished. He gave me the mission of resolving this issue without
       creating a fuss, and we will do it!
     m_Metadata:
       m_Items: []
-  - m_Id: 116
+  - m_Id: 117
     m_Localized: Ana{} Now everything makes sense, this Mayor is more concerned with
       carrying out works to get re-elected than with the lives of the population.
     m_Metadata:
       m_Items: []
-  - m_Id: 117
+  - m_Id: 118
     m_Localized: Ana{} But you should warn him that if everyone in the city dies,
       there won't be anyone left to vote for him.
     m_Metadata:
       m_Items: []
-  - m_Id: 118
+  - m_Id: 119
     m_Localized: Guedes{} I hope your stomach is as strong as your opinion. Here,
       this is the photo of the last attack, I need it today to attach to the investigation
       file.
     m_Metadata:
       m_Items: []
-  - m_Id: 119
+  - m_Id: 120
     m_Localized: Ana{} Here is your photo, the attack was this morning? I saw it
       was on the front street, but I didn't hear anything.
     m_Metadata:
       m_Items: []
-  - m_Id: 120
+  - m_Id: 121
     m_Localized: Guedes{} Yes, it was, the attacks started to spread throughout the
       city, so if you don't want to have the same luck as your friend, don't try
       to act like a hero and don't leave the house at night.
     m_Metadata:
       m_Items: []
-  - m_Id: 121
+  - m_Id: 122
     m_Localized: Mauro{} Hello, Ana, thank you very much for your help. Thanks to
       you, everyone now knows that there really is a creature attacking the city.
     m_Metadata:
       m_Items: []
-  - m_Id: 122
+  - m_Id: 123
     m_Localized: Ana{} I only revealed one photo, you were the one who took the risk
       to take it and you were still arrested for it. What did they do to you?
     m_Metadata:
       m_Items: []
-  - m_Id: 123
+  - m_Id: 124
     m_Localized: Mauro{} Nothing, they just held me there for as long as they could
       to prevent me from publishing something in the newspaper, little did they know
       that the photo was already going to be written.
     m_Metadata:
       m_Items: []
-  - m_Id: 124
+  - m_Id: 125
     m_Localized: Ana{} Wait, so you weren't the one who left the note?
     m_Metadata:
       m_Items: []
-  - m_Id: 125
+  - m_Id: 126
     m_Localized: Mauro{} No, I asked to make a call to my lawyer, but I actually
       called the editor-in-chief of the newspaper,
     m_Metadata:
       m_Items: []
-  - m_Id: 126
+  - m_Id: 127
     m_Localized: Mauro{} I said you had a copy of the photo, she was the one who
       left the note and went to get it.
     m_Metadata:
       m_Items: []
-  - m_Id: 127
+  - m_Id: 128
     m_Localized: Ana{} I understand, and how did the news affect the city?
     m_Metadata:
       m_Items: []
-  - m_Id: 128
-    m_Localized: Mauro{} It was a bomb! This was our best-selling issue of all time!
+  - m_Id: 129
+    m_Localized: 'Mauro{} It was a bomb! This was our best-selling issue of all time! '
     m_Metadata:
       m_Items: []
-  - m_Id: 129
+  - m_Id: 130
     m_Localized: Mauro{} Two TV teams have already come to record stories, neither
       the police nor the Mayor wanted to give interviews, but they didn't let them
       down.
     m_Metadata:
       m_Items: []
-  - m_Id: 130
-    m_Localized: Mauro{} They spoke about the lack of investment in security and
-      the lack of transparency in City Hall's accounts, in addition to the precarious
-      action of the Police given the seriousness of the case.
+  - m_Id: 131
+    m_Localized: 'Mauro{} They spoke about the lack of investment in security and
+      the lack of transparency in City Hall''s accounts, in addition to the precarious
+      action of the Police given the seriousness of the case. '
     m_Metadata:
       m_Items: []
-  - m_Id: 131
+  - m_Id: 132
     m_Localized: Mauro{} The population is crazy! But I'll spare you details, you'll
       see when I develop these photos.
     m_Metadata:
       m_Items: []
-  - m_Id: 132
+  - m_Id: 133
     m_Localized: Ana{} Can you send these photos here, because now I'm curious!
     m_Metadata:
       m_Items: []
-  - m_Id: 133
+  - m_Id: 134
     m_Localized: Ana{} That house in the photo, who do I think it belongs to?
     m_Metadata:
       m_Items: []
-  - m_Id: 134
+  - m_Id: 135
     m_Localized: Mauro{} Exactly!
     m_Metadata:
       m_Items: []
-  - m_Id: 135
+  - m_Id: 136
     m_Localized: "Tain\xE1{} Hello Ana, good morning!"
     m_Metadata:
       m_Items: []
-  - m_Id: 136
+  - m_Id: 137
     m_Localized: Ana{} Taina? Wow, how long! I almost didn't recognize you!
     m_Metadata:
       m_Items: []
-  - m_Id: 137
+  - m_Id: 138
     m_Localized: Taina{} Yes! It's been four years since I moved, time passes so
       quickly!
     m_Metadata:
       m_Items: []
-  - m_Id: 138
+  - m_Id: 139
     m_Localized: Ana{} Came to visit the family?
     m_Metadata:
       m_Items: []
-  - m_Id: 139
+  - m_Id: 140
     m_Localized: "Tain\xE1{} Actually, I came to pick you up to go away with me."
     m_Metadata:
       m_Items: []
-  - m_Id: 140
-    m_Localized: "Tain\xE1{} My mother wrote to me saying that she was scared of
-      the deaths that have been happening in the city, but not everyone wants to
-      move."
+  - m_Id: 141
+    m_Localized: "Tain\xE1{} My mother wrote to me saying she was scared of the deaths
+      that have been happening in the city, but not everyone wants to move."
     m_Metadata:
       m_Items: []
-  - m_Id: 141
+  - m_Id: 142
     m_Localized: "Tain\xE1{} My grandfather says it's a giant wild animal that has
       a huge mouth that goes all the way down to its belly."
     m_Metadata:
       m_Items: []
-  - m_Id: 142
+  - m_Id: 143
     m_Localized: Ana{} And does your grandfather have any idea why this animal would
       come to the city?
     m_Metadata:
       m_Items: []
-  - m_Id: 143
+  - m_Id: 144
     m_Localized: "Tain\xE1{} He says it's because of the works that are being done,
       they are deforesting the forest, so he comes to take revenge on those who are
       destroying the forest."
     m_Metadata:
       m_Items: []
-  - m_Id: 144
+  - m_Id: 145
     m_Localized: Ana{} I'm not one to believe in mysticism, but this time I'm going
       to have to stand my ground, maybe your grandfather really is right.
     m_Metadata:
       m_Items: []
-  - m_Id: 145
+  - m_Id: 146
     m_Localized: "Tain\xE1{} I went back to get the photo, is it ready yet?"
     m_Metadata:
       m_Items: []
-  - m_Id: 146
+  - m_Id: 147
     m_Localized: Ana{} Yes, here it is.
     m_Metadata:
       m_Items: []
-  - m_Id: 147
+  - m_Id: 148
     m_Localized: "Tain\xE1{} Thank you very much for the photo, Ana. Take care!"
     m_Metadata:
       m_Items: []
-  - m_Id: 148
+  - m_Id: 149
     m_Localized: Guedes{} Are you and your little journalist friend satisfied? They
       ended the Mayor's career, and I think it's good that this doesn't affect mine.
     m_Metadata:
       m_Items: []
-  - m_Id: 149
+  - m_Id: 150
     m_Localized: Ana{} Is this a threat?
     m_Metadata:
       m_Items: []
-  - m_Id: 150
+  - m_Id: 151
     m_Localized: Guedes{} No, I just came to remind you that the Mayor was bringing
       progress to this end of the world, and you ended it all.
     m_Metadata:
       m_Items: []
-  - m_Id: 151
+  - m_Id: 152
     m_Localized: Ana{} Is this serious? There's a creature loose that killed a dozen
       people in the city and the police captain comes to my store to cry for the
       Mayor instead of being after her.
     m_Metadata:
       m_Items: []
-  - m_Id: 152
-    m_Localized: Guedes{} Don't tell me how to do my job! But don't worry, this is
-      now in the hands of the army.
-    m_Metadata:
-      m_Items: []
   - m_Id: 155
-    m_Localized: Guedes{} Humph!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 154
     m_Localized: Ana{} Unfortunately I can't say the same, when the army leaves we
       will still need you to guarantee public safety.
     m_Metadata:
       m_Items: []
-  - m_Id: 153
+  - m_Id: 154
     m_Localized: Guedes{} In fact, I don't even know what I came here to do, we won't
       need your services anymore, our department is setting up its own laboratory.
     m_Metadata:
       m_Items: []
+  - m_Id: 153
+    m_Localized: Guedes{} Don't tell me how to do my job! But don't worry, this is
+      now in the hands of the army.
+    m_Metadata:
+      m_Items: []
   - m_Id: 156
-    m_Localized: City Hall begins city expansion works
+    m_Localized: Guedes{} Humph!
     m_Metadata:
       m_Items: []
   - m_Id: 157
-    m_Localized: Mayor says "Progress cannot stop!"
+    m_Localized: City Hall begins city expansion works
     m_Metadata:
       m_Items: []
   - m_Id: 158
-    m_Localized: ET of Varginha
+    m_Localized: Mayor says "Progress cannot stop!"
     m_Metadata:
       m_Items: []
   - m_Id: 159
+    m_Localized: ET of Varginha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
     m_Localized: Exclusive! New and shocking evidence indicates that the capture
       of an extraterrestrial being in Varginha was not just a case of science fiction.
       Witnesses, confidential documents and material evidence corroborate the story
@@ -766,51 +770,64 @@ MonoBehaviour:
       and the brutal way in which it was taken by the military. Read the full article!
     m_Metadata:
       m_Items: []
-  - m_Id: 160
+  - m_Id: 161
     m_Localized: Protests against city hall works
     m_Metadata:
       m_Items: []
-  - m_Id: 161
-    m_Localized: Protesters say the territory is part of an indigenous reserve.
-    m_Metadata:
-      m_Items: []
   - m_Id: 162
-    m_Localized: Lorem Ipsum
+    m_Localized: Protesters say the territory is part of an indigenous reserve
     m_Metadata:
       m_Items: []
   - m_Id: 163
-    m_Localized: Lorem Ipsum
+    m_Localized: "B\xFAzios confirm the cup!"
     m_Metadata:
       m_Items: []
   - m_Id: 164
-    m_Localized: Death on Rua Triunfo
+    m_Localized: 'In an exclusive interview with our newspaper, the renowned psychic
+      Madame Zora, known for her accurate predictions, reveals that the cowrie shells
+      indicate that Brazil will be the four-time champion of the next World Cup.
+      In her visions, the seer observes a united and determined Brazilian team, with
+      talented players and a coach capable of leading them to glory. She highlights
+      the importance of teamwork and Brazilian determination as fundamental factors
+      for success. The fans'' positive energy will be fundamental: Let''s cheer for
+      the team together!'
     m_Metadata:
       m_Items: []
   - m_Id: 165
-    m_Localized: A rabid dog allegedly attacked a young man until he died.
+    m_Localized: Death on Rua Triunfo
     m_Metadata:
       m_Items: []
   - m_Id: 166
-    m_Localized: Lorem Ipsum
+    m_Localized: Rabid dog allegedly attacked young man until he died
     m_Metadata:
       m_Items: []
   - m_Id: 167
-    m_Localized: Lorem Ipsum
+    m_Localized: The invisible thief arrested
     m_Metadata:
       m_Items: []
   - m_Id: 168
-    m_Localized: New death on Rua Triunfo
+    m_Localized: 'After months of investigation and a frantic chase, the police finally
+      arrested the "Invisible Thief", the criminal who terrorized four states with
+      his mysterious thefts. No one ever saw him, but his trail of perfect crimes
+      left authorities perplexed. The victims described the same scene: doors open
+      without forced entry, valuable objects stolen and no eyewitnesses to the crime. 
+      Authorities believe that this arrest will put an end to the series of crimes
+      and bring peace to residents of the affected regions.'
     m_Metadata:
       m_Items: []
   - m_Id: 169
-    m_Localized: Zoonosis center expands searches in the neighborhood.
+    m_Localized: New death on Rua Triunfo
     m_Metadata:
       m_Items: []
   - m_Id: 170
-    m_Localized: New curfew
+    m_Localized: Zoonosis center expands searches in the neighborhood
     m_Metadata:
       m_Items: []
   - m_Id: 171
+    m_Localized: 'New curfew '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
     m_Localized: Faced with the growing wave of insecurity in the city, the Mayor
       decreed a curfew. The measure, which aims to guarantee the safety of the population,
       has generated controversy among residents and traders. According to the decree,
@@ -820,51 +837,63 @@ MonoBehaviour:
       some business owners expressed apprehension about the curfew.
     m_Metadata:
       m_Items: []
-  - m_Id: 172
+  - m_Id: 173
     m_Localized: Journalist Mauro Fontana dies
     m_Metadata:
       m_Items: []
-  - m_Id: 173
-    m_Localized: Report says that bites are incompatible with those of a dog.
-    m_Metadata:
-      m_Items: []
   - m_Id: 174
-    m_Localized: Lorem Ipsum
+    m_Localized: Report says bites are incompatible with those of a dog
     m_Metadata:
       m_Items: []
   - m_Id: 175
-    m_Localized: Lorem Ipsum
+    m_Localized: Country werewolf
     m_Metadata:
       m_Items: []
   - m_Id: 176
-    m_Localized: Deaths spread across the city
+    m_Localized: Terror gripped the backlands of Pernambuco after reports of sightings
+      of a werewolf, a ferocious creature that haunts the nights in the interior
+      of the state. Terrified residents describe the creature as a tall, hairy being,
+      with flaming eyes and sharp fangs, that howls at the moon and attacks animals.
+      Faced with the growing wave of fear, the Military Police began a search operation
+      for the creature. Specialized teams were sent into the backlands, with sniffer
+      dogs and night vision equipment, to try to capture the werewolf.
     m_Metadata:
       m_Items: []
   - m_Id: 177
-    m_Localized: Four bodies found in different neighborhoods.
+    m_Localized: Deaths spread across the city
     m_Metadata:
       m_Items: []
   - m_Id: 178
-    m_Localized: Lorem Ipsum
+    m_Localized: Four bodies found in different neighborhoods
     m_Metadata:
       m_Items: []
   - m_Id: 179
-    m_Localized: Lorem Ipsum
+    m_Localized: It's Witchcraft!
     m_Metadata:
       m_Items: []
   - m_Id: 180
-    m_Localized: Two deaths last night
+    m_Localized: Several residents of Volta Redonda, in Rio de Janeiro, reported
+      seeing a shadowy figure crossing the night sky, causing panic and fear among
+      the population. "It was an old woman, with a black hat and a long cloak," reports
+      a resident. "She was on top of a wooden broom and was flying high in the sky.
+      It was horrible!" Experts in witchcraft and the occult say that the witch's
+      appearance could be a sign that something bad is coming. The case becomes increasingly
+      mysterious and terrifying, fueling the population's fear.
     m_Metadata:
       m_Items: []
   - m_Id: 181
-    m_Localized: Among them Ana Rizzo, technician at the Foto Rizzo laboratory.
+    m_Localized: Two deaths last night
     m_Metadata:
       m_Items: []
   - m_Id: 182
-    m_Localized: Public calamity!
+    m_Localized: Among them Ana Rizzo, laboratory technician Foto Rizzo
     m_Metadata:
       m_Items: []
   - m_Id: 183
+    m_Localized: Public calamity!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
     m_Localized: Government declares a state of public calamity and the Army will
       be sent to the city tomorrow to assist in the search for the creature. A team
       of experts is also being formed to investigate the crimes and try to identify
@@ -875,52 +904,64 @@ MonoBehaviour:
       planning to leave the city until the situation normalizes.
     m_Metadata:
       m_Items: []
-  - m_Id: 184
-    m_Localized: Image of creature revealed
-    m_Metadata:
-      m_Items: []
   - m_Id: 185
-    m_Localized: Police and City Hall had been trying to hide the case
+    m_Localized: Creature image revealed
     m_Metadata:
       m_Items: []
   - m_Id: 186
-    m_Localized: Lorem Ipsum
+    m_Localized: Police and City Hall had been trying to hide the case
     m_Metadata:
       m_Items: []
   - m_Id: 187
-    m_Localized: Lorem Ipsum
+    m_Localized: Anaconda swallows entire family!
     m_Metadata:
       m_Items: []
   - m_Id: 188
-    m_Localized: People set fire to the mayor's house
+    m_Localized: 'A giant anaconda snake invaded a residence in the city of Bonito,
+      in Mato Grosso do Sul, and killed an entire family. The tragedy happened last
+      night, when the family was sleeping and the door to the house was unlocked.
+      According to unconfirmed information, the snake had entered the house during
+      the early hours of the morning, attracted by the heat and ease of access. The
+      anaconda would have brutally attacked, swallowing all the limbs. The family''s
+      tragic death serves as a reminder of the dangers wildlife can pose. '
     m_Metadata:
       m_Items: []
   - m_Id: 189
-    m_Localized: Police intervene and arrest 10 protesters.
+    m_Localized: People set fire to the mayor's house
     m_Metadata:
       m_Items: []
   - m_Id: 190
-    m_Localized: Lorem Ipsum
+    m_Localized: Police intervene and arrest 10 protesters
     m_Metadata:
       m_Items: []
   - m_Id: 191
-    m_Localized: Lorem Ipsum
+    m_Localized: Airport for ETs
     m_Metadata:
       m_Items: []
   - m_Id: 192
-    m_Localized: Public Ministry investigates actions of the Mayor
+    m_Localized: "Exclusive! Motivated by the wave of reports of UFO sightings in
+      Mato Grosso, councilor Valdon Varj\xE3o, from the city of Barra do Gar\xE7as,
+      filed an unusual bill with the City Council: the creation of a \"discoporto\",
+      an airport destined to receive records flyers and their extraterrestrial crew.
+      The proposal, received with surprise and skepticism by some, was unanimously
+      approved by councilors. The project envisages the construction of an area with
+      adequate infrastructure to receive flying saucers and their occupants."
     m_Metadata:
       m_Items: []
   - m_Id: 193
+    m_Localized: Public Ministry investigates actions of the Mayor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
     m_Localized: Reports indicate that he and police officers knew the real reason
       for the attacks
     m_Metadata:
       m_Items: []
-  - m_Id: 194
+  - m_Id: 195
     m_Localized: Works Paralyzed!
     m_Metadata:
       m_Items: []
-  - m_Id: 195
+  - m_Id: 196
     m_Localized: City Hall works were interrupted for an indefinite period of time,
       amid a climate of tension in the city. The decision was taken after a series
       of violent attacks, the local authorities' disregard for public safety and
@@ -930,21 +971,27 @@ MonoBehaviour:
       its million-dollar projects. This is a crime against the population!"
     m_Metadata:
       m_Items: []
-  - m_Id: 196
+  - m_Id: 197
     m_Localized: Second week without deaths in the city
     m_Metadata:
       m_Items: []
-  - m_Id: 197
-    m_Localized: The Armed Forces ended the search without finding the creature's
-      whereabouts.
-    m_Metadata:
-      m_Items: []
   - m_Id: 198
-    m_Localized: Are we really safe?
+    m_Localized: The Armed Forces ended the search without finding the creature's
+      whereabouts
     m_Metadata:
       m_Items: []
   - m_Id: 199
-    m_Localized: Lorem Ipsum
+    m_Localized: Are we really safe?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200
+    m_Localized: 'After weeks of terror that left the city in a state of shock, the
+      mysterious creature that caused several deaths appears to have disappeared.
+      Two weeks have passed without new attacks and searches by authorities have
+      not found any trace of the creature. The armed forces, which led the operation,
+      announced the end of the searches, but the population remains on alert. The
+      question that hangs in the air is: has the creature really disappeared or is
+      it just hiding, waiting for the right moment to attack again?'
     m_Metadata:
       m_Items: []
   references:
