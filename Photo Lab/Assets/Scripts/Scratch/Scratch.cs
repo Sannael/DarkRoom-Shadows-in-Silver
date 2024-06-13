@@ -28,9 +28,14 @@ public class Scratch : MonoBehaviour
     private PhotoInfos photoInfo;
     private PlayerScript ps;
     private GameObject retL;
+    //public GameObject BG;
+    //public DrawingManager drawMngr;
 
     private void OnEnable()
     {
+        //drawMngr = BG.GetComponent<DrawingManager>();
+        //drawMngr.canDrawm = false;
+        //drawMngr.enabled = false;
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         ps.canMove = false;
         scratchCamera.gameObject.SetActive(true); //ativa a camera q possibilita apagar os objetos
@@ -50,14 +55,18 @@ public class Scratch : MonoBehaviour
             {
                 brush.GetComponent<BrushScript>().interactive = true;
                 brush.GetComponent<BrushScript>().scratchScript = GetComponent<Scratch>();
+                retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
+                retL.GetComponent<Image>().sprite = null;
             }
         }    //mainCamera.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Scratching"); //Torna visivel a parte dos "Rabiscos" da mecania de retoque
     }
 
     public void EnableRet() 
     {
-        retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
-        retL.GetComponent<Image>().sprite = null;
+        //drawMngr.canDrawm = true;
+        //drawMngr.enabled = true;
+        //retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
+        //retL.GetComponent<Image>().sprite = null;
         photoRetObj.GetComponent<Image>().sprite = ps.photoRet;
         photoRetObj.GetComponent<Image>().SetNativeSize();
         photoRetObj.SetActive(true);

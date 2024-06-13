@@ -26,16 +26,26 @@ public class Costumer : MonoBehaviour
     public Sprite photoSprite;
     public bool hotoVertical;
     public int photoStage;
-    [Tooltip("MArcar apensar se a foto precisar de retoque")]
+    [Header("Retoque Part")]
+    [Tooltip("Marcar apensar se a foto precisar de retoque")]
     public bool needRet;
     public int photoRetCount;
     public Sprite truePhotoRet;
     public Sprite photoRet;
     public GameObject photoRetObj; //Prefab da foto com os erros para o retoque
     public GameObject photoRetLocations; //Prefab com os erros das imagens
+    public Sprite photoRetSprite;
+
+    [Header("Special Cases!")]
+    public bool fakePhotoNeedRet;
+    public Sprite fakePhotoRet;
+    public GameObject fakePhotoRetObj;
 
     [Header("Event Triggers")]
     public EventTrigger[] evt;
+
+    [Header("Final Characters")]
+    public bool finalChar;
 
     public int costumerAction = 0; //#G 0 = entregar o negativo; 1 = esperar a foto; 2 = receber a foto; 3 = esperar a foto; 4 = receber a foto; 
     public int lastCostumerAction; //#G Definir o número de total ações, para os casos em que há mais de 3 ações

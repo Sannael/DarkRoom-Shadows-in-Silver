@@ -29,6 +29,7 @@ public class PlayerScript : MonoBehaviour
     public Sprite photoRet;
     public GameObject photoRetObj;
     public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
+    public Sprite photoRetSprite; //Sprite que fica no varal (Foto normal + "Falha")
 
     private UnityEngine.Vector2 lookDirection; //Direção do mouse em relação a arma
     private float lookAngle; //Angulo do mouse em relação a arma

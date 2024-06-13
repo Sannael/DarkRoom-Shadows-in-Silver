@@ -50,7 +50,7 @@ public class CheckDistance : MonoBehaviour
             }
             if (GetComponent<Collider2D>().OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition)) && player.GetComponent<PlayerScript>().actualLocation == actualLocation)
             {
-                if (canUse)
+                if (canUse && Time.timeScale != 0f)
                 {
                     hover.SetActive(true);
                     CursorScript.cursorInstace.ChangeCursor("Select");
@@ -111,6 +111,7 @@ public class CheckDistance : MonoBehaviour
         player.GetComponent<PlayerScript>().canMove = false;
         OpenPnl(workPanel);
         CursorScript.cursorInstace.ChangeCursor("Idle");
+        player.GetComponent<PlayerScript>().player.SetDestination(player.transform.position);
     }
 
     public void OpenPnl(GameObject panel)

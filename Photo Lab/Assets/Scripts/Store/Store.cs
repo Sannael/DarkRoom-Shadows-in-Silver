@@ -22,7 +22,6 @@ public class Store : MonoBehaviour
 
     [Header("Customers Area")]
     public GameObject[] allCostumers;
-    [SerializeField]
     public int actualCostumerID;
     [SerializeField]
     private GameObject costumer;
@@ -34,7 +33,10 @@ public class Store : MonoBehaviour
     public bool dialogueIsOver = false; //#G: Para checar se a conversa com o cliente chegou ao fim, para passar para o próximo cliente
 
     public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
+    public GameObject choosePnl; //Painel com a escolha final
+    private int finalId = 99; //valor random só pra n dar pau
 
+    public GameObject gameController;
     private void OnEnable()
     {
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
@@ -135,6 +137,11 @@ public class Store : MonoBehaviour
             }
         }
 
+        if(prefabCostumerScript.finalChar && dialogueIsOver) 
+        {
+            ManagerScene.sceneManagerInstance.LoadScene(2);
+            //gameController.GetComponent<GameControllerScript>().LoadFinal(2);
+        }
     }
 
     [ContextMenu("NextDialogue")]
@@ -179,6 +186,10 @@ public class Store : MonoBehaviour
                     //chars[i].GetComponent<Image>().sprite = costumerScript.ReturnSpeakerBodySprite(charactersName[i], false);
                 }
             }
+            if (prefabCostumerScript.costumerID == 6)
+            {
+                choosePnl.SetActive(true);
+            }
         }
         else
         {
@@ -201,7 +212,10 @@ public class Store : MonoBehaviour
             speaking = false;
             EnableDisableDialogueBox(false);
             actualDialogue = 0;
-            GiveTakePhoto();
+            if (actualCostumerID != 6)
+            {
+                GiveTakePhoto();
+            }
         }
     }
 
@@ -220,6 +234,28 @@ public class Store : MonoBehaviour
             ps.photoRetObj = costumerScript.photoRetObj;
             prefabCostumerScript.costumerAction = 1;
             ps.photoRetLocations = costumerScript.photoRetLocations;
+            if (costumerScript.photoRetSprite != null)
+            {
+                ps.photoRetSprite = costumerScript.photoRetSprite;
+            }
+            else 
+            {
+                ps.photoRetSprite = costumerScript.photoSprite;
+            }
+            if (prefabCostumerScript.costumerID == 2) //Tratar um cliente em especifico
+            {
+                ps.truePhotoRet = costumerScript.fakePhotoRet;
+                ps.photoRetObj = costumerScript.fakePhotoRetObj;
+                ps.photoRetLocations = costumerScript.fakePhotoRetObj;
+                ps.photoNeedRet = costumerScript.fakePhotoNeedRet;
+            }
+            else if(prefabCostumerScript.costumerID == 5) 
+            {
+                ps.truePhotoRet = costumerScript.fakePhotoRet;
+                ps.photoRetObj = costumerScript.fakePhotoRetObj;
+                ps.photoRetLocations = costumerScript.fakePhotoRetObj;
+                ps.photoNeedRet = costumerScript.fakePhotoNeedRet;
+            }
         }
         else if (prefabCostumerScript.costumerAction == 2 & prefabCostumerScript.lastCostumerAction == 2) //#G: Caso sejam apenas 3 ações
         {
@@ -231,11 +267,27 @@ public class Store : MonoBehaviour
         }
         else if (prefabCostumerScript.costumerAction == 2 & prefabCostumerScript.lastCostumerAction > 2) //#G: Caso sejam mais de 3 ações
         {
-            ps.photoColor = new Color32(255, 255, 255, 255);
+            /*ps.photoColor = new Color32(255, 255, 255, 255);
             ps.photoSprite = costumerScript.photoSprite;
             ps.photoVertical = costumerScript.hotoVertical;
             ps.photoStage = 1;
+            prefabCostumerScript.costumerAction = 3;*/
+            ps.photoColor = new Color32(255, 255, 255, 255);
+            ps.photoSprite = costumerScript.photoSprite;
+            ps.photoVertical = costumerScript.hotoVertical;
+            ps.photoStage = 1; //reinicia o processo
+            ps.photoNeedRet = costumerScript.needRet;
+            ps.photoRetCount = costumerScript.photoRetCount;
+            ps.photoRet = costumerScript.photoRet;
+            ps.truePhotoRet = costumerScript.truePhotoRet;
+            ps.photoRetObj = costumerScript.photoRetObj;
             prefabCostumerScript.costumerAction = 3;
+            ps.photoRetLocations = costumerScript.photoRetLocations;
+
+            if(actualCostumerID == 2) 
+            {
+                ps.photoStage = 6; //caso for Mauro + Guedes // Manipular foto
+            }
         }
         else if (prefabCostumerScript.costumerAction == 4) //#G: Caso sejam mais de 3 ações
         {
@@ -243,8 +295,7 @@ public class Store : MonoBehaviour
             ps.photoStage = -1; //mudei pra -1 por causa do jornal
             prefabCostumerScript.costumerAction = 5;
             dialogueIsOver = true;
-            actualDialogue = 0;
-
+            actualDialogue = 0; 
         }
 
     }
@@ -300,5 +351,25 @@ public class Store : MonoBehaviour
     {
         actualDialogue = 999;
         NextDialogue();
+    }
+
+
+    public void ChooseFinal(int final) 
+    {
+        choosePnl.SetActive(false);
+        Destroy(costumer);
+        ps.photoStage = -1;
+        EnableDisableDialogueBox(false);
+        speaking = false;
+        switch (final) 
+        {
+            case 0:
+                actualCostumerID = 7;
+                break;
+            case 1:
+                actualCostumerID = 9;
+                break;
+        }
+        finalId = final;
     }
 }

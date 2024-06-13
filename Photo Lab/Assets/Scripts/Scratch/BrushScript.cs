@@ -20,17 +20,17 @@ public class BrushScript : MonoBehaviour
     {
         if (!interactive)
         {
-            GetComponent<Image>().sprite = normalSprite;
+            //GetComponent<Image>().sprite = normalSprite;
             canUse = false;
         }
         else 
         {
-            GetComponent<Image>().sprite = interactiveSprite;
+            //GetComponent<Image>().sprite = interactiveSprite;
             canUse = true;
             if (!retIsEnable)
             {
-                retIsEnable = true;
                 scratchScript.EnableRet();
+                retIsEnable = true;
             }
             
         }
@@ -40,7 +40,7 @@ public class BrushScript : MonoBehaviour
     {
         if (canUse) 
         {
-            GetComponent<Image>().enabled = false;
+            //GetComponent<Image>().enabled = false;
             interactive = false;
             //scratchScript.EnableRet();
             //CursorScript.cursorInstace.ChangeCursor("Brush");

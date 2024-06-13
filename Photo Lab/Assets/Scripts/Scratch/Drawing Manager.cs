@@ -12,10 +12,14 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     private List<LineRenderer> myLineInstances = new List<LineRenderer>();
 
     public GameObject brushCursor;
+    public bool canDrawm;
 
     public void OnDrag(PointerEventData eventData)
     {
-        Draw(eventData);
+        if (canDrawm)
+        {
+            Draw(eventData);
+        }
     }
 
     public void CreateLineWithSamePoint(PointerEventData eventData)
@@ -75,10 +79,13 @@ public class DrawingManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        currentLineRenderer = null;
-        brushCursor.GetComponent<Image>().enabled = true;
-       // Cursor.visible = false;
-        //CursorScript.cursorInstace.ChangeCursor("BrushClick");
+        if (canDrawm)
+        {
+            currentLineRenderer = null;
+            brushCursor.GetComponent<Image>().enabled = true;
+            // Cursor.visible = false;
+            //CursorScript.cursorInstace.ChangeCursor("BrushClick");
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)

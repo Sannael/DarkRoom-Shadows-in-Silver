@@ -88,6 +88,19 @@ public class GameControllerScript : MonoBehaviour
             i++;
         }
     }
+
+    public void LoadFinal(int final) 
+    {
+        switch (final) 
+        {
+            case 0:
+                break;
+                //logica utilizando o jornal para puxar as informações do final escolhido...
+            case 1:
+                //logica utilizando o jornal para puxar as informações do final escolhido...
+                break;
+        }
+    }
 }
 
 

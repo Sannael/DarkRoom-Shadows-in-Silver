@@ -26,6 +26,7 @@ public class Window_QuestPointer : MonoBehaviour {
     private RectTransform pointerRectTransform;
     private Image pointerImage;
 
+    public float borderSize;
     private void Awake() {
         pointerRectTransform = transform.Find("Pointer").GetComponent<RectTransform>();
         pointerImage = transform.Find("Pointer").GetComponent<Image>();
@@ -34,7 +35,7 @@ public class Window_QuestPointer : MonoBehaviour {
     }
 
     private void Update() {
-        float borderSize = 100f;
+        //float borderSize = tr;
         Vector3 targetPositionScreenPoint = Camera.main.WorldToScreenPoint(targetPosition);
         bool isOffScreen = targetPositionScreenPoint.x <= borderSize || targetPositionScreenPoint.x >= Screen.width - borderSize || targetPositionScreenPoint.y <= borderSize || targetPositionScreenPoint.y >= Screen.height - borderSize;
 
