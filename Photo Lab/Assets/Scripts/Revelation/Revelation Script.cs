@@ -149,6 +149,7 @@ public class RevelationScript : MonoBehaviour
     {
         ps.canMove = true;
         paper[2].SetActive(false);
+        this.GetComponent<ClosePnls>().PlaySound();
     }
 
 }

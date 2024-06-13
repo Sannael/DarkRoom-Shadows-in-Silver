@@ -11,6 +11,10 @@ public class FocusRotate : MonoBehaviour
     public RectTransform focusRect;
     public GameObject uiBlur;
 
+    [Header("SFX")]
+    public AudioClip rotateFocusSound;
+    [SerializeField]
+    private float lastRotateZ;
 
     private void Start()
     {
@@ -38,12 +42,24 @@ public class FocusRotate : MonoBehaviour
         {
             if (col == Physics2D.OverlapPoint(mousePos))
             {
+                PlaySound(transform.eulerAngles.z);
                 Vector3 vec3 = Input.mousePosition - screenPos;
                 float angle = Mathf.Atan2(vec3.y, vec3.x) * Mathf.Rad2Deg;
                 transform.eulerAngles = new Vector3(0, 0, angle + angleOffset);
+
             }
         }
         ChangeBlurValue();  
+    }
+
+    public void PlaySound(float rotZ) 
+    {
+        if(rotZ >= lastRotateZ +10 || rotZ <= lastRotateZ - 10) 
+        {
+            lastRotateZ = rotZ;
+            Sounds.instance.PlaySingle(rotateFocusSound);
+        }
+        
     }
 
     public void FocusStartRotation()

@@ -26,6 +26,9 @@ public class NewsPaper : MonoBehaviour
     public Sprite[] allArticleImages;
     public Sprite[] allAdImages;
 
+    [Header("SFX")]
+    public AudioClip[] storeBellSound; // barulho de sininho na loja; 0 = 1 batida; 1 = duas batidas; 2 = varias batidas
+    public GameObject store;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +63,19 @@ public class NewsPaper : MonoBehaviour
         if (photStag == -1) 
         {
             GameObject.Find("Player").GetComponent<PlayerScript>().photoStage ++;
+        }
+        this.GetComponent<ClosePnls>().PlaySound();
+
+        if(store.GetComponent<Store>().prefabCostumerScript.costumerAction == 0) 
+        {
+            if (store.GetComponent<Store>().actualCostumerID == 5)
+            {
+                Sounds.instance.PlaySingle(storeBellSound[2]);
+            }
+            else
+            {
+                Sounds.instance.PlaySingle(storeBellSound[Random.Range(0, 2)]);
+            }
         }
     }
 }
