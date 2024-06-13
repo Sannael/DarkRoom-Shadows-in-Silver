@@ -34,7 +34,9 @@ public class Store : MonoBehaviour
 
     public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
     public GameObject choosePnl; //Painel com a escolha final
+    private int finalId = 99; //valor random só pra n dar pau
 
+    public GameObject gameController;
     private void OnEnable()
     {
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
@@ -135,6 +137,11 @@ public class Store : MonoBehaviour
             }
         }
 
+        if(prefabCostumerScript.finalChar && dialogueIsOver) 
+        {
+            ManagerScene.sceneManagerInstance.LoadScene(2);
+            //gameController.GetComponent<GameControllerScript>().LoadFinal(2);
+        }
     }
 
     [ContextMenu("NextDialogue")]
@@ -288,8 +295,7 @@ public class Store : MonoBehaviour
             ps.photoStage = -1; //mudei pra -1 por causa do jornal
             prefabCostumerScript.costumerAction = 5;
             dialogueIsOver = true;
-            actualDialogue = 0;
-
+            actualDialogue = 0; 
         }
 
     }
@@ -364,5 +370,6 @@ public class Store : MonoBehaviour
                 actualCostumerID = 9;
                 break;
         }
+        finalId = final;
     }
 }

@@ -44,6 +44,9 @@ public class Costumer : MonoBehaviour
     [Header("Event Triggers")]
     public EventTrigger[] evt;
 
+    [Header("Final Characters")]
+    public bool finalChar;
+
     public int costumerAction = 0; //#G 0 = entregar o negativo; 1 = esperar a foto; 2 = receber a foto; 3 = esperar a foto; 4 = receber a foto; 
     public int lastCostumerAction; //#G Definir o número de total ações, para os casos em que há mais de 3 ações
 

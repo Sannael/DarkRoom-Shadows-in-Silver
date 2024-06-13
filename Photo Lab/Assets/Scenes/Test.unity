@@ -10860,6 +10860,7 @@ MonoBehaviour:
   dialogueIsOver: 1
   photoRetLocations: {fileID: 0}
   choosePnl: {fileID: 1554497674}
+  gameController: {fileID: 2020709806}
 --- !u!114 &923285626
 MonoBehaviour:
   m_ObjectHideFlags: 0
