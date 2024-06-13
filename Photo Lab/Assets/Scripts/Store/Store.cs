@@ -22,7 +22,6 @@ public class Store : MonoBehaviour
 
     [Header("Customers Area")]
     public GameObject[] allCostumers;
-    [SerializeField]
     public int actualCostumerID;
     [SerializeField]
     private GameObject costumer;
@@ -34,6 +33,7 @@ public class Store : MonoBehaviour
     public bool dialogueIsOver = false; //#G: Para checar se a conversa com o cliente chegou ao fim, para passar para o próximo cliente
 
     public GameObject photoRetLocations; //prefab com os erros das fotos que precisam de retoque
+    public GameObject choosePnl; //Painel com a escolha final
 
     private void OnEnable()
     {
@@ -179,6 +179,10 @@ public class Store : MonoBehaviour
                     //chars[i].GetComponent<Image>().sprite = costumerScript.ReturnSpeakerBodySprite(charactersName[i], false);
                 }
             }
+            if (prefabCostumerScript.costumerID == 6)
+            {
+                choosePnl.SetActive(true);
+            }
         }
         else
         {
@@ -201,7 +205,10 @@ public class Store : MonoBehaviour
             speaking = false;
             EnableDisableDialogueBox(false);
             actualDialogue = 0;
-            GiveTakePhoto();
+            if (actualCostumerID != 6)
+            {
+                GiveTakePhoto();
+            }
         }
     }
 
@@ -300,5 +307,24 @@ public class Store : MonoBehaviour
     {
         actualDialogue = 999;
         NextDialogue();
+    }
+
+
+    public void ChooseFinal(int final) 
+    {
+        choosePnl.SetActive(false);
+        Destroy(costumer);
+        ps.photoStage = -1;
+        EnableDisableDialogueBox(false);
+        speaking = false;
+        switch (final) 
+        {
+            case 0:
+                actualCostumerID = 7;
+                break;
+            case 1:
+                actualCostumerID = 9;
+                break;
+        }
     }
 }
