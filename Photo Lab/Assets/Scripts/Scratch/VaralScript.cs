@@ -48,5 +48,6 @@ public class VaralScript : MonoBehaviour
     {
         ps.canMove = true;
         dragDropScript.photoBorderHover.GetComponent<Image>().enabled = false;
+        this.GetComponent<ClosePnls>().PlaySound();
     }
 }

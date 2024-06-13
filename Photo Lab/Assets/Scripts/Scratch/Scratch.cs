@@ -86,6 +86,8 @@ public class Scratch : MonoBehaviour
         lines = null;
         scratchCamera.gameObject.SetActive(false);
         //mainCamera.GetComponent<Camera>().cullingMask &=  ~(1 << LayerMask.NameToLayer("Scratching")); //Torna invisivel a parte dos "Rabiscos" da mecania de retoque
+
+        this.GetComponent<ClosePnls>().PlaySound();
     }
 
     // Update is called once per frame

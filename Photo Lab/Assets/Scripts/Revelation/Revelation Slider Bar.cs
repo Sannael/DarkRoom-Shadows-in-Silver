@@ -18,6 +18,9 @@ public class RevelationSliderBar : MonoBehaviour
 
     private int score;
 
+    [Header("SFX")]
+    public AudioClip pointerClickSound;
+
     void Start()
     {
         score = 0;
@@ -61,7 +64,8 @@ public class RevelationSliderBar : MonoBehaviour
 
     public void PointerClick(string p)
     {
-        if(trayRevelation)
+        Sounds.instance.PlaySingle(pointerClickSound);
+        if (trayRevelation)
         {
             if(p == "Green")
             {

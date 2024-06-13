@@ -37,6 +37,9 @@ public class Store : MonoBehaviour
     private int finalId = 99; //valor random só pra n dar pau
 
     public GameObject gameController;
+
+    [Header("SFX")]
+    public GameObject dialogueSoundObj;
     private void OnEnable()
     {
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
@@ -50,6 +53,8 @@ public class Store : MonoBehaviour
                 if (c.GetComponent<Costumer>().costumerID == actualCostumerID)
                 {
                     prefabCostumerScript = c.GetComponent<Costumer>();
+                    
+                    //if()
                     if (prefabCostumerScript.costumerAction == 0 || prefabCostumerScript.costumerAction == 2 || prefabCostumerScript.costumerAction == 4)
                     {
 
@@ -105,7 +110,9 @@ public class Store : MonoBehaviour
     private void OnDisable()
     {
         Destroy(costumer);
+        dialogueSoundObj.SetActive(false);
         ps.canMove = true;
+        this.GetComponent<ClosePnls>().PlaySound();
     }
 
     private void Start()
@@ -148,6 +155,7 @@ public class Store : MonoBehaviour
     public void NextDialogue()
     {
         StopAllCoroutines();
+        dialogueSoundObj.SetActive(false);
         GameObject[] chars = GameObject.FindGameObjectsWithTag("Store Char");
         string[] charactersName = new string[chars.Length];
         for (int i = 0; i < chars.Length; i++)
@@ -307,7 +315,7 @@ public class Store : MonoBehaviour
 
     public void ShowDialogue(Sprite sSprite, string sName, string sText)
     {
-        if(costumerScript.speaker.Length > 2) //#G: Checagem para ativar o sprite do terceiro interlocutor quando ele deveria aparecer na cena
+        if (costumerScript.speaker.Length > 2) //#G: Checagem para ativar o sprite do terceiro interlocutor quando ele deveria aparecer na cena
         {
             if (sName == costumerScript.speaker[2].speakerName) 
             {
@@ -322,11 +330,13 @@ public class Store : MonoBehaviour
 
     public IEnumerator DialogueTime(string sText)
     {
+        dialogueSoundObj.SetActive(true);
         for (int i = 0; i < sText.Length; i++)
-        {
+        { 
             speakerTextbox.text += sText[i];
             yield return new WaitForSeconds(0.03f);
         }
+        dialogueSoundObj.SetActive(false);
     }
 
     public void EnableDisableDialogueBox(bool active)

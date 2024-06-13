@@ -25,6 +25,9 @@ public class CheckDistance : MonoBehaviour
     public GameObject hover;
     public GameObject objLight;
 
+    [Header("SFX")]
+    public AudioClip openPnls;
+
     private Collider2D mouseCol;
     void Start()
     {
@@ -116,6 +119,7 @@ public class CheckDistance : MonoBehaviour
 
     public void OpenPnl(GameObject panel)
     {
+        Sounds.instance.PlaySingle(openPnls);
         panel.SetActive(true);
         GameObject.Find("Camera Follow").GetComponent<CameraFollow>().backToPos = false;
     }

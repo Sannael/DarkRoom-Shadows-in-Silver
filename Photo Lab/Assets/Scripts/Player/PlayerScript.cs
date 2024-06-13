@@ -36,6 +36,9 @@ public class PlayerScript : MonoBehaviour
     public UnityEngine.Vector3[] navMeshCorners;
     public int actualCorner =0;
 
+    [Header("SFX")]
+    public GameObject walkSoundObj;
+
     private void Start()
     {
         anim = this.GetComponent<Animator>();
@@ -59,14 +62,20 @@ public class PlayerScript : MonoBehaviour
         if (!canMove)
         {
             anim.SetBool("Walk", false);
+            walkSoundObj.SetActive(false);
             playerDestination.transform.position = transform.position;
         }
         else if(UnityEngine.Vector3.Distance(transform.position, player.pathEndPosition) <0.8f)
         {
-             anim.SetBool("Walk", false);
-            
+            walkSoundObj.SetActive(false);
+            anim.SetBool("Walk", false);
         }
         SetRotate();
+
+        if(Time.timeScale == 0) 
+        {
+            walkSoundObj.SetActive(false);
+        }
     }
 
     
@@ -95,6 +104,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (Time.timeScale == 1)
         {
+            walkSoundObj.SetActive(true);
             anim.SetBool("Walk", true);
             playerDestination.GetComponent<NavMeshAgent>().enabled = false;
             UnityEngine.Vector2 a = Camera.main.ScreenToWorldPoint(mousePos.action.ReadValue<UnityEngine.Vector2>());

@@ -27,6 +27,10 @@ public class LightTable : MonoBehaviour
     private PhotoInfos photoInfo;
     private PlayerScript ps;
 
+    [Header("SFX")]
+    public AudioClip redLightSound;
+    public AudioClip redLightTimerSound;
+    private GameObject timerSFX;
     void Start()
     {
         canRedLight = false;
@@ -55,6 +59,7 @@ public class LightTable : MonoBehaviour
     {
         ps.canMove = true;
         lightTableItens.SetActive(false);
+        this.GetComponent<ClosePnls>().PlaySound();
     }
 
     void Update()
@@ -98,6 +103,8 @@ public class LightTable : MonoBehaviour
             alreadyUseLight = true;
             canRedLight = false;
             StartCoroutine(RedLight());
+            Sounds.instance.PlaySingle(redLightSound);
+            timerSFX = Sounds.instance.CreateNewSoundLoop(redLightTimerSound);
         }
         
     }
@@ -108,6 +115,8 @@ public class LightTable : MonoBehaviour
         redLight.SetActive(true);
         blurUI.SetActive(false);
         yield return new WaitForSeconds(redLightTime);
+        Destroy(timerSFX);
+        Sounds.instance.PlaySingle(redLightSound);
         redLight.SetActive(false);
         photoInfo.NextStage();
     }
