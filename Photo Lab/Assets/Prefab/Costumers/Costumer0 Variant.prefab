@@ -266,6 +266,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
+      propertyPath: photoRetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3df3adb1fe10d8d44991c575e8417925, type: 3}
+    - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: texts.Array.size
       value: 6
       objectReference: {fileID: 0}

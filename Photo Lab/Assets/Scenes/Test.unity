@@ -268,6 +268,7 @@ MonoBehaviour:
   photoRet: {fileID: 0}
   photoRetObj: {fileID: 0}
   photoRetLocations: {fileID: 0}
+  photoRetSprite: {fileID: 0}
   navMeshCorners:
   - {x: 0, y: 0, z: 0}
   actualCorner: 0
@@ -8881,6 +8882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineRenderPrefab: {fileID: 1087501398088671548, guid: 6a0bd02207404f04cba78a21939b1082, type: 3}
   brushCursor: {fileID: 135151865}
+  canDrawm: 1
 --- !u!1 &752707819
 GameObject:
   m_ObjectHideFlags: 0
@@ -10852,7 +10854,7 @@ MonoBehaviour:
   - {fileID: 4611121442138890078, guid: 2fbed6569be86ef4b80341a2c4dc7e79, type: 3}
   - {fileID: 4611121442138890078, guid: c2d1416b7a048f54888ec7297f144f0e, type: 3}
   - {fileID: 4611121442138890078, guid: 1d831fccd3401384eb9901652fb12078, type: 3}
-  actualCostumerID: 5
+  actualCostumerID: 0
   costumer: {fileID: 0}
   speaking: 0
   dialogueIsOver: 1
@@ -18451,7 +18453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05a067d77964d9459e9c257e165ad8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  photoSprite: {fileID: 0}
   photoVertical: 0
   photoLoc: {fileID: 1389480657}
   noPhoto: {fileID: 21300000, guid: 0f48fd9972604cf4b9d6039a1a3addc0, type: 3}

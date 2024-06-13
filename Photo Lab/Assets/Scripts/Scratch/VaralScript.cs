@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class VaralScript : MonoBehaviour
 {
-    public Sprite photoSprite;
+    //public Sprite photoSprite;
     public bool photoVertical;
     public GameObject photoLoc; //local que vai ficar a foto
     public Sprite noPhoto;
@@ -17,7 +17,7 @@ public class VaralScript : MonoBehaviour
         photoLoc.GetComponent<Transform>().position = new Vector3(0, 0, 0);
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         ps.canMove = false;
-        photoSprite = ps.photoSprite;
+        //photoSprite = ps.photoSprite;
         photoVertical = ps.photoVertical;
         if (ps.photoStage == 6)
         {
@@ -33,7 +33,7 @@ public class VaralScript : MonoBehaviour
                 photoLoc.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0.7f, 0.7f);
                 photoLoc.GetComponent<RectTransform>().sizeDelta = new Vector2(248, 194);
             }
-            photoLoc.GetComponent<Image>().sprite = photoSprite;
+            photoLoc.GetComponent<Image>().sprite = ps.photoRetSprite;
         }
         else 
         {
