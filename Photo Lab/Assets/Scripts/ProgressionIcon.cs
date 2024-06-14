@@ -29,7 +29,7 @@ public class ProgressionIcon : MonoBehaviour
 
     public void Update()
     {
-        if (ps.photoStage == -1 && iconsStage >4)
+        if (ps.photoStage == -1 && iconsStage >3)
         {
             iconsStage = -2;
             ChangeIcons(-1);
