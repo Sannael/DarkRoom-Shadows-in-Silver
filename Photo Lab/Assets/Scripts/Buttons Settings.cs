@@ -7,15 +7,15 @@ using UnityEngine.Audio;
 public class ButtonsSettings : MonoBehaviour
 {
     public bool nedUpdate;
-    
+    public bool noNeedSettings; //botoes q n precisam de ajeitar o hitbox com a imagem; por hora só o do painel de ctz
     [Header("SFX")]
     public AudioClip buttonClickSound;
-    public AudioMixer masterAudio;
-    private bool isMute;
     void Start()
     {
-        isMute = false;
-        this.GetComponent<Image>().alphaHitTestMinimumThreshold = 0.1f; //Isso só deixa o botão do formato que é a imagem
+        if (!noNeedSettings) 
+        { 
+            this.GetComponent<Image>().alphaHitTestMinimumThreshold = 0.1f; //Isso só deixa o botão do formato que é a imagem
+        }
     }
 
     // Update is called once per frame
@@ -29,21 +29,7 @@ public class ButtonsSettings : MonoBehaviour
 
     public void OnclickSound() 
     {
-        Sounds.instance.PlaySingle(buttonClickSound);
+        //Sounds.instance.PlaySingle(buttonClickSound);
     }
 
-    public void MuteUnmuteGame() 
-    {
-        if (isMute) 
-        {
-            masterAudio.SetFloat("Master Volume", 0); //Ver valor do som geral
-        }
-        else 
-        {
-            masterAudio.SetFloat("Master", -80); //Jogo não ta mutandooooooooo
-        }
-
-        isMute = !isMute;
-
-    }
 }
