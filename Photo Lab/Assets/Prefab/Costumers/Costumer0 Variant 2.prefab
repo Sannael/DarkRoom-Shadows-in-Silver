@@ -376,7 +376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: costumerAction
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: firstDialogues
@@ -479,7 +479,7 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].speakerPortrait
       value: 
-      objectReference: {fileID: 21300000, guid: 0c9bcd5d391177749958597fabdd531b, type: 3}
+      objectReference: {fileID: 21300000, guid: 8ccdf1d5af4ac4542b7b5d70f2b550f6, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].speakerPortrait
       value: 
@@ -503,11 +503,11 @@ PrefabInstance:
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].fullBodySprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 7ac96994272b95f42a1c82d63fd32f6f, type: 3}
+      objectReference: {fileID: 21300000, guid: 749d112c2201ee041ac59feaf6afaa5e, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[0].fullBodySprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 1f3aa36aa18b9f8488163b0143b7b4d7, type: 3}
+      objectReference: {fileID: 21300000, guid: 85f6fcdbf6d6bcb47b63a98c2cbc97c6, type: 3}
     - target: {fileID: 6303313044681767463, guid: 4c030c8887cba1f4cbc7bd675c25c4d6, type: 3}
       propertyPath: speaker.Array.data[1].fullBodySprites.Array.data[0]
       value: 

@@ -8,6 +8,7 @@ TagManager:
   - Store Char
   - Work Space
   - Line
+  - drawn
   layers:
   - Default
   - TransparentFX
