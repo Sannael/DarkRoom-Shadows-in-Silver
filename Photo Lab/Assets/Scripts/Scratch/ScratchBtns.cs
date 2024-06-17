@@ -8,26 +8,31 @@ public class ScratchBtns : MonoBehaviour
     public PlayerScript ps;
     public Button thisBtn;
     public Scratch sc;
+    public DrawingManager drawM;
 
     private void Start()
     {
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         sc = GameObject.Find("Scratch").GetComponent<Scratch>();
         thisBtn = this.GetComponent<Button>();
+        drawM = GameObject.FindGameObjectWithTag("drawn").GetComponent<DrawingManager>();
     }
 
 
     public void Check()
     {
-        Debug.Log("HIHI");
-        if (ps.leftClick.action.IsInProgress()) 
+        if (drawM.canDrawm) 
         {
-            Destroy(gameObject);
+            if (ps.leftClick.action.IsInProgress())
+            {
+                Destroy(gameObject);
+            }
+            if (ps.leftClick.action.IsPressed())
+            {
+                Destroy(gameObject);
+            }
         }
-        if (ps.leftClick.action.IsPressed()) 
-        {
-            Destroy(gameObject);
-        }
+        
     }
 
     private void OnDestroy()

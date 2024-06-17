@@ -66,7 +66,7 @@ public class NewsPaper : MonoBehaviour
         }
         this.GetComponent<ClosePnls>().PlaySound();
 
-        if(store.GetComponent<Store>().prefabCostumerScript.costumerAction == 0) 
+        if(store.GetComponent<Store>().allCostumers[store.GetComponent<Store>().actualCostumerID].GetComponent<Costumer>().costumerAction == 0) 
         {
             if (store.GetComponent<Store>().actualCostumerID == 5)
             {

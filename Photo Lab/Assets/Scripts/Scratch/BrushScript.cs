@@ -20,29 +20,34 @@ public class BrushScript : MonoBehaviour
     {
         if (!interactive)
         {
-            //GetComponent<Image>().sprite = normalSprite;
+            GetComponent<Image>().sprite = normalSprite;
             canUse = false;
         }
         else 
         {
-            //GetComponent<Image>().sprite = interactiveSprite;
+            GetComponent<Image>().sprite = interactiveSprite;
             canUse = true;
             if (!retIsEnable)
             {
-                scratchScript.EnableRet();
+                //scratchScript.EnableRet();
                 retIsEnable = true;
             }
             
         }
     }
 
+    public void OnEnable()
+    {
+        GetComponent<Image>().enabled = true;
+    }
+
     public void OnClick() 
     {
         if (canUse) 
         {
-            //GetComponent<Image>().enabled = false;
+            GetComponent<Image>().enabled = false;
             interactive = false;
-            //scratchScript.EnableRet();
+            scratchScript.EnableRet();
             //CursorScript.cursorInstace.ChangeCursor("Brush");
         }
     }

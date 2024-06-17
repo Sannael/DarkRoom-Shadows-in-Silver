@@ -33,7 +33,18 @@ public class VaralScript : MonoBehaviour
                 photoLoc.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0.7f, 0.7f);
                 photoLoc.GetComponent<RectTransform>().sizeDelta = new Vector2(248, 194);
             }
-            photoLoc.GetComponent<Image>().sprite = ps.photoRetSprite;
+            if (ps.photoNeedRet) 
+            {
+                dragDropScript.enabled = true;
+                photoLoc.GetComponent<Image>().sprite = ps.photoRetSprite;
+            }
+            else 
+            {
+                dragDropScript.enabled = false;
+                photoLoc.GetComponent<Image>().sprite = ps.photoSprite;
+                ps.photoStage = 8;
+            }
+            
         }
         else 
         {

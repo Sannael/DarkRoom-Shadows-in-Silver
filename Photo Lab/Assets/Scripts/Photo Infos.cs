@@ -37,7 +37,7 @@ public class PhotoInfos : MonoBehaviour
         actualStage = ps.photoStage;
         needRet = ps.photoNeedRet;
         photoRetCounts = ps.photoRetCount;
-        try { this.GetComponent<SpriteRenderer>().sprite = ps.photoSprite; }
+        try { this.GetComponent<SpriteRenderer>().sprite = ps.photoRetSprite; }
         catch { }
         photoVertical = ps.photoVertical;
 

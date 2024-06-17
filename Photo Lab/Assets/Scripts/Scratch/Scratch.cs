@@ -23,18 +23,19 @@ public class Scratch : MonoBehaviour
     public GameObject photoObj; //local onde a foto vai
     public GameObject photoRetObj; //local onde o sprite de retoque vai
     public GameObject photoRetLocations; //prefab que vem do cliente com a parte dos erros nas fotos q precisam de retoque 
+    public GameObject functionalScratch;
     
     [SerializeField]
     private PhotoInfos photoInfo;
     private PlayerScript ps;
     private GameObject retL;
     //public GameObject BG;
-    //public DrawingManager drawMngr;
+    public DrawingManager drawMngr;
 
     private void OnEnable()
     {
         //drawMngr = BG.GetComponent<DrawingManager>();
-        //drawMngr.canDrawm = false;
+        drawMngr.canDrawm = false;
         //drawMngr.enabled = false;
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         ps.canMove = false;
@@ -46,16 +47,24 @@ public class Scratch : MonoBehaviour
         photoRetCounts = ps.photoRetCount;
         photoRetLocations = ps.photoRetLocations;
 
+        photoRetObj.GetComponent<Image>().sprite = ps.photoRet;
+        photoRetObj.GetComponent<Image>().SetNativeSize();
+        //photoRetObj.SetActive(true);
+        photoRetObj.GetComponent<Image>().material.SetTexture("_Pattern", ps.photoRet.texture); //altera a textura para os erros da imagem e torna visivel
+
+        retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
+        retL.GetComponent<Image>().sprite = null;
+
         photoObj.GetComponent<Image>().sprite = ps.truePhotoRet;
 
-        photoRetObj.SetActive(false);
+        photoRetObj.SetActive(true);
         if (ps.photoStage == 7) 
         {
             if (photoNeedRet)
             {
                 brush.GetComponent<BrushScript>().interactive = true;
                 brush.GetComponent<BrushScript>().scratchScript = GetComponent<Scratch>();
-                retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
+                //retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
                 retL.GetComponent<Image>().sprite = null;
             }
         }    //mainCamera.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Scratching"); //Torna visivel a parte dos "Rabiscos" da mecania de retoque
@@ -63,15 +72,8 @@ public class Scratch : MonoBehaviour
 
     public void EnableRet() 
     {
-        //drawMngr.canDrawm = true;
+        drawMngr.canDrawm = true;
         //drawMngr.enabled = true;
-        //retL = GameObject.Instantiate(photoRetLocations, photoObj.transform);
-        //retL.GetComponent<Image>().sprite = null;
-        photoRetObj.GetComponent<Image>().sprite = ps.photoRet;
-        photoRetObj.GetComponent<Image>().SetNativeSize();
-        photoRetObj.SetActive(true);
-        photoRetObj.GetComponent<Image>().material.SetTexture("_Pattern", ps.photoRet.texture); //altera a textura para os erros da imagem e torna visivel
-
         GameObject.Instantiate(ps.photoRetObj);
     }
     private void OnDisable()

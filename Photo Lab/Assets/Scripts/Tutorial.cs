@@ -79,18 +79,23 @@ public class Tutorial : MonoBehaviour
                 break;
             case 18:
                 this.GetComponent<Image>().sprite = imagensTutorial[18];
-                BotaoMenu.SetActive(false);
-                BotaoAvancar.SetActive(true);
+                //BotaoMenu.SetActive(false);
+                //BotaoAvancar.SetActive(true);
                 break;
             case 19:
                 this.GetComponent<Image>().sprite = imagensTutorial[19];
                 BotaoAvancar.SetActive(false);
-                BotaoMenu.SetActive(true);
+                //BotaoMenu.SetActive(true);
                 break;
             default:
                 this.GetComponent<Image>().sprite = imagensTutorial[0];
                 break;
         }
+    }
+
+    public void BackToMenu() 
+    {
+        ManagerScene.sceneManagerInstance.LoadScene(0);
     }
 
     public void AvancarTutorialID()

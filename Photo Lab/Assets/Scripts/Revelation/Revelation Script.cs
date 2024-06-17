@@ -7,6 +7,7 @@ public class RevelationScript : MonoBehaviour
 {
     public GameObject[] part;
     public GameObject[] tray;
+    public GameObject[] trayClamp;
     public GameObject[] paper;
     public GameObject[] photo;
     public GameObject[] clamp;
@@ -25,18 +26,19 @@ public class RevelationScript : MonoBehaviour
 
     private void OnEnable()
     {
+        trayClamp[0].SetActive(true);
         bar[2].SetActive(false);
         buttonclose = this.GetComponent<ButtonsPanelClose>().btnClose;
         ps = GameObject.Find("Player").GetComponent<PlayerScript>();
         ps.canMove = false;
-        photoSprite = ps.photoSprite;
+        photoSprite = ps.photoRetSprite;
         photoVertical = ps.photoVertical;
         photoStage = ps.photoStage;
         photoColor = ps.photoColor;
 
         if(photoStage == 3)
         { 
-            buttonclose.GetComponent<RectTransform>().anchoredPosition = new Vector3(1950, -472, 0);
+            buttonclose.GetComponent<RectTransform>().anchoredPosition = new Vector3(2897, -472, 0);
             photo[0].GetComponent<Image>().sprite = photoSprite;
             photo[0].GetComponent<Image>().color = photoColor;
             paper[0].SetActive(true);
@@ -52,7 +54,7 @@ public class RevelationScript : MonoBehaviour
         {
             paper[0].SetActive(false);
             bar[0].SetActive(false);
-            buttonclose.GetComponent<RectTransform>().anchoredPosition = new Vector3(-860, -472, 0);
+            buttonclose.GetComponent<RectTransform>().anchoredPosition = new Vector3(-797, -472, 0);
         }
     }
 
@@ -151,5 +153,4 @@ public class RevelationScript : MonoBehaviour
         paper[2].SetActive(false);
         this.GetComponent<ClosePnls>().PlaySound();
     }
-
 }

@@ -23,7 +23,17 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     }
     private void OnEnable()
     {
-        photoBorderHover.GetComponent<Image>().enabled = true; 
+        if (ps.photoNeedRet) 
+        {
+            photoBorderHover.GetComponent<Image>().enabled = true;
+            GetComponent<CanvasGroup>().enabled = true;
+        }
+        else 
+        {
+            photoBorderHover.GetComponent<Image>().enabled = false;
+            GetComponent<CanvasGroup>().enabled = false;
+        }
+        
 
         rectT.anchoredPosition = new Vector2(0, -25);
         canvasGroup.alpha = 1f;
